@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byt.local/schemas/render-payload.schema.json",
+  "title": "BYT Render Payload",
+  "type": "object",
+  "required": [
+    "job_id",
+    "format",
+    "template_id",
+    "campaign",
+    "product_membership",
+    "headline",
+    "supporting_copy",
+    "cta",
+    "assets",
+    "compliance",
+    "founder_confirmation_needed"
+  ],
+  "properties": {
+    "job_id": { "type": "string" },
+    "format": { "const": "facebook_square" },
+    "template_id": {
+      "enum": ["product-focus", "membership-focus", "community-focus"]
+    },
+    "campaign": { "type": "string" },
+    "product_membership": { "type": "string" },
+    "headline": { "type": "string" },
+    "supporting_copy": { "type": "string" },
+    "cta": { "type": "string" },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "logo": { "type": "string" },
+        "main_image": { "type": "string" },
+        "background": { "type": "string" },
+        "qr": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "compliance": {
+      "type": "object",
+      "required": ["risk_level", "human_approval_required"],
+      "properties": {
+        "risk_level": { "enum": ["Low", "Medium", "High"] },
+        "human_approval_required": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "founder_confirmation_needed": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

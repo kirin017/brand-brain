@@ -22,13 +22,16 @@ export function validateAssetIndex(index: BrandAssetIndex): { valid: boolean; er
   if (index.metadata?.language !== "vi") errors.push("metadata.language must be vi");
   if (!Array.isArray(index.assets)) errors.push("assets must be an array");
 
-  for (const asset of index.assets ?? []) {
+  const assets = Array.isArray(index.assets) ? index.assets : [];
+
+  for (const asset of assets) {
     if (!asset.id) errors.push("asset.id is required");
     if (!asset.type) errors.push(`${asset.id}: asset.type is required`);
     if (!asset.path) errors.push(`${asset.id}: asset.path is required`);
     if (!asset.status) errors.push(`${asset.id}: asset.status is required`);
     if (!Array.isArray(asset.allowed_channels)) errors.push(`${asset.id}: allowed_channels must be an array`);
     if (!Array.isArray(asset.allowed_formats)) errors.push(`${asset.id}: allowed_formats must be an array`);
+    if (typeof asset.usage_notes !== "string") errors.push(`${asset.id}: usage_notes must be a string`);
     if (typeof asset.founder_confirmation_needed !== "boolean") {
       errors.push(`${asset.id}: founder_confirmation_needed must be boolean`);
     }

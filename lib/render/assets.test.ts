@@ -41,6 +41,49 @@ describe("asset selection", () => {
     expect(validateAssetIndex(index).valid).toBe(true);
   });
 
+  it("is invalid when an asset is missing usage_notes", () => {
+    const invalid = {
+      metadata: {
+        schema_version: "0.1.0",
+        language: "vi",
+        status: "draft"
+      },
+      assets: [
+        {
+          id: "logo_missing_notes",
+          type: "logo",
+          path: "assets/logos/logoBYTconen.png",
+          status: "approved",
+          allowed_channels: ["Facebook"],
+          allowed_formats: ["facebook_square"],
+          founder_confirmation_needed: false
+        }
+      ]
+    } as unknown as BrandAssetIndex;
+
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: ["logo_missing_notes: usage_notes must be a string"]
+    });
+  });
+
+  it("returns validation errors without throwing when assets is not an array", () => {
+    const invalid = {
+      metadata: {
+        schema_version: "0.1.0",
+        language: "vi",
+        status: "draft"
+      },
+      assets: {}
+    } as unknown as BrandAssetIndex;
+
+    expect(() => validateAssetIndex(invalid)).not.toThrow();
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: ["assets must be an array"]
+    });
+  });
+
   it("returns approved assets only", () => {
     expect(findApprovedAsset(index, "logo_approved", "Facebook", "facebook_square")?.id).toBe("logo_approved");
     expect(findApprovedAsset(index, "product_unconfirmed", "Facebook", "facebook_square")).toBeNull();

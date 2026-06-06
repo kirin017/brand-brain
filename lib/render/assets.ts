@@ -2,42 +2,118 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { BrandAsset, BrandAssetIndex, RenderFormat } from "./types";
 
+const assetTypes = [
+  "logo",
+  "product_photo",
+  "background",
+  "lifestyle_reference",
+  "qr",
+  "design_token"
+] as const;
+
+const assetStatuses = [
+  "draft",
+  "needs_founder_confirmation",
+  "approved",
+  "restricted",
+  "do_not_use"
+] as const;
+
+const allowedAssetKeys = new Set([
+  "id",
+  "type",
+  "path",
+  "status",
+  "allowed_channels",
+  "allowed_formats",
+  "usage_notes",
+  "founder_confirmation_needed"
+]);
+
 export async function loadAssetIndex(): Promise<BrandAssetIndex> {
   const filePath = path.join(process.cwd(), "brand-data", "assets.json");
   const content = await fs.readFile(filePath, "utf8");
-  const parsed = JSON.parse(content) as BrandAssetIndex;
+  const parsed = JSON.parse(content) as unknown;
   const validation = validateAssetIndex(parsed);
 
   if (!validation.valid) {
     throw new Error(`Invalid BYT asset index: ${validation.errors.join("; ")}`);
   }
 
-  return parsed;
+  return parsed as BrandAssetIndex;
 }
 
-export function validateAssetIndex(index: BrandAssetIndex): { valid: boolean; errors: string[] } {
+export function validateAssetIndex(index: unknown): { valid: boolean; errors: string[] } {
   const errors: string[] = [];
 
-  if (!index.metadata?.schema_version) errors.push("metadata.schema_version is required");
-  if (index.metadata?.language !== "vi") errors.push("metadata.language must be vi");
-  if (!Array.isArray(index.assets)) errors.push("assets must be an array");
+  if (!isRecord(index)) {
+    return {
+      valid: false,
+      errors: ["asset index must be an object"]
+    };
+  }
+
+  const metadata = index.metadata;
+  if (!isRecord(metadata)) {
+    errors.push("metadata must be an object");
+  } else {
+    if (typeof metadata.schema_version !== "string") {
+      errors.push("metadata.schema_version must be a string");
+    }
+    if (metadata.language !== "vi") errors.push("metadata.language must be vi");
+    if (typeof metadata.status !== "string") {
+      errors.push("metadata.status must be a string");
+    }
+  }
 
   const assets = Array.isArray(index.assets) ? index.assets : [];
+  if (!Array.isArray(index.assets)) errors.push("assets must be an array");
 
-  for (const asset of assets) {
-    if (!asset.id) errors.push("asset.id is required");
-    if (!asset.type) errors.push(`${asset.id}: asset.type is required`);
-    if (!asset.path) errors.push(`${asset.id}: asset.path is required`);
-    if (!asset.status) errors.push(`${asset.id}: asset.status is required`);
-    if (!Array.isArray(asset.allowed_channels)) errors.push(`${asset.id}: allowed_channels must be an array`);
-    if (!Array.isArray(asset.allowed_formats)) errors.push(`${asset.id}: allowed_formats must be an array`);
-    if (typeof asset.usage_notes !== "string") errors.push(`${asset.id}: usage_notes must be a string`);
+  for (const [assetIndex, asset] of assets.entries()) {
+    if (!isRecord(asset)) {
+      errors.push(`asset[${assetIndex}] must be an object`);
+      continue;
+    }
+
+    const assetId = typeof asset.id === "string" ? asset.id : `asset[${assetIndex}]`;
+
+    for (const key of Object.keys(asset)) {
+      if (!allowedAssetKeys.has(key)) {
+        errors.push(`${assetId}: unsupported asset field ${key}`);
+      }
+    }
+
+    if (typeof asset.id !== "string") errors.push(`${assetId}: asset.id must be a string`);
+    if (!isAllowedValue(asset.type, assetTypes)) {
+      errors.push(`${assetId}: asset.type must be one of ${assetTypes.join(", ")}`);
+    }
+    if (typeof asset.path !== "string") errors.push(`${assetId}: asset.path must be a string`);
+    if (!isAllowedValue(asset.status, assetStatuses)) {
+      errors.push(`${assetId}: asset.status must be one of ${assetStatuses.join(", ")}`);
+    }
+    if (!Array.isArray(asset.allowed_channels)) errors.push(`${assetId}: allowed_channels must be an array`);
+    if (Array.isArray(asset.allowed_channels) && !asset.allowed_channels.every((channel) => typeof channel === "string")) {
+      errors.push(`${assetId}: allowed_channels must contain strings only`);
+    }
+    if (!Array.isArray(asset.allowed_formats)) errors.push(`${assetId}: allowed_formats must be an array`);
+    if (Array.isArray(asset.allowed_formats) && !asset.allowed_formats.every((format) => format === "facebook_square")) {
+      errors.push(`${assetId}: allowed_formats must contain facebook_square only`);
+    }
+    if (typeof asset.usage_notes !== "string") errors.push(`${assetId}: usage_notes must be a string`);
     if (typeof asset.founder_confirmation_needed !== "boolean") {
-      errors.push(`${asset.id}: founder_confirmation_needed must be boolean`);
+      errors.push(`${assetId}: founder_confirmation_needed must be boolean`);
     }
   }
 
   return { valid: errors.length === 0, errors };
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function isAllowedValue<T extends string>(value: unknown, allowedValues: readonly T[]): value is T {
+  return typeof value === "string" && allowedValues.includes(value as T);
 }
 
 export function findApprovedAsset(

@@ -41,6 +41,16 @@ describe("asset selection", () => {
     expect(validateAssetIndex(index).valid).toBe(true);
   });
 
+  it("returns invalid without throwing for malformed root values", () => {
+    for (const value of [null, undefined, "invalid", 42, true]) {
+      expect(() => validateAssetIndex(value)).not.toThrow();
+
+      const validation = validateAssetIndex(value);
+      expect(validation.valid).toBe(false);
+      expect(validation.errors.length).toBeGreaterThan(0);
+    }
+  });
+
   it("is invalid when an asset is missing usage_notes", () => {
     const invalid = {
       metadata: {
@@ -59,7 +69,7 @@ describe("asset selection", () => {
           founder_confirmation_needed: false
         }
       ]
-    } as unknown as BrandAssetIndex;
+    };
 
     expect(validateAssetIndex(invalid)).toEqual({
       valid: false,
@@ -75,7 +85,7 @@ describe("asset selection", () => {
         status: "draft"
       },
       assets: {}
-    } as unknown as BrandAssetIndex;
+    };
 
     expect(() => validateAssetIndex(invalid)).not.toThrow();
     expect(validateAssetIndex(invalid)).toEqual({
@@ -84,9 +94,70 @@ describe("asset selection", () => {
     });
   });
 
+  it("returns validation errors without throwing when asset items are not objects", () => {
+    const invalid = {
+      metadata: {
+        schema_version: "0.1.0",
+        language: "vi",
+        status: "draft"
+      },
+      assets: [null, "invalid"]
+    };
+
+    expect(() => validateAssetIndex(invalid)).not.toThrow();
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: ["asset[0] must be an object", "asset[1] must be an object"]
+    });
+  });
+
+  it("is invalid when asset type or status is outside allowed values", () => {
+    const invalid = {
+      metadata: {
+        schema_version: "0.1.0",
+        language: "vi",
+        status: "draft"
+      },
+      assets: [
+        {
+          id: "asset_invalid_type_status",
+          type: "illustration",
+          path: "assets/logos/logoBYTconen.png",
+          status: "pending",
+          allowed_channels: ["Facebook"],
+          allowed_formats: ["facebook_square"],
+          usage_notes: "Invalid enum values.",
+          founder_confirmation_needed: false
+        }
+      ]
+    };
+
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: [
+        "asset_invalid_type_status: asset.type must be one of logo, product_photo, background, lifestyle_reference, qr, design_token",
+        "asset_invalid_type_status: asset.status must be one of draft, needs_founder_confirmation, approved, restricted, do_not_use"
+      ]
+    });
+  });
+
   it("returns approved assets only", () => {
     expect(findApprovedAsset(index, "logo_approved", "Facebook", "facebook_square")?.id).toBe("logo_approved");
     expect(findApprovedAsset(index, "product_unconfirmed", "Facebook", "facebook_square")).toBeNull();
+  });
+
+  it("returns null for approved assets when channel or format does not match", () => {
+    const formatMismatchIndex: BrandAssetIndex = {
+      ...index,
+      assets: index.assets.map((asset) =>
+        asset.id === "logo_approved"
+          ? { ...asset, allowed_formats: [] }
+          : asset
+      )
+    };
+
+    expect(findApprovedAsset(index, "logo_approved", "Instagram", "facebook_square")).toBeNull();
+    expect(findApprovedAsset(formatMismatchIndex, "logo_approved", "Facebook", "facebook_square")).toBeNull();
   });
 
   it("lists missing required asset slots", () => {

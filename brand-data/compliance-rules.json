@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "schema_version": "0.3.0",
+    "language": "vi",
+    "system": "BYT Brand Checker and Compliance System",
+    "status": "draft_for_ai_agents"
+  },
+  "allowed_safer_wording": [
+    "Hỗ trợ lối sống lành mạnh",
+    "Hỗ trợ bổ sung dinh dưỡng",
+    "Hỗ trợ duy trì thói quen tốt",
+    "Phù hợp với người muốn ăn lành, uống sạch",
+    "Đồng hành trong lộ trình chăm sóc sức khỏe chủ động",
+    "Giúp khách dễ bắt đầu thói quen healthy hơn",
+    "Một lựa chọn tử tế hơn cho ngày bận rộn",
+    "Cùng BYT xây thói quen nhỏ mỗi ngày"
+  ],
+  "forbidden_health_claims": [
+    "chữa bệnh",
+    "điều trị bệnh",
+    "phòng bệnh",
+    "khỏi bệnh",
+    "thay thế thuốc",
+    "không cần dùng thuốc",
+    "thay thế bác sĩ",
+    "giảm cân nhanh",
+    "giảm mỡ bụng",
+    "đốt mỡ",
+    "detox cơ thể",
+    "thải độc",
+    "thải độc gan",
+    "làm sạch thận",
+    "ổn định đường huyết",
+    "tốt cho người tiểu đường",
+    "hạ mỡ máu",
+    "sạch gan",
+    "ngủ ngon trị mất ngủ",
+    "cải thiện tiêu hóa",
+    "trị táo bón",
+    "cân bằng đường ruột",
+    "tăng miễn dịch",
+    "tăng đề kháng",
+    "cam kết hiệu quả",
+    "an toàn tuyệt đối"
+  ],
+  "sensitive_topics_requiring_human_approval": [
+    "tiểu đường",
+    "mỡ máu",
+    "gan",
+    "thận",
+    "mất ngủ",
+    "tiêu hóa",
+    "miễn dịch",
+    "giảm cân",
+    "trẻ em",
+    "mẹ bầu",
+    "người bệnh",
+    "người đang dùng thuốc",
+    "dữ liệu dinh dưỡng",
+    "chứng nhận sản phẩm"
+  ],
+  "required_disclaimer_for_medical_or_weight_loss_context": "BYT không thay thế tư vấn y tế hoặc dinh dưỡng cá nhân. Nếu bạn có bệnh nền, đang mang thai, chọn sản phẩm cho trẻ nhỏ, đang dùng thuốc hoặc có nhu cầu ăn uống đặc biệt, vui lòng kiểm tra thành phần và tham khảo chuyên môn trước khi dùng.",
+  "safe_rewrite_examples": [
+    {
+      "risky": "Detox gan và giảm cân nhanh trong 7 ngày.",
+      "risk_reason": "Có miracle detox và guaranteed weight-loss claim.",
+      "safe": "Đồng hành xây thói quen ăn/uống lành hơn và dễ duy trì hơn."
+    },
+    {
+      "risky": "Sữa hạt BYT tốt cho người tiểu đường.",
+      "risk_reason": "Claim liên quan bệnh tiểu đường chưa được duyệt.",
+      "safe": "Nếu bạn có nhu cầu ăn uống đặc biệt, hãy kiểm tra thành phần và tham khảo chuyên môn trước khi dùng."
+    },
+    {
+      "risky": "Ginger shot giúp tăng đề kháng và trị cảm.",
+      "risk_reason": "Có claim miễn dịch và điều trị bệnh.",
+      "safe": "Ginger shot là một lựa chọn uống đậm vị cho nhịp chăm sóc buổi sáng, nếu công thức và thành phần phù hợp nhu cầu của bạn."
+    },
+    {
+      "risky": "Tham gia CTV BYT có thu nhập ổn định ngay tháng đầu.",
+      "risk_reason": "Overpromise income cho CTV.",
+      "safe": "BYT sẽ gửi chính sách CTV đã duyệt để bạn xem mức độ phù hợp trước khi tham gia."
+    },
+    {
+      "risky": "Mở điểm BYT là có lời ngay.",
+      "risk_reason": "Overpromise lợi nhuận cho connected point.",
+      "safe": "BYT sẽ gửi mô hình hợp tác và điều kiện đã duyệt để hai bên cùng đánh giá mức độ phù hợp."
+    }
+  ],
+  "risk_levels": {
+    "low": {
+      "label": "Low",
+      "examples": [
+        "Nội dung nói về thói quen lành mạnh, không claim y tế.",
+        "CTA nhẹ, dữ liệu không nhạy cảm.",
+        "Không dùng giá/chính sách/logo chưa xác nhận."
+      ],
+      "human_approval_required": false
+    },
+    "medium": {
+      "label": "Medium",
+      "examples": [
+        "Có giá/quyền lợi cần founder xác nhận.",
+        "Có nội dung liên quan cân nặng nhưng không claim kết quả.",
+        "Visual/copy cần chỉnh để phù hợp mobile hoặc giảm tone bán hàng."
+      ],
+      "human_approval_required": true
+    },
+    "high": {
+      "label": "High",
+      "examples": [
+        "Claim điều trị bệnh/thay thế thuốc.",
+        "Claim giảm cân/detox thần kỳ.",
+        "Claim tiểu đường, mỡ máu, gan, mất ngủ, tiêu hóa, miễn dịch chưa duyệt.",
+        "Hứa thu nhập cho CTV/Sale/Leader hoặc lợi nhuận cho điểm bán.",
+        "Misuse logo/slogan/QR/brand asset."
+      ],
+      "human_approval_required": true
+    }
+  },
+  "membership_accuracy_rules": [
+    "Không công bố giá/quyền lợi thẻ nếu chưa được founder xác nhận.",
+    "Không nói Giọt Lành, Ban Mai, Bình Minh hoặc Mặt Trời là liệu trình điều trị.",
+    "Không claim Mặt Trời Bé Con phù hợp trẻ em nếu chưa có phê duyệt.",
+    "Nếu dùng member price/retail price từ dữ liệu nháp, phải ghi founder_confirmation_needed."
+  ],
+  "sales_leader_affiliate_rules": [
+    "Không hứa thu nhập, doanh số, lợi nhuận.",
+    "Không tự tạo chính sách hoa hồng.",
+    "Không dùng BYT như cơ hội làm giàu.",
+    "Không cho CTV/Sale/Leader tự claim sức khỏe.",
+    "Phải tư vấn theo nhu cầu, không ép mua."
+  ],
+  "brand_asset_rules": [
+    "Không tự tạo logo BYT chính thức.",
+    "Không tự tạo màu/font/packaging/QR.",
+    "Không dùng logo đối tác khi chưa có quyền.",
+    "Không đặt logo BYT cạnh claim y tế.",
+    "Nếu thiếu asset chính thức, ghi Founder confirmation needed."
+  ],
+  "visual_avoid": [
+    "hospital style",
+    "phòng khám/thuốc/bác sĩ để quảng bá sản phẩm",
+    "extreme fitness style",
+    "body transformation",
+    "fake luxury",
+    "neon colors",
+    "generic stock-photo feeling",
+    "quá nhiều chữ trên mobile design"
+  ],
+  "human_approval_required_when": [
+    "Có bất kỳ claim sức khỏe nhạy cảm.",
+    "Có giá/quyền lợi/chính sách chưa xác nhận.",
+    "Có logo/QR/POSM/co-branding.",
+    "Có nội dung cho trẻ em, mẹ bầu, người bệnh.",
+    "Có thông tin thu nhập/hoa hồng/điểm bán.",
+    "Có visual dùng ảnh khách hàng, trẻ em, founder hoặc đối tác."
+  ]
+}
+

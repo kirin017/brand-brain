@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/customer-segment.schema.json",
+  "title": "BYT Customer Segment",
+  "description": "Schema cho phân khúc khách hàng, cộng đồng hoặc đối tác trong hệ sinh thái BYT.",
+  "type": "object",
+  "required": [
+    "segmentId",
+    "displayName",
+    "role",
+    "primaryNeed"
+  ],
+  "properties": {
+    "segmentId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "displayName": {
+      "type": "string",
+      "examples": [
+        "Phụ nữ bận rộn"
+      ]
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "consumer",
+        "member",
+        "ambassador",
+        "leader",
+        "sale",
+        "affiliate",
+        "b2b-partner",
+        "alliance-partner",
+        "community"
+      ]
+    },
+    "primaryNeed": {
+      "type": "string"
+    },
+    "painPoints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "messageAngle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "guardrails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

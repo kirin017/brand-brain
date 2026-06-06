@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/partner-material.schema.json",
+  "title": "BYT Partner Material",
+  "description": "Schema cho tài liệu điểm bán kết nối hoặc đối tác liên minh.",
+  "type": "object",
+  "required": [
+    "materialId",
+    "materialType",
+    "targetPartner",
+    "objective",
+    "message",
+    "guardrails"
+  ],
+  "properties": {
+    "materialId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "materialType": {
+      "type": "string",
+      "enum": [
+        "connected-point-script",
+        "posm-copy",
+        "partner-proposal",
+        "training-note",
+        "alliance-campaign-brief"
+      ]
+    },
+    "targetPartner": {
+      "type": "string",
+      "examples": [
+        "Spa, yoga studio, cửa hàng mẹ và bé hoặc cửa hàng thực phẩm lành mạnh."
+      ]
+    },
+    "objective": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "cta": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requiredFacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "guardrails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "needsConfirmation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

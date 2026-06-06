@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "status": "draft_for_ai_agents"
+  },
+  "channels": {
+    "facebook": {
+      "display_name": "Facebook",
+      "role": "Nhận diện thương hiệu, kể chuyện, bán hàng nhẹ, giới thiệu membership, tuyển đại sứ/CTV/điểm bán/đối tác.",
+      "audience": [
+        "direct_consumers",
+        "office_workers",
+        "parents_families",
+        "ambassadors",
+        "ctv_affiliates",
+        "connected_points",
+        "alliance_partners"
+      ],
+      "content_types": [
+        "product post",
+        "campaign post",
+        "membership explainer",
+        "community story",
+        "recruitment post"
+      ],
+      "design_rules": [
+        "Headline ngắn, dễ đọc trên mobile.",
+        "Ảnh sản phẩm hoặc khoảnh khắc cộng đồng rõ.",
+        "Không dùng before/after body hoặc biểu tượng y tế."
+      ],
+      "tone": "Ấm, giải thích vừa đủ, có CTA rõ nhưng không ép mua.",
+      "cta": [
+        "Nhắn Bếp để được gợi ý.",
+        "Xem quyền lợi member.",
+        "Đăng ký nhận thông tin."
+      ],
+      "avoid": [
+        "claim y tế",
+        "giảm cân nhanh",
+        "detox/thải độc",
+        "hứa thu nhập",
+        "spam bán hàng"
+      ]
+    },
+    "zalo_group": {
+      "display_name": "Zalo group",
+      "role": "Nuôi cộng đồng, nhắc thói quen, kích hoạt membership, tạo repeat purchase tự nhiên.",
+      "audience": [
+        "membership_customers",
+        "direct_consumers",
+        "weight_management_customers",
+        "parents_families"
+      ],
+      "content_types": [
+        "daily habit prompt",
+        "mini challenge",
+        "member story",
+        "gentle order reminder",
+        "poll/question"
+      ],
+      "design_rules": [
+        "Ít chữ, đọc nhanh.",
+        "Một bài chỉ có một hành động chính.",
+        "Ảnh hoặc card phải thân mật, không giống quảng cáo dày."
+      ],
+      "tone": "Thân mật, nhẹ nhàng, cộng đồng, không phán xét.",
+      "cta": [
+        "Hôm nay bạn chọn điều nhỏ nào?",
+        "Thả một câu để Bếp biết nhé.",
+        "Chia sẻ bữa lành hôm nay của bạn."
+      ],
+      "avoid": [
+        "spam bán hàng",
+        "tư vấn y tế cá nhân hóa",
+        "đăng claim sức khỏe chưa kiểm chứng",
+        "công khai thông tin cá nhân thành viên"
+      ]
+    },
+    "zalo_oa": {
+      "display_name": "Zalo OA",
+      "role": "Broadcast thông báo, nhắc lịch campaign, gửi quyền lợi member, nhắc đặt hàng.",
+      "audience": [
+        "membership_customers",
+        "direct_consumers",
+        "office_workers"
+      ],
+      "content_types": [
+        "broadcast",
+        "membership update",
+        "order reminder",
+        "campaign announcement"
+      ],
+      "design_rules": [
+        "Rõ thông tin, CTA nổi bật.",
+        "Không quá dài.",
+        "Không dùng như nhóm trò chuyện."
+      ],
+      "tone": "Rõ ràng, gọn, có hành động cụ thể.",
+      "cta": [
+        "Đặt trước hôm nay.",
+        "Xem quyền lợi.",
+        "Vào nhóm cộng đồng."
+      ],
+      "avoid": [
+        "gửi quá dày",
+        "ngôn ngữ gây áp lực",
+        "claim chưa duyệt"
+      ],
+      "founder_confirmation_needed": true
+    },
+    "tiktok_reels": {
+      "display_name": "TikTok/Reels",
+      "role": "Tạo nhận diện nhanh, kể routine thật, chứng minh BYT gần gũi đời sống.",
+      "audience": [
+        "office_workers",
+        "direct_consumers",
+        "parents_families",
+        "ambassadors"
+      ],
+      "content_types": [
+        "morning routine",
+        "food prep",
+        "one day at connected point",
+        "3 tips",
+        "community recap"
+      ],
+      "design_rules": [
+        "Hook nhanh trong 2 giây đầu.",
+        "Cảnh thật, ánh sáng tự nhiên.",
+        "Text overlay ngắn, không claim quá."
+      ],
+      "tone": "Nhanh, gần gũi, có năng lượng nhưng không cường điệu.",
+      "cta": [
+        "Theo dõi Bếp để nhận gợi ý nhỏ mỗi ngày.",
+        "Lưu lại cho sáng mai.",
+        "Nhắn Bếp nếu bạn muốn gợi ý theo nhu cầu."
+      ],
+      "avoid": [
+        "trend làm mất tinh thần BYT",
+        "claim y tế trong voiceover",
+        "body transformation"
+      ]
+    },
+    "posm": {
+      "display_name": "POSM",
+      "role": "Hiện diện tại điểm bán, giải thích BYT là gì, dẫn khách vào Zalo/community/membership.",
+      "audience": [
+        "connected_points",
+        "direct_consumers",
+        "parents_families",
+        "office_workers"
+      ],
+      "content_types": [
+        "poster",
+        "mini standee",
+        "QR card",
+        "table tent",
+        "product card"
+      ],
+      "design_rules": [
+        "QR rõ và đủ lớn.",
+        "Headline rất ngắn.",
+        "Không quá nhiều chữ.",
+        "Không dùng giá nếu chưa final."
+      ],
+      "tone": "Ngắn, rõ, đáng tin.",
+      "cta": [
+        "Quét QR để vào cộng đồng BYT.",
+        "Hỏi nhân viên để được gợi ý.",
+        "Nhận thông tin thẻ Giọt Lành."
+      ],
+      "avoid": [
+        "claim y tế",
+        "poster giống thuốc/chữa bệnh",
+        "giá chưa xác nhận",
+        "QR chưa duyệt"
+      ],
+      "founder_confirmation_needed": true
+    },
+    "sale_kit": {
+      "display_name": "Sale kit",
+      "role": "Chuẩn hóa cách sale/CTV/affiliate tư vấn, giảm rủi ro nói sai.",
+      "audience": [
+        "sales",
+        "ctv_affiliates",
+        "leaders",
+        "ambassadors"
+      ],
+      "content_types": [
+        "sales script",
+        "FAQ",
+        "claim guardrail",
+        "objection handling",
+        "product fact sheet"
+      ],
+      "design_rules": [
+        "Dạng checklist, flow, bảng.",
+        "Guardrail phải nổi bật.",
+        "Thông tin sản phẩm phải đánh dấu đã xác nhận/chưa xác nhận."
+      ],
+      "tone": "Rõ, thực tế, tử tế, không áp lực.",
+      "cta": [
+        "Hỏi nhu cầu trước khi tư vấn.",
+        "Gửi khách thông tin đã xác nhận.",
+        "Escalate câu hỏi nhạy cảm."
+      ],
+      "avoid": [
+        "ép mua",
+        "tự tạo chính sách",
+        "hứa hiệu quả",
+        "hứa thu nhập"
+      ]
+    },
+    "partner_proposal": {
+      "display_name": "Partner proposal",
+      "role": "Mời đối tác liên minh, trình bày giá trị chung và đề xuất campaign thử nghiệm.",
+      "audience": [
+        "alliance_partners",
+        "connected_points"
+      ],
+      "content_types": [
+        "proposal deck",
+        "one-page summary",
+        "co-campaign brief",
+        "outreach email"
+      ],
+      "design_rules": [
+        "Chuyên nghiệp, sạch, rõ cấu trúc.",
+        "Co-branding chỉ dùng khi có phép.",
+        "Không tự tạo logo lockup."
+      ],
+      "tone": "Chuyên nghiệp, hợp tác, minh bạch.",
+      "cta": [
+        "Hẹn trao đổi partnership.",
+        "Chọn một campaign thử nghiệm.",
+        "Xác nhận phạm vi hợp tác."
+      ],
+      "avoid": [
+        "hứa doanh số",
+        "dùng logo đối tác chưa phép",
+        "claim thay đối tác",
+        "deal terms mơ hồ"
+      ],
+      "founder_confirmation_needed": true
+    },
+    "connected_point_material": {
+      "display_name": "Connected point material",
+      "role": "Hỗ trợ điểm bán kết nối tư vấn nhanh, trưng bày và chuyển khách vào cộng đồng BYT.",
+      "audience": [
+        "connected_points",
+        "sales",
+        "leaders"
+      ],
+      "content_types": [
+        "point opening script",
+        "QR banner",
+        "mini product card",
+        "staff training note",
+        "partner FAQ"
+      ],
+      "design_rules": [
+        "Dễ đọc tại quầy.",
+        "Có QR và CTA rõ.",
+        "Có bảng được nói/không được nói."
+      ],
+      "tone": "Gần gũi, rõ quyền lợi, không hứa quá.",
+      "cta": [
+        "Đăng ký nhận bộ thông tin điểm bán.",
+        "Hẹn trao đổi mô hình hợp tác.",
+        "Quét QR để vào cộng đồng BYT."
+      ],
+      "avoid": [
+        "hứa doanh thu",
+        "claim y tế tại điểm",
+        "giá/chính sách chưa duyệt"
+      ],
+      "founder_confirmation_needed": true
+    },
+    "internal_training": {
+      "display_name": "Internal training",
+      "role": "Đào tạo sale, leader, CTV, affiliate, điểm bán và agent về brand, sản phẩm, script, compliance.",
+      "audience": [
+        "sales",
+        "leaders",
+        "ctv_affiliates",
+        "ambassadors",
+        "connected_points"
+      ],
+      "content_types": [
+        "training deck",
+        "role checklist",
+        "case study đúng/sai",
+        "escalation process"
+      ],
+      "design_rules": [
+        "Có ví dụ đúng/sai.",
+        "Có checklist trước khi đăng/bán.",
+        "Có nguồn file Brand Brain liên quan."
+      ],
+      "tone": "Rõ ràng, kỷ luật, hỗ trợ.",
+      "cta": [
+        "Đọc guardrail trước khi đăng.",
+        "Gửi Brand Checker nếu có claim rủi ro.",
+        "Cập nhật tài liệu khi founder xác nhận."
+      ],
+      "avoid": [
+        "đào tạo theo cảm tính",
+        "cho phép tự tạo claim",
+        "không có quy trình escalation"
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,476 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "status": "draft_for_ai_agents"
+  },
+  "segments": {
+    "direct_consumers": {
+      "name": "Khách hàng tiêu dùng trực tiếp quan tâm ăn/uống lành",
+      "pain_points": [
+        "Muốn ăn/uống lành hơn nhưng không biết bắt đầu từ đâu.",
+        "Không tin các claim wellness quá đà.",
+        "Sợ đồ healthy nhạt, khó dùng hoặc đắt."
+      ],
+      "desires": [
+        "Có sản phẩm lành hơn, ngon, dễ dùng.",
+        "Có thông tin thành phần và cách dùng rõ.",
+        "Cảm giác được chăm sóc, không bị phán xét."
+      ],
+      "barriers": [
+        "Giá",
+        "khẩu vị",
+        "nghi ngờ về độ an toàn",
+        "chưa thấy lý do mua lại"
+      ],
+      "triggers": [
+        "Muốn thay đổi thói quen ăn uống.",
+        "Được người quen/đại sứ giới thiệu.",
+        "Thấy nội dung BYT gần gũi và đáng tin."
+      ],
+      "message_angles": [
+        "Bắt đầu bằng một lựa chọn lành hơn, dễ dùng hơn, không cần hoàn hảo."
+      ],
+      "recommended_channels": [
+        "Facebook",
+        "Zalo group",
+        "TikTok/Reels",
+        "Connected point material"
+      ],
+      "recommended_content_formats": [
+        "product post",
+        "routine post",
+        "short reel",
+        "FAQ"
+      ],
+      "cta_examples": [
+        "Nhắn Bếp để được gợi ý món phù hợp.",
+        "Lưu lại cho bữa sáng/bữa xế ngày mai.",
+        "Tham gia nhóm để nhận gợi ý thói quen nhỏ."
+      ]
+    },
+    "office_workers": {
+      "name": "Nhân viên văn phòng bận rộn",
+      "pain_points": [
+        "Bữa sáng vội, chiều dễ thèm ngọt.",
+        "Thiếu lựa chọn tiện nhưng vẫn lành.",
+        "Không muốn chuẩn bị cầu kỳ."
+      ],
+      "desires": [
+        "Bữa sáng hoặc bữa xế gọn.",
+        "Đồ uống/sản phẩm dễ mang đi.",
+        "Gợi ý nhanh, dễ chọn."
+      ],
+      "barriers": [
+        "Quên đặt hàng",
+        "sợ không no",
+        "sợ không hợp khẩu vị"
+      ],
+      "triggers": [
+        "Combo văn phòng",
+        "đồng nghiệp giới thiệu",
+        "campaign Ban Mai hoặc Bình Minh"
+      ],
+      "message_angles": [
+        "Một lựa chọn tử tế hơn cho ngày làm việc bận rộn."
+      ],
+      "recommended_channels": [
+        "Facebook",
+        "Zalo OA",
+        "Zalo group",
+        "TikTok/Reels"
+      ],
+      "recommended_content_formats": [
+        "breakfast post",
+        "office snack post",
+        "order reminder",
+        "routine reel"
+      ],
+      "cta_examples": [
+        "Đặt trước cho tuần làm việc.",
+        "Nhắn Bếp để chọn combo văn phòng.",
+        "Rủ đồng nghiệp cùng tham gia nhóm Zalo."
+      ]
+    },
+    "parents_families": {
+      "name": "Phụ huynh và gia đình Việt",
+      "pain_points": [
+        "Muốn cả nhà ăn/uống lành hơn nhưng mỗi người một khẩu vị.",
+        "Lo thành phần, bảo quản, an toàn thực phẩm.",
+        "Thiếu thời gian chuẩn bị."
+      ],
+      "desires": [
+        "Sản phẩm phù hợp bữa gia đình.",
+        "Thông tin rõ ràng.",
+        "Cảm giác an tâm và gần gũi."
+      ],
+      "barriers": [
+        "Trẻ nhỏ/người lớn tuổi khó đổi khẩu vị",
+        "cần thông tin dị ứng",
+        "cần xác nhận sản phẩm có phù hợp từng người không"
+      ],
+      "triggers": [
+        "Campaign gia đình",
+        "Mặt Trời Bé Con nếu được xác nhận",
+        "gợi ý bữa sáng/bữa xế cho cả nhà"
+      ],
+      "message_angles": [
+        "Thêm một lựa chọn lành hơn vào căn bếp gia đình."
+      ],
+      "recommended_channels": [
+        "Facebook",
+        "Zalo group",
+        "POSM",
+        "Connected point material"
+      ],
+      "recommended_content_formats": [
+        "family post",
+        "ingredient checklist",
+        "parent FAQ",
+        "sample menu"
+      ],
+      "cta_examples": [
+        "Nhắn Bếp để xem gợi ý cho gia đình.",
+        "Kiểm tra thành phần trước khi chọn cho bé/cả nhà.",
+        "Tham gia cộng đồng để nhận gợi ý bữa lành."
+      ]
+    },
+    "weight_management_customers": {
+      "name": "Người muốn quản lý cân nặng an toàn",
+      "pain_points": [
+        "Từng thử ăn kiêng cực đoan.",
+        "Dễ bị áp lực vì số cân.",
+        "Bối rối vì nhiều thông tin giảm cân trái chiều."
+      ],
+      "desires": [
+        "Quản lý cân nặng theo cách an toàn và bền hơn.",
+        "Có cộng đồng không body shaming.",
+        "Có lựa chọn ăn/uống lành hơn."
+      ],
+      "barriers": [
+        "Kỳ vọng kết quả nhanh",
+        "dễ hiểu nhầm sản phẩm là giảm cân",
+        "có thể có bệnh nền hoặc nhu cầu riêng"
+      ],
+      "triggers": [
+        "Nội dung thói quen nhỏ",
+        "membership đồng hành",
+        "lời giới thiệu không phán xét"
+      ],
+      "message_angles": [
+        "BYT không hứa giảm cân nhanh. BYT đồng hành để bạn xây lựa chọn ăn/uống lành hơn và dễ duy trì hơn."
+      ],
+      "recommended_channels": [
+        "Zalo group",
+        "Facebook",
+        "Internal training"
+      ],
+      "recommended_content_formats": [
+        "habit challenge",
+        "safe claim education",
+        "supportive post",
+        "FAQ"
+      ],
+      "cta_examples": [
+        "Tham gia nhóm để bắt đầu bằng thói quen nhỏ.",
+        "Nhắn Bếp để xem sản phẩm phù hợp nhu cầu hằng ngày.",
+        "Nếu có nhu cầu đặc biệt, kiểm tra thành phần và hỏi chuyên môn."
+      ]
+    },
+    "membership_customers": {
+      "name": "Khách hàng membership",
+      "pain_points": [
+        "Mua lẻ nhưng không duy trì.",
+        "Thiếu nhắc nhở và lộ trình.",
+        "Không biết chọn sản phẩm theo nhịp sống."
+      ],
+      "desires": [
+        "Có hệ thống đồng hành.",
+        "Có ưu đãi, nội dung và cộng đồng.",
+        "Có cảm giác thuộc về BYT."
+      ],
+      "barriers": [
+        "Chưa rõ quyền lợi membership",
+        "sợ bị bán hàng liên tục",
+        "không chắc giá trị có xứng đáng"
+      ],
+      "triggers": [
+        "Giọt Lành membership",
+        "Zalo challenge",
+        "quyền lợi rõ và dễ hiểu"
+      ],
+      "message_angles": [
+        "Membership là cách BYT đồng hành cùng bạn, không chỉ bán một sản phẩm."
+      ],
+      "recommended_channels": [
+        "Zalo group",
+        "Zalo OA",
+        "Facebook"
+      ],
+      "recommended_content_formats": [
+        "membership card post",
+        "benefit explainer",
+        "welcome sequence",
+        "renewal reminder"
+      ],
+      "cta_examples": [
+        "Xem quyền lợi member.",
+        "Tham gia danh sách chờ.",
+        "Nhắn Bếp để được tư vấn hạng phù hợp."
+      ]
+    },
+    "ambassadors": {
+      "name": "Đại sứ BYT",
+      "pain_points": [
+        "Muốn lan tỏa BYT nhưng không biết nói sao cho đúng.",
+        "Sợ bị xem là bán hàng quá đà.",
+        "Cần nội dung và quyền lợi rõ."
+      ],
+      "desires": [
+        "Đại diện cho một thương hiệu tử tế.",
+        "Có tài liệu chia sẻ dễ dùng.",
+        "Có cơ hội tham gia cộng đồng và campaign."
+      ],
+      "barriers": [
+        "Chưa rõ vai trò",
+        "sợ claim sai",
+        "chưa tự tin dùng hình ảnh thương hiệu"
+      ],
+      "triggers": [
+        "Trải nghiệm sản phẩm tốt",
+        "đồng điệu với brand essence",
+        "campaign Đại Sứ Yêu Thương"
+      ],
+      "message_angles": [
+        "Lan tỏa điều lành theo cách tự nhiên, chân thành và đúng tinh thần BYT."
+      ],
+      "recommended_channels": [
+        "Facebook",
+        "Zalo group",
+        "Internal training"
+      ],
+      "recommended_content_formats": [
+        "recruitment post",
+        "onboarding note",
+        "shareable captions",
+        "brand guardrail card"
+      ],
+      "cta_examples": [
+        "Đăng ký trở thành đại sứ BYT.",
+        "Nhận bộ nội dung giới thiệu an toàn.",
+        "Tham gia buổi onboarding."
+      ]
+    },
+    "ctv_affiliates": {
+      "name": "CTV/Affiliate",
+      "pain_points": [
+        "Cần sản phẩm dễ giới thiệu.",
+        "Cần script và nội dung đúng thương hiệu.",
+        "Lo chính sách hoa hồng không rõ."
+      ],
+      "desires": [
+        "Có sản phẩm đáng tin để giới thiệu.",
+        "Có tài liệu bán hàng và link/mã nếu được xác nhận.",
+        "Có training claim an toàn."
+      ],
+      "barriers": [
+        "Sợ khách hỏi sâu",
+        "không biết xử lý từ chối",
+        "chưa rõ cơ chế thu nhập"
+      ],
+      "triggers": [
+        "Chính sách minh bạch",
+        "sale kit rõ",
+        "có leader hỗ trợ"
+      ],
+      "message_angles": [
+        "Cùng BYT giới thiệu lựa chọn ăn/uống lành theo cách tử tế, không ép khách và không nói quá."
+      ],
+      "recommended_channels": [
+        "Facebook",
+        "Internal training",
+        "Sale kit"
+      ],
+      "recommended_content_formats": [
+        "recruitment post",
+        "commission explainer",
+        "FAQ",
+        "objection handling"
+      ],
+      "cta_examples": [
+        "Đăng ký nhận thông tin CTV.",
+        "Nhận sale kit.",
+        "Tham gia nhóm đào tạo."
+      ]
+    },
+    "sales": {
+      "name": "Sales BYT",
+      "pain_points": [
+        "Cần kịch bản tư vấn theo nhu cầu.",
+        "Cần dữ liệu sản phẩm chính xác.",
+        "Dễ bị áp lực doanh số dẫn đến nói quá."
+      ],
+      "desires": [
+        "Có script, FAQ, xử lý từ chối.",
+        "Có định hướng bán hàng tử tế.",
+        "Có quy trình chuyển khách vào membership/Zalo."
+      ],
+      "barriers": [
+        "Thiếu thông tin sản phẩm",
+        "chưa rõ ranh giới claim sức khỏe",
+        "chưa rõ follow-up"
+      ],
+      "triggers": [
+        "Onboarding rõ",
+        "leader hỗ trợ",
+        "campaign đều"
+      ],
+      "message_angles": [
+        "Sale BYT là người tư vấn lựa chọn phù hợp, không phải người ép mua."
+      ],
+      "recommended_channels": [
+        "Sale kit",
+        "Internal training",
+        "Zalo group"
+      ],
+      "recommended_content_formats": [
+        "sales script",
+        "follow-up template",
+        "claim guardrail",
+        "FAQ"
+      ],
+      "cta_examples": [
+        "Hỏi nhu cầu trước khi tư vấn.",
+        "Gửi khách thông tin đã xác nhận.",
+        "Chuyển khách vào nhóm phù hợp."
+      ]
+    },
+    "leaders": {
+      "name": "Leaders BYT",
+      "pain_points": [
+        "Cần dẫn đội mà vẫn giữ đúng giọng BYT.",
+        "Cần tài liệu đào tạo và campaign.",
+        "Cần quy tắc xử lý claim sai."
+      ],
+      "desires": [
+        "Có vai trò rõ.",
+        "Có quyền lợi và trách nhiệm minh bạch.",
+        "Có bộ nội dung dùng lại."
+      ],
+      "barriers": [
+        "Chưa rõ tiêu chuẩn leader",
+        "sợ thành viên dùng sai thương hiệu",
+        "chưa có lịch đào tạo"
+      ],
+      "triggers": [
+        "Lộ trình leader",
+        "bộ training",
+        "cơ chế ghi nhận rõ"
+      ],
+      "message_angles": [
+        "Leader BYT dẫn dắt bằng sự tử tế, hiểu thương hiệu và giúp đội bán đúng."
+      ],
+      "recommended_channels": [
+        "Internal training",
+        "Sale kit",
+        "Zalo group"
+      ],
+      "recommended_content_formats": [
+        "training deck",
+        "role checklist",
+        "escalation guide",
+        "team post template"
+      ],
+      "cta_examples": [
+        "Tham gia onboarding leader.",
+        "Nhận bộ tài liệu nhóm.",
+        "Cam kết dùng đúng guardrail BYT."
+      ]
+    },
+    "connected_points": {
+      "name": "Điểm bán kết nối",
+      "pain_points": [
+        "Muốn có sản phẩm mới phù hợp khách địa phương.",
+        "Cần tài liệu trưng bày và tư vấn.",
+        "Cần chính sách hợp tác rõ."
+      ],
+      "desires": [
+        "Tăng giá trị cho khách hiện tại.",
+        "Có sản phẩm và cộng đồng bổ trợ.",
+        "Có QR, banner, script tại điểm."
+      ],
+      "barriers": [
+        "Chưa rõ lợi nhuận/chính sách",
+        "sợ khó vận hành",
+        "không biết có hợp tệp khách không"
+      ],
+      "triggers": [
+        "Proposal rõ",
+        "POSM dễ dùng",
+        "có training"
+      ],
+      "message_angles": [
+        "Trở thành điểm chạm địa phương giúp khách tiếp cận lựa chọn ăn/uống lành hơn cùng BYT."
+      ],
+      "recommended_channels": [
+        "Connected point material",
+        "POSM",
+        "Partner proposal"
+      ],
+      "recommended_content_formats": [
+        "point opening script",
+        "QR banner",
+        "mini product card",
+        "partner FAQ"
+      ],
+      "cta_examples": [
+        "Đăng ký nhận bộ thông tin điểm bán.",
+        "Hẹn trao đổi tệp khách và mô hình hợp tác.",
+        "Nhận QR/community kit."
+      ]
+    },
+    "alliance_partners": {
+      "name": "Đối tác liên minh thương hiệu",
+      "pain_points": [
+        "Muốn hợp tác đúng tệp, không chỉ đổi logo.",
+        "Cần đề xuất rõ giá trị, kênh, quyền lợi.",
+        "Cần bảo vệ thương hiệu hai bên."
+      ],
+      "desires": [
+        "Campaign đồng thương hiệu có ý nghĩa.",
+        "Tệp khách hàng tương thích.",
+        "Nội dung sạch, an toàn, không claim sai."
+      ],
+      "barriers": [
+        "Chưa rõ mô hình hợp tác",
+        "lo rủi ro thương hiệu",
+        "chưa rõ dữ liệu/ngân sách/trách nhiệm"
+      ],
+      "triggers": [
+        "Cùng tệp phụ nữ/gia đình/wellness",
+        "proposal gọn",
+        "campaign thử nghiệm nhỏ"
+      ],
+      "message_angles": [
+        "Cùng BYT tạo thêm giá trị chăm sóc chủ động cho cộng đồng khách hàng chung."
+      ],
+      "recommended_channels": [
+        "Partner proposal",
+        "Facebook",
+        "Internal training"
+      ],
+      "recommended_content_formats": [
+        "partner proposal",
+        "co-campaign brief",
+        "outreach message",
+        "deal terms summary"
+      ],
+      "cta_examples": [
+        "Hẹn trao đổi partnership.",
+        "Nhận proposal hợp tác.",
+        "Chọn một campaign thử nghiệm."
+      ]
+    }
+  }
+}
+

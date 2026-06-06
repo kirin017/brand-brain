@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/membership.schema.json",
+  "title": "BYT Membership",
+  "description": "Schema cho hồ sơ membership trong hệ sinh thái Bếp Yêu Thương.",
+  "type": "object",
+  "required": [
+    "tierId",
+    "displayName",
+    "audience",
+    "coreValue",
+    "benefits",
+    "status"
+  ],
+  "properties": {
+    "tierId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": [
+        "byt-member"
+      ]
+    },
+    "displayName": {
+      "type": "string",
+      "examples": [
+        "BYT Member"
+      ]
+    },
+    "audience": {
+      "type": "string",
+      "examples": [
+        "Khách hàng muốn duy trì thói quen ăn lành, uống sạch."
+      ]
+    },
+    "coreValue": {
+      "type": "string",
+      "examples": [
+        "Đồng hành bằng nội dung, cộng đồng và ưu đãi để thói quen lành dễ duy trì hơn."
+      ]
+    },
+    "benefits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "careCycle": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "examples": [
+        "weekly"
+      ]
+    },
+    "price": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "paused",
+        "retired"
+      ]
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "needsConfirmation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "complianceNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/campaign.schema.json",
+  "title": "Campaign",
+  "description": "Draft schema for a Bep Yeu Thuong campaign brief.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "objective",
+    "targetCustomer",
+    "mainMessage",
+    "channels",
+    "assets"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": [
+        "7-ngay-bua-sang-nhe-nhang"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "examples": [
+        "7 Ngày Bữa Sáng Nhẹ Nhàng"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "daily-habit",
+        "product-launch",
+        "seasonal-care",
+        "education",
+        "community",
+        "promotion"
+      ]
+    },
+    "objective": {
+      "type": "string",
+      "examples": [
+        "Khuyến khích khách hàng bắt đầu thói quen ăn sáng lành hơn trong một tuần."
+      ]
+    },
+    "targetCustomer": {
+      "type": "string",
+      "examples": [
+        "Người đi làm bận rộn muốn có bữa sáng nhanh, ngon và nhẹ bụng."
+      ]
+    },
+    "customerMoment": {
+      "type": "string",
+      "examples": [
+        "Buổi sáng vội trước khi đi làm."
+      ]
+    },
+    "heroProducts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "granola-it-ngot"
+        ]
+      ]
+    },
+    "dateRange": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "mainMessage": {
+      "type": "string",
+      "examples": [
+        "Ăn sáng lành hơn có thể bắt đầu bằng những món nhỏ, ngon và dễ chuẩn bị."
+      ]
+    },
+    "supportingMessages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "offer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "facebook",
+          "instagram",
+          "tiktok",
+          "zalo",
+          "website",
+          "other"
+        ]
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "channel",
+          "format",
+          "status"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string",
+            "examples": [
+              "1080x1350 static post"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "planned",
+              "briefed",
+              "in-design",
+              "approved",
+              "published"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "complianceNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Không dùng từ detox hoặc cam kết giảm cân."
+        ]
+      ]
+    },
+    "successMetrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "saves",
+          "DM inquiries",
+          "orders"
+        ]
+      ]
+    }
+  },
+  "additionalProperties": false
+}
+

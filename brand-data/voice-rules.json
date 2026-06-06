@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "status": "draft_for_ai_agents"
+  },
+  "preferred_phrases": [
+    "Ăn lành. Uống sạch. Sống yêu thương.",
+    "Lành hơn mỗi ngày.",
+    "Một lựa chọn tử tế hơn.",
+    "Bắt đầu bằng điều nhỏ.",
+    "Dễ duy trì.",
+    "Chăm sóc chủ động.",
+    "Nhẹ nhàng với bản thân.",
+    "Cùng nhau sống khỏe hơn.",
+    "Đồng hành cùng gia đình Việt.",
+    "Bếp gợi ý, mình chọn theo nhu cầu.",
+    "Kiểm tra thành phần nếu bạn có nhu cầu ăn uống đặc biệt."
+  ],
+  "forbidden_phrases": [
+    "Giảm cân thần tốc.",
+    "Đốt mỡ.",
+    "Detox cơ thể.",
+    "Thải độc.",
+    "Chữa bệnh.",
+    "Hết bệnh.",
+    "Ổn định đường huyết.",
+    "Tăng miễn dịch.",
+    "Tốt cho mọi người.",
+    "Cam kết hiệu quả.",
+    "Mở điểm là có lời ngay.",
+    "Thu nhập chắc chắn.",
+    "Cơ hội làm giàu.",
+    "Không dùng là thiệt.",
+    "Ăn sai là hại mình."
+  ],
+  "headline_formulas": [
+    {
+      "name": "Khoảnh khắc + lựa chọn lành hơn",
+      "formula": "[Buổi sáng/chiều/ngày bận] + [lựa chọn lành hơn]",
+      "examples": [
+        "Bữa sáng lành hơn cho ngày bận rộn",
+        "Một bữa xế nhẹ nhàng hơn ở văn phòng"
+      ]
+    },
+    {
+      "name": "Không cần hoàn hảo + bắt đầu nhỏ",
+      "formula": "Không cần hoàn hảo, bắt đầu bằng [hành động nhỏ]",
+      "examples": [
+        "Không cần hoàn hảo, bắt đầu bằng một ly uống sạch hơn"
+      ]
+    },
+    {
+      "name": "Cộng đồng + đồng hành",
+      "formula": "Cùng BYT [hành động/challenge] trong [thời gian]",
+      "examples": [
+        "Cùng BYT bắt đầu 7 ngày ăn lành nhẹ nhàng"
+      ]
+    },
+    {
+      "name": "B2B/Point/Alliance",
+      "formula": "Cùng BYT đưa [giá trị] đến gần hơn với [tệp khách]",
+      "examples": [
+        "Cùng BYT đưa lựa chọn ăn/uống lành đến gần hơn với khách địa phương"
+      ]
+    }
+  ],
+  "caption_formulas": [
+    {
+      "name": "Daily care",
+      "formula": "[Khoảnh khắc thật] + [gợi ý lành hơn] + [lý do dễ duy trì] + [CTA nhẹ]",
+      "example": "Chiều bận dễ thèm món ngọt, nhưng mình vẫn có thể chọn một bữa xế nhẹ nhàng hơn. BYT gợi ý bắt đầu từ những món dễ dùng, vị vừa phải và phù hợp nhịp làm việc. Nhắn Bếp nếu bạn muốn được gợi ý theo nhu cầu hôm nay."
+    },
+    {
+      "name": "Membership",
+      "formula": "[Vấn đề duy trì] + [membership là đồng hành] + [quyền lợi đã xác nhận] + [CTA]",
+      "example": "Nếu bạn thường mua lẻ rồi quên duy trì, membership BYT giúp mình có thêm nội dung, cộng đồng và gợi ý đều hơn. Nhắn Bếp để xem quyền lợi đã công bố."
+    },
+    {
+      "name": "Recruitment",
+      "formula": "[Giá trị BYT] + [vai trò tham gia] + [cách tham gia có trách nhiệm] + [CTA]",
+      "example": "Nếu bạn muốn lan tỏa ăn lành, uống sạch theo cách tử tế, BYT mời bạn tìm hiểu vai trò đại sứ. Đăng ký để nhận bộ quy tắc chia sẻ an toàn."
+    }
+  ],
+  "cta_library": {
+    "b2c": [
+      "Nhắn Bếp để được gợi ý.",
+      "Lưu lại cho ngày mai.",
+      "Đặt trước để Bếp chuẩn bị.",
+      "Xem thành phần trước khi chọn."
+    ],
+    "membership": [
+      "Tham gia danh sách chờ.",
+      "Xem quyền lợi member.",
+      "Nhắn Bếp để chọn hạng phù hợp.",
+      "Vào nhóm để bắt đầu thử thách nhỏ."
+    ],
+    "zalo_community": [
+      "Hôm nay bạn chọn điều nhỏ nào?",
+      "Thả một câu để Bếp biết nhé.",
+      "Chia sẻ bữa lành hôm nay của bạn.",
+      "Lưu lại và thử trong tuần này."
+    ],
+    "ambassador_ctv_affiliate": [
+      "Đăng ký nhận thông tin.",
+      "Nhận bộ nội dung giới thiệu.",
+      "Tham gia onboarding.",
+      "Xem quy tắc truyền thông BYT."
+    ],
+    "sales_leaders": [
+      "Dùng script trước khi tư vấn.",
+      "Kiểm tra guardrail trước khi đăng.",
+      "Gửi khách thông tin đã xác nhận."
+    ],
+    "connected_points": [
+      "Đăng ký nhận bộ thông tin điểm bán.",
+      "Hẹn trao đổi mô hình hợp tác.",
+      "Quét QR để vào cộng đồng BYT."
+    ],
+    "brand_alliance": [
+      "Hẹn trao đổi partnership.",
+      "Nhận proposal hợp tác.",
+      "Chọn một campaign thử nghiệm."
+    ]
+  },
+  "tone_by_audience": {
+    "direct_consumers": "Ấm, gần gũi, giúp bắt đầu nhỏ.",
+    "office_workers": "Nhanh, thực tế, tôn trọng ngày bận.",
+    "parents_families": "An tâm, rõ thông tin, không claim trẻ em khi chưa xác nhận.",
+    "weight_management_customers": "Không phán xét, tránh body shaming, tập trung thói quen bền.",
+    "membership_customers": "Đồng hành, đều đặn, có cảm giác thuộc về.",
+    "ambassadors": "Truyền cảm hứng nhưng có trách nhiệm.",
+    "ctv_affiliates": "Rõ chính sách, rõ guardrail, không hứa thu nhập.",
+    "sales": "Tư vấn theo nhu cầu, không ép mua.",
+    "leaders": "Dẫn dắt, kỷ luật, giữ chuẩn thương hiệu.",
+    "connected_points": "Hợp tác, rõ quyền lợi, không hứa doanh thu.",
+    "alliance_partners": "Chuyên nghiệp, minh bạch, cùng giá trị."
+  },
+  "tone_by_channel": {
+    "Facebook": "Ấm, giải thích vừa đủ, có CTA.",
+    "Zalo group": "Ngắn, thân mật, tương tác nhẹ.",
+    "Zalo OA": "Rõ thông tin, gọn, có hành động cụ thể.",
+    "TikTok/Reels": "Nhanh, thật, gần gũi.",
+    "POSM": "Rất ngắn, rõ, đáng tin.",
+    "Sale kit": "Thực dụng, có checklist, có guardrail.",
+    "Partner proposal": "Chuyên nghiệp, hợp tác, không hứa quá.",
+    "Internal training": "Rõ quy trình, dễ áp dụng, có ví dụ đúng/sai."
+  }
+}
+

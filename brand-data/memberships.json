@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "status": "draft_for_ai_agents",
+    "founder_confirmation_needed": true,
+    "notes": "Giá và quyền lợi dưới đây là dữ liệu nháp từ tài liệu tổng quan, cần founder xác nhận trước khi dùng công khai."
+  },
+  "memberships": [
+    {
+      "id": "giot-lanh-yeu-thuong",
+      "name": "Giọt Lành Yêu Thương",
+      "price": {
+        "value": "199.000đ",
+        "founder_confirmation_needed": true
+      },
+      "duration": {
+        "value": "Cần xác nhận",
+        "founder_confirmation_needed": true
+      },
+      "benefits": [
+        "Được mua sữa hạt/Giọt Lành với giá member nếu chính sách được xác nhận.",
+        "Nhận nội dung nhắc thói quen uống sạch trong cộng đồng BYT.",
+        "Có thể là entry membership cho khách mới bắt đầu."
+      ],
+      "included_products": [
+        "sữa hạt",
+        "Giọt Lành/sữa hạt",
+        "nội dung Zalo community"
+      ],
+      "retail_price": {
+        "value": "30.000đ/chai sữa hạt hoặc theo giá bán lẻ tại thời điểm bán",
+        "founder_confirmation_needed": true
+      },
+      "member_price": {
+        "value": "15.000đ/chai, tối đa 1 chai/ngày theo nháp tài liệu tổng quan",
+        "founder_confirmation_needed": true
+      },
+      "target_audience": [
+        "người mới bắt đầu ăn/uống lành",
+        "khách muốn uống sạch hơn mỗi ngày",
+        "khách văn phòng",
+        "member entry-level"
+      ],
+      "main_message": "Một giọt lành mỗi ngày để bắt đầu chăm mình nhẹ nhàng hơn.",
+      "safe_claims": [
+        "đồng hành xây thói quen uống sạch hơn",
+        "lựa chọn dễ bắt đầu",
+        "nhắc thói quen nhỏ mỗi ngày"
+      ],
+      "forbidden_claims": [
+        "detox cơ thể",
+        "thải độc",
+        "giảm cân",
+        "chữa bệnh",
+        "tăng miễn dịch"
+      ],
+      "suggested_cta": [
+        "Tham gia danh sách chờ Giọt Lành.",
+        "Nhắn Bếp để xem quyền lợi Giọt Lành.",
+        "Quét QR để nhận thông tin thẻ Giọt Lành."
+      ]
+    },
+    {
+      "id": "ban-mai-thuc-giac",
+      "name": "Ban Mai Thức Giấc",
+      "price": {
+        "value": "249.000đ/năm",
+        "founder_confirmation_needed": true
+      },
+      "duration": {
+        "value": "1 năm",
+        "founder_confirmation_needed": true
+      },
+      "benefits": [
+        "Được mua set Ban Mai với giá member nếu chính sách được xác nhận.",
+        "Nhận gợi ý bữa sáng và nội dung nhắc thói quen buổi sáng.",
+        "Phù hợp campaign breakfast và Zalo morning check-in."
+      ],
+      "included_products": [
+        "set ăn sáng healthy",
+        "Giọt Lành/sữa hạt",
+        "thành phần bữa sáng cần founder xác nhận"
+      ],
+      "retail_price": {
+        "value": "Cần xác nhận giá bán lẻ set Ban Mai",
+        "founder_confirmation_needed": true
+      },
+      "member_price": {
+        "value": "55.000đ/set theo nháp tài liệu tổng quan",
+        "founder_confirmation_needed": true
+      },
+      "target_audience": [
+        "busy office workers",
+        "người muốn ăn sáng lành hơn",
+        "khách cần routine buổi sáng"
+      ],
+      "main_message": "Bắt đầu ngày mới bằng một lựa chọn bữa sáng lành hơn, gọn hơn và dễ duy trì hơn.",
+      "safe_claims": [
+        "gợi ý bữa sáng lành hơn",
+        "dễ áp dụng trong ngày bận",
+        "đồng hành xây routine buổi sáng"
+      ],
+      "forbidden_claims": [
+        "tăng năng lượng cả ngày",
+        "thay thế bữa ăn đầy đủ cho mọi người",
+        "giảm cân",
+        "phù hợp bệnh lý"
+      ],
+      "suggested_cta": [
+        "Nhắn Bếp để xem gợi ý Ban Mai.",
+        "Đặt trước set Ban Mai cho tuần này.",
+        "Vào nhóm để nhận nhắc thói quen buổi sáng."
+      ]
+    },
+    {
+      "id": "binh-minh-ruc-ro",
+      "name": "Bình Minh Rực Rỡ",
+      "price": {
+        "value": "299.000đ/năm",
+        "founder_confirmation_needed": true
+      },
+      "duration": {
+        "value": "1 năm",
+        "founder_confirmation_needed": true
+      },
+      "benefits": [
+        "Được mua set Bình Minh với giá member nếu chính sách được xác nhận.",
+        "Nhận nội dung morning routine và cộng đồng check-in.",
+        "Phù hợp người muốn set đầy đủ hơn Ban Mai."
+      ],
+      "included_products": [
+        "set Bình Minh",
+        "Giọt Lành/sữa hạt",
+        "hoa quả hoặc thành phần bổ sung cần founder xác nhận"
+      ],
+      "retail_price": {
+        "value": "Cần xác nhận giá bán lẻ set Bình Minh",
+        "founder_confirmation_needed": true
+      },
+      "member_price": {
+        "value": "65.000đ/set theo nháp tài liệu tổng quan",
+        "founder_confirmation_needed": true
+      },
+      "target_audience": [
+        "office workers",
+        "membership customers",
+        "người muốn routine buổi sáng đầy đủ hơn"
+      ],
+      "main_message": "Đón ngày mới rực rỡ hơn bằng nhịp chăm sóc đều đặn và vừa sức.",
+      "safe_claims": [
+        "khởi động ngày mới bằng thói quen tích cực",
+        "gợi ý bữa sáng đầy đặn hơn nếu sản phẩm được xác nhận",
+        "đồng hành cùng cộng đồng"
+      ],
+      "forbidden_claims": [
+        "chữa mệt mỏi",
+        "tăng đề kháng",
+        "tăng năng lượng y tế",
+        "cam kết hiệu quả"
+      ],
+      "suggested_cta": [
+        "Check-in Bình Minh cùng BYT.",
+        "Nhắn Bếp để xem set Bình Minh.",
+        "Tham gia nhóm để nhận gợi ý buổi sáng."
+      ]
+    },
+    {
+      "id": "mat-troi-be-con",
+      "name": "Mặt Trời Bé Con",
+      "price": {
+        "value": "199.000đ/năm",
+        "founder_confirmation_needed": true
+      },
+      "duration": {
+        "value": "1 năm",
+        "founder_confirmation_needed": true
+      },
+      "benefits": [
+        "Được mua set Mặt Trời với giá member nếu chính sách được xác nhận.",
+        "Nhận nội dung gợi ý cho gia đình nếu được founder/chuyên môn duyệt.",
+        "Có thể dùng cho nhánh gia đình và phụ huynh."
+      ],
+      "included_products": [
+        "set Mặt Trời",
+        "Giọt Lành/sữa hạt",
+        "thành phần cho trẻ/gia đình cần xác nhận chuyên môn"
+      ],
+      "retail_price": {
+        "value": "Cần xác nhận giá bán lẻ set Mặt Trời",
+        "founder_confirmation_needed": true
+      },
+      "member_price": {
+        "value": "49.000đ/set theo nháp tài liệu tổng quan",
+        "founder_confirmation_needed": true
+      },
+      "target_audience": [
+        "parents and families",
+        "phụ huynh muốn lựa chọn lành hơn cho gia đình",
+        "khách cần nội dung family/kids an toàn"
+      ],
+      "main_message": "Cùng gia đình tạo những lựa chọn lành hơn cho bé và cả nhà, bắt đầu từ điều nhỏ mỗi ngày.",
+      "safe_claims": [
+        "gợi ý cho gia đình",
+        "cần kiểm tra thành phần trước khi chọn cho bé",
+        "đồng hành cùng phụ huynh bằng nội dung dễ hiểu"
+      ],
+      "forbidden_claims": [
+        "phù hợp trẻ em nếu chưa xác nhận",
+        "tăng chiều cao",
+        "tăng trí não",
+        "tăng miễn dịch",
+        "thay thế tư vấn nhi khoa"
+      ],
+      "suggested_cta": [
+        "Nhắn Bếp để xem gợi ý cho gia đình.",
+        "Kiểm tra thành phần trước khi chọn cho bé.",
+        "Đăng ký nhận thông tin Mặt Trời Bé Con khi BYT công bố chính thức."
+      ]
+    }
+  ]
+}
+

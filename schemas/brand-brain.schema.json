@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/brand-brain.schema.json",
+  "title": "Brand Brain",
+  "description": "Draft schema for a structured brand brain used by AI agents for Bep Yeu Thuong.",
+  "type": "object",
+  "required": [
+    "brandName",
+    "category",
+    "positioning",
+    "values",
+    "voice",
+    "visualDirection",
+    "complianceRules"
+  ],
+  "properties": {
+    "brandName": {
+      "type": "string",
+      "examples": [
+        "Bếp Yêu Thương"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "examples": [
+        "Vietnamese wellness/F&B"
+      ]
+    },
+    "positioning": {
+      "type": "object",
+      "required": [
+        "oneLine",
+        "targetCustomer",
+        "brandPromise"
+      ],
+      "properties": {
+        "oneLine": {
+          "type": "string",
+          "examples": [
+            "Căn bếp lành cho gia đình Việt, giúp ăn ngon và chăm sóc sức khỏe dễ duy trì hơn."
+          ]
+        },
+        "targetCustomer": {
+          "type": "string",
+          "examples": [
+            "Người Việt bận rộn muốn ăn lành hơn nhưng vẫn cần món ngon, gần gũi và tiện lợi."
+          ]
+        },
+        "brandPromise": {
+          "type": "string",
+          "examples": [
+            "Món ngon tử tế cho những lựa chọn lành hơn mỗi ngày."
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "examples": [
+              "Tử tế"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "examples": [
+              "Truyền thông rõ ràng, không hù dọa, không phóng đại lợi ích sức khỏe."
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "voice": {
+      "type": "object",
+      "required": [
+        "attributes",
+        "preferredWords",
+        "avoidWords"
+      ],
+      "properties": {
+        "attributes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            [
+              "warm",
+              "practical",
+              "honest"
+            ]
+          ]
+        },
+        "preferredWords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            [
+              "lành hơn",
+              "nhẹ bụng",
+              "ngọt dịu"
+            ]
+          ]
+        },
+        "avoidWords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            [
+              "detox",
+              "giảm cân thần tốc",
+              "chữa bệnh"
+            ]
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "visualDirection": {
+      "type": "object",
+      "properties": {
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            [
+              "warm kitchen",
+              "food-first",
+              "Vietnamese everyday context"
+            ]
+          ]
+        },
+        "colors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "hex",
+              "role"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "hex": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              },
+              "role": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "complianceRules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Do not promise weight loss.",
+          "Do not make medical treatment claims.",
+          "Use only verified product facts."
+        ]
+      ]
+    }
+  },
+  "additionalProperties": false
+}
+

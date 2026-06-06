@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/design-brief.schema.json",
+  "title": "Design Brief",
+  "description": "Draft schema for a social design brief used by Bep Yeu Thuong design agents.",
+  "type": "object",
+  "required": [
+    "id",
+    "objective",
+    "channel",
+    "format",
+    "targetCustomer",
+    "onDesignCopy",
+    "visualDirection",
+    "complianceNotes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": [
+        "granola-bua-sang-5-phut"
+      ]
+    },
+    "objective": {
+      "type": "string",
+      "examples": [
+        "Khuyến khích khách hàng xem granola như lựa chọn bữa sáng nhanh và nhẹ nhàng."
+      ]
+    },
+    "channel": {
+      "type": "string",
+      "enum": [
+        "facebook",
+        "instagram",
+        "tiktok",
+        "zalo",
+        "website",
+        "other"
+      ]
+    },
+    "format": {
+      "type": "object",
+      "required": [
+        "type",
+        "dimensions"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "examples": [
+            "static-post"
+          ]
+        },
+        "dimensions": {
+          "type": "string",
+          "examples": [
+            "1080x1350"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "targetCustomer": {
+      "type": "string",
+      "examples": [
+        "Người đi làm bận rộn cần bữa sáng nhanh nhưng vẫn muốn ăn lành hơn."
+      ]
+    },
+    "productRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "granola-it-ngot"
+        ]
+      ]
+    },
+    "confirmedFacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "onDesignCopy": {
+      "type": "object",
+      "required": [
+        "headline"
+      ],
+      "properties": {
+        "headline": {
+          "type": "string",
+          "examples": [
+            "Bữa sáng nhẹ nhàng trong 5 phút"
+          ]
+        },
+        "supportingText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "examples": [
+            "Giòn thơm, ngọt dịu, dễ kết hợp mỗi ngày"
+          ]
+        },
+        "cta": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "examples": [
+            "Nhắn Bếp để chọn vị hôm nay"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "visualDirection": {
+      "type": "object",
+      "required": [
+        "mainSubject",
+        "composition",
+        "colorDirection"
+      ],
+      "properties": {
+        "mainSubject": {
+          "type": "string",
+          "examples": [
+            "Tô sữa chua granola với chuối, đặt cạnh hũ sản phẩm."
+          ]
+        },
+        "composition": {
+          "type": "string",
+          "examples": [
+            "Food occupies 65 percent of frame, headline top left, CTA bottom right."
+          ]
+        },
+        "colorDirection": {
+          "type": "string",
+          "examples": [
+            "Warm off-white background with clay and leaf green accents."
+          ]
+        },
+        "typographyDirection": {
+          "type": "string"
+        },
+        "logoPlacement": {
+          "type": "string"
+        },
+        "props": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "doNotInclude": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "detox badge",
+          "weight loss claim",
+          "medical icon"
+        ]
+      ]
+    },
+    "complianceNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "handoffNotes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
+

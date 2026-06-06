@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/brand-check-result.schema.json",
+  "title": "Brand Check Result",
+  "description": "Draft schema for reviewing a Bep Yeu Thuong asset, brief, caption, or campaign.",
+  "type": "object",
+  "required": [
+    "verdict",
+    "scores",
+    "issues",
+    "summary"
+  ],
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass-with-revisions",
+        "fail"
+      ]
+    },
+    "scores": {
+      "type": "object",
+      "required": [
+        "brandFit",
+        "voiceFit",
+        "visualFit",
+        "customerRelevance",
+        "channelFit",
+        "complianceSafety"
+      ],
+      "properties": {
+        "brandFit": {
+          "$ref": "#/$defs/score"
+        },
+        "voiceFit": {
+          "$ref": "#/$defs/score"
+        },
+        "visualFit": {
+          "$ref": "#/$defs/score"
+        },
+        "customerRelevance": {
+          "$ref": "#/$defs/score"
+        },
+        "channelFit": {
+          "$ref": "#/$defs/score"
+        },
+        "complianceSafety": {
+          "$ref": "#/$defs/score"
+        }
+      },
+      "additionalProperties": false
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "severity",
+          "location",
+          "problem",
+          "recommendedFix"
+        ],
+        "properties": {
+          "severity": {
+            "type": "string",
+            "enum": [
+              "critical",
+              "major",
+              "minor"
+            ]
+          },
+          "location": {
+            "type": "string",
+            "examples": [
+              "headline"
+            ]
+          },
+          "problem": {
+            "type": "string",
+            "examples": [
+              "The copy promises weight loss without verified evidence."
+            ]
+          },
+          "recommendedFix": {
+            "type": "string",
+            "examples": [
+              "Rewrite to focus on a lighter breakfast routine instead of weight loss."
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "safeCopyRewrite": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "examples": [
+        "Một phần granola giòn thơm cho bữa sáng nhẹ nhàng hơn."
+      ]
+    },
+    "humanReviewRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "missingFacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "nutrition data",
+          "allergen list",
+          "official product price"
+        ]
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "examples": [
+        "Pass with revisions: brand tone is warm, but the nutrition claim needs confirmation before publishing."
+      ]
+    }
+  },
+  "$defs": {
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "additionalProperties": false
+}
+

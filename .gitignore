@@ -1,0 +1,37 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Dependency folders for future tooling
+node_modules/
+.venv/
+venv/
+
+# Build outputs for future tooling
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Generated render/archive outputs
+outputs/*
+!outputs/README.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp

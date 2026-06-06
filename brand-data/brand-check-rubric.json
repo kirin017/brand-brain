@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "schema_version": "0.3.0",
+    "language": "vi",
+    "system": "BYT Brand Checker and Compliance System",
+    "status": "draft_for_ai_agents"
+  },
+  "score_scale": {
+    "min": 1,
+    "max": 10,
+    "interpretation": {
+      "1_3": "Sai rõ, rủi ro cao, không nên dùng.",
+      "4_6": "Có ý đúng nhưng cần sửa lớn.",
+      "7_8": "Có thể dùng sau chỉnh nhỏ hoặc xác nhận thêm.",
+      "9_10": "Rất phù hợp, ít rủi ro, có thể dùng nếu dữ liệu đã xác nhận."
+    }
+  },
+  "recommendation_rules": {
+    "approved": "Tất cả dimension chính từ 8 trở lên, compliance risk Low, không có founder confirmation bắt buộc.",
+    "revise": "Có điểm 5-7 hoặc compliance risk Medium, có thể sửa bằng safer rewrite.",
+    "reject": "Có automatic rejection, điểm quan trọng dưới 5 hoặc compliance risk High."
+  },
+  "compliance_risk_levels": {
+    "low": {
+      "label": "Low",
+      "meaning": "Không có claim rủi ro, không hứa quá, dữ liệu đã xác nhận hoặc không cần dữ liệu nhạy cảm.",
+      "human_approval_required": false
+    },
+    "medium": {
+      "label": "Medium",
+      "meaning": "Có thông tin chưa xác nhận, tone hơi mạnh, visual/copy cần chỉnh, hoặc có ngữ cảnh sức khỏe cần disclaimer.",
+      "human_approval_required": true
+    },
+    "high": {
+      "label": "High",
+      "meaning": "Có claim y tế, bệnh lý, giảm cân, detox, thu nhập, logo/QR/chính sách chưa duyệt hoặc visual sai nghiêm trọng.",
+      "human_approval_required": true
+    }
+  },
+  "scoring_dimensions": {
+    "brand_fit": {
+      "scale": "1-10",
+      "description": "Đúng tinh thần BYT: Ăn lành. Uống sạch. Sống yêu thương; không generic healthy drink brand.",
+      "high_score_checks": [
+        "ấm áp",
+        "gần gũi",
+        "không phán xét",
+        "có tính cộng đồng",
+        "phản ánh BYT là hệ sinh thái F&B + wellness + membership + B2B2C"
+      ],
+      "low_score_signals": [
+        "chỉ bán sản phẩm lẻ",
+        "giọng diet/fitness cực đoan",
+        "detox brand",
+        "brand đồ uống healthy chung chung"
+      ]
+    },
+    "visual_fit": {
+      "scale": "1-10",
+      "description": "Visual phù hợp BYT, dễ đọc, không tự tạo asset chưa xác nhận.",
+      "high_score_checks": [
+        "rõ sản phẩm hoặc cộng đồng",
+        "ấm, sạch, tự nhiên",
+        "phù hợp mobile",
+        "không medical hóa",
+        "không fake luxury"
+      ],
+      "low_score_signals": [
+        "hospital style",
+        "extreme fitness style",
+        "neon colors",
+        "generic stock-photo feeling",
+        "quá nhiều chữ cho mobile",
+        "tự tạo logo/màu/font/QR/packaging"
+      ]
+    },
+    "voice_fit": {
+      "scale": "1-10",
+      "description": "Giọng Việt tự nhiên, ấm, rõ, không ép mua, không hù dọa.",
+      "high_score_checks": [
+        "thực tế",
+        "tử tế",
+        "không phán xét",
+        "CTA nhẹ",
+        "không gây sợ hãi"
+      ],
+      "low_score_signals": [
+        "bán hàng quá gắt",
+        "hù dọa sức khỏe",
+        "body shaming",
+        "ngôn ngữ làm giàu nhanh"
+      ]
+    },
+    "business_model_fit": {
+      "scale": "1-10",
+      "description": "Đúng mô hình BYT: product, membership, community, ambassador, sale/leader/affiliate, connected point, alliance.",
+      "high_score_checks": [
+        "có ecosystem role rõ",
+        "gắn sản phẩm với membership/community khi phù hợp",
+        "không bỏ qua B2B2C layer",
+        "hiểu connected point là community touchpoint"
+      ],
+      "low_score_signals": [
+        "chỉ xem BYT là retail product brand",
+        "CTV/leader như cơ hội thu nhập",
+        "điểm bán như đại lý chắc chắn có lời",
+        "alliance chỉ là đổi logo"
+      ]
+    },
+    "product_accuracy": {
+      "scale": "1-10",
+      "description": "Thông tin sản phẩm đúng với brand-data/products.json và không bịa claim.",
+      "high_score_checks": [
+        "không bịa thành phần",
+        "không bịa công dụng",
+        "không bịa giá/hạn dùng/chứng nhận",
+        "có founder confirmation needed khi thiếu dữ liệu"
+      ],
+      "low_score_signals": [
+        "claim detox miracle",
+        "claim tiêu hóa/miễn dịch/giảm cân",
+        "sai tên sản phẩm",
+        "dùng giá chưa xác nhận như đã chốt"
+      ]
+    },
+    "membership_accuracy": {
+      "scale": "1-10",
+      "description": "Đúng tên, giá nháp/quyền lợi nháp và guardrail của Giọt Lành, Ban Mai, Bình Minh, Mặt Trời.",
+      "high_score_checks": [
+        "đúng tên thẻ",
+        "giá/quyền lợi có founder confirmation needed nếu chưa chốt",
+        "membership là đồng hành, không phải liệu trình",
+        "không hứa kết quả sức khỏe"
+      ],
+      "low_score_signals": [
+        "sai giá/quyền lợi",
+        "nói như thẻ điều trị",
+        "nói giảm cân/detox",
+        "claim trẻ em với Mặt Trời Bé Con khi chưa duyệt"
+      ]
+    },
+    "community_fit": {
+      "scale": "1-10",
+      "description": "Có nuôi cộng đồng, không spam, phù hợp Zalo/community/member activation.",
+      "high_score_checks": [
+        "có hành động nhỏ",
+        "có tương tác",
+        "không spam bán hàng",
+        "gắn membership/repeat purchase nhẹ nhàng"
+      ],
+      "low_score_signals": [
+        "group chỉ để chốt đơn",
+        "deal post dày đặc",
+        "tư vấn y tế cá nhân trong nhóm",
+        "không có tương tác"
+      ]
+    },
+    "conversion_clarity": {
+      "scale": "1-10",
+      "description": "CTA rõ, phù hợp kênh và không ép buộc.",
+      "high_score_checks": [
+        "một CTA chính",
+        "hành động tiếp theo rõ",
+        "phù hợp product/membership/community/point/alliance",
+        "không gây áp lực"
+      ],
+      "low_score_signals": [
+        "quá nhiều CTA",
+        "CTA ép mua",
+        "không rõ link/QR/hành động",
+        "deal terms mơ hồ"
+      ]
+    },
+    "channel_fit": {
+      "scale": "1-10",
+      "description": "Đúng format và vai trò kênh: Facebook, Zalo, TikTok/Reels, POSM, sale kit, proposal.",
+      "high_score_checks": [
+        "Facebook đủ ngữ cảnh",
+        "Zalo ngắn và thân mật",
+        "Reel cover ít chữ",
+        "POSM có QR/CTA rõ",
+        "proposal chuyên nghiệp"
+      ],
+      "low_score_signals": [
+        "copy dài trên mobile design",
+        "Zalo như bài quảng cáo dài",
+        "POSM thiếu QR/CTA",
+        "proposal quá cảm tính"
+      ]
+    },
+    "compliance_risk": {
+      "type": "Low | Medium | High",
+      "description": "Mức rủi ro compliance tổng hợp sau khi kiểm tra claim, thu nhập, brand asset, chính sách, visual."
+    }
+  },
+  "must_detect": [
+    "medical claims",
+    "disease treatment claims",
+    "guaranteed weight-loss claims",
+    "miracle detox language",
+    "thay thế thuốc or similar claims",
+    "unapproved diabetes claims",
+    "unapproved blood fat claims",
+    "unapproved liver claims",
+    "unapproved insomnia claims",
+    "unapproved digestion claims",
+    "unapproved immunity claims",
+    "unapproved weight loss claims",
+    "wrong membership price or benefit",
+    "overpromising income to CTV/Sale/Leader/Affiliate",
+    "incorrect BYT business model",
+    "treating BYT as only a retail product brand",
+    "misuse of brand name, logo, slogan, QR",
+    "too aggressive sales tone",
+    "too much text for mobile design",
+    "off-brand hospital style",
+    "off-brand extreme fitness style",
+    "off-brand fake luxury",
+    "off-brand neon colors",
+    "generic stock-photo feeling"
+  ],
+  "allowed_safer_wording": [
+    "Hỗ trợ lối sống lành mạnh",
+    "Hỗ trợ bổ sung dinh dưỡng",
+    "Hỗ trợ duy trì thói quen tốt",
+    "Phù hợp với người muốn ăn lành, uống sạch",
+    "Đồng hành trong lộ trình chăm sóc sức khỏe chủ động",
+    "Giúp khách dễ bắt đầu thói quen healthy hơn"
+  ],
+  "automatic_reject_conditions": [
+    "Có claim chữa bệnh/điều trị/phòng bệnh/thay thế thuốc.",
+    "Cam kết giảm cân, giảm mỡ, detox/thải độc thần kỳ.",
+    "Claim chưa duyệt về tiểu đường, mỡ máu, gan, mất ngủ, tiêu hóa, miễn dịch hoặc giảm cân.",
+    "Hứa thu nhập/doanh thu/lợi nhuận cho CTV/Sale/Leader/Affiliate/điểm bán.",
+    "Sai giá/quyền lợi membership như thông tin đã chốt.",
+    "Dùng logo/QR/slogan/brand asset sai hoặc chưa xác nhận.",
+    "Visual medical/extreme fitness/fake luxury/neon sai nghiêm trọng."
+  ]
+}
+

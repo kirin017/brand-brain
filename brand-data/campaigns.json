@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "status": "draft_for_ai_agents"
+  },
+  "campaign_templates": [
+    {
+      "id": "giot-lanh-membership-campaign",
+      "name": "Giọt Lành membership campaign",
+      "type": "membership_activation",
+      "objective": "Chuyển khách mua lẻ hoặc khách mới thành member entry-level và đưa vào cộng đồng Zalo.",
+      "target_segments": [
+        "direct_consumers",
+        "membership_customers",
+        "weight_management_customers"
+      ],
+      "main_message": "Mỗi ngày một giọt lành, để việc chăm mình trở nên nhẹ nhàng hơn.",
+      "channels": [
+        "Facebook",
+        "Zalo group",
+        "Zalo OA",
+        "POSM"
+      ],
+      "asset_ideas": [
+        "post giới thiệu thẻ",
+        "card quyền lợi",
+        "Zalo challenge",
+        "QR invite",
+        "FAQ membership"
+      ],
+      "cta": [
+        "Tham gia danh sách chờ Giọt Lành.",
+        "Quét QR để nhận thông tin thẻ.",
+        "Nhắn Bếp để xem quyền lợi."
+      ],
+      "guardrails": [
+        "Không gọi membership là liệu trình.",
+        "Không hứa giảm cân hoặc detox.",
+        "Giá và quyền lợi cần founder xác nhận."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "ban-mai-breakfast-campaign",
+      "name": "Ban Mai breakfast campaign",
+      "type": "breakfast_habit",
+      "objective": "Đưa BYT vào bữa sáng của phụ nữ bận rộn, văn phòng và gia đình.",
+      "target_segments": [
+        "office_workers",
+        "parents_families",
+        "membership_customers"
+      ],
+      "main_message": "Bắt đầu ngày mới bằng một lựa chọn bữa sáng lành hơn, gọn hơn và dễ duy trì hơn.",
+      "channels": [
+        "Facebook",
+        "TikTok/Reels",
+        "Zalo group",
+        "Zalo OA"
+      ],
+      "asset_ideas": [
+        "carousel gợi ý bữa sáng",
+        "reel chuẩn bị nhanh",
+        "order reminder",
+        "combo breakfast post"
+      ],
+      "cta": [
+        "Đặt trước set Ban Mai cho tuần này.",
+        "Lưu lại cho sáng mai.",
+        "Nhắn Bếp để xem gợi ý Ban Mai."
+      ],
+      "guardrails": [
+        "Không claim thay thế bữa sáng đầy đủ cho mọi người.",
+        "Không claim tăng năng lượng y tế.",
+        "Sản phẩm và giá combo cần xác nhận."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "binh-minh-morning-energy-campaign",
+      "name": "Bình Minh morning energy campaign",
+      "type": "morning_routine",
+      "objective": "Xây dựng nhịp check-in buổi sáng và tăng gắn kết cộng đồng/member.",
+      "target_segments": [
+        "office_workers",
+        "membership_customers",
+        "direct_consumers"
+      ],
+      "main_message": "Đón ngày mới rực rỡ hơn bằng nhịp chăm sóc đều đặn và vừa sức.",
+      "channels": [
+        "Zalo group",
+        "TikTok/Reels",
+        "Facebook"
+      ],
+      "asset_ideas": [
+        "morning check-in card",
+        "routine reel",
+        "story poll",
+        "weekly challenge"
+      ],
+      "cta": [
+        "Check-in Bình Minh cùng BYT.",
+        "Vào nhóm để nhận nhắc thói quen.",
+        "Nhắn Bếp để chọn gợi ý buổi sáng."
+      ],
+      "guardrails": [
+        "Không claim chữa mệt.",
+        "Không claim tăng đề kháng.",
+        "Không cam kết hiệu quả tinh thần/thể chất."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "mat-troi-be-con-campaign",
+      "name": "Mặt Trời Bé Con campaign",
+      "type": "family_kids",
+      "objective": "Tạo nhánh nội dung gia đình/phụ huynh nếu sản phẩm và quy định trẻ em được xác nhận.",
+      "target_segments": [
+        "parents_families"
+      ],
+      "main_message": "Cùng gia đình tạo những lựa chọn lành hơn cho bé và cả nhà, bắt đầu từ điều nhỏ mỗi ngày.",
+      "channels": [
+        "Facebook",
+        "Zalo group",
+        "POSM"
+      ],
+      "asset_ideas": [
+        "family post",
+        "ingredient checklist",
+        "parent FAQ",
+        "Zalo family prompt"
+      ],
+      "cta": [
+        "Kiểm tra thành phần trước khi chọn cho bé.",
+        "Nhắn Bếp để xem gợi ý cho gia đình.",
+        "Đăng ký nhận thông tin khi BYT công bố chính thức."
+      ],
+      "guardrails": [
+        "Không claim phù hợp trẻ em khi chưa xác nhận.",
+        "Không claim tăng chiều cao/trí não/miễn dịch.",
+        "Cần duyệt hình ảnh trẻ em."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "ambassador-recruitment-campaign",
+      "name": "Ambassador recruitment campaign",
+      "type": "recruitment",
+      "objective": "Tuyển người lan tỏa BYT bằng trải nghiệm thật và lời chia sẻ có trách nhiệm.",
+      "target_segments": [
+        "ambassadors"
+      ],
+      "main_message": "Trở thành người lan tỏa điều lành theo cách tự nhiên và tử tế.",
+      "channels": [
+        "Facebook",
+        "Zalo group",
+        "Internal training"
+      ],
+      "asset_ideas": [
+        "recruitment post",
+        "form đăng ký",
+        "brand sharing guide",
+        "onboarding card"
+      ],
+      "cta": [
+        "Đăng ký làm đại sứ BYT.",
+        "Nhận bộ nội dung giới thiệu an toàn.",
+        "Tham gia onboarding."
+      ],
+      "guardrails": [
+        "Không hứa thu nhập.",
+        "Không cho tự claim sức khỏe.",
+        "Quyền dùng logo/hình ảnh cần xác nhận."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "ctv-affiliate-recruitment-campaign",
+      "name": "CTV/Affiliate recruitment campaign",
+      "type": "recruitment",
+      "objective": "Tuyển người giới thiệu và bán hàng đúng thương hiệu, có script và guardrail.",
+      "target_segments": [
+        "ctv_affiliates",
+        "sales"
+      ],
+      "main_message": "Cùng BYT giới thiệu sản phẩm tử tế, tư vấn đúng nhu cầu và không nói quá.",
+      "channels": [
+        "Facebook",
+        "Sale kit",
+        "Internal training"
+      ],
+      "asset_ideas": [
+        "recruitment post",
+        "sale kit",
+        "commission explainer nếu đã xác nhận",
+        "claim guardrail card"
+      ],
+      "cta": [
+        "Đăng ký nhận thông tin CTV/Affiliate.",
+        "Tham gia onboarding.",
+        "Nhận sale kit."
+      ],
+      "guardrails": [
+        "Không hứa thu nhập ổn định.",
+        "Không nêu hoa hồng nếu chưa xác nhận.",
+        "Không cho tự tạo chính sách."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "leader-recruitment-campaign",
+      "name": "Leader recruitment campaign",
+      "type": "recruitment",
+      "objective": "Tuyển người dẫn nhóm, đào tạo đội và giữ chuẩn thương hiệu.",
+      "target_segments": [
+        "leaders"
+      ],
+      "main_message": "Leader BYT dẫn dắt bằng sự tử tế, hiểu thương hiệu và giúp đội bán đúng.",
+      "channels": [
+        "Internal training",
+        "Facebook",
+        "Zalo group"
+      ],
+      "asset_ideas": [
+        "leader role brief",
+        "training checklist",
+        "group operating rules",
+        "escalation guide"
+      ],
+      "cta": [
+        "Đăng ký tìm hiểu vai trò leader.",
+        "Nhận bộ tiêu chuẩn leader.",
+        "Tham gia onboarding leader."
+      ],
+      "guardrails": [
+        "Không hứa quyền lợi/thu nhập khi chưa xác nhận.",
+        "Không trao quyền dùng thương hiệu tùy ý.",
+        "Phải có quy trình xử lý claim sai."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "connected-sales-point-campaign",
+      "name": "Connected sales point campaign",
+      "type": "b2b2c_growth",
+      "objective": "Mở điểm bán kết nối phù hợp và biến điểm bán thành điểm chạm cộng đồng.",
+      "target_segments": [
+        "connected_points"
+      ],
+      "main_message": "Cùng BYT đưa lựa chọn ăn/uống lành đến gần hơn với khách địa phương.",
+      "channels": [
+        "Connected point material",
+        "POSM",
+        "Partner proposal"
+      ],
+      "asset_ideas": [
+        "point opening script",
+        "QR banner",
+        "partner FAQ",
+        "training note",
+        "mini product card"
+      ],
+      "cta": [
+        "Nhận bộ thông tin điểm bán.",
+        "Hẹn trao đổi mô hình hợp tác.",
+        "Quét QR để vào cộng đồng BYT."
+      ],
+      "guardrails": [
+        "Không hứa doanh thu.",
+        "Không dùng POSM có claim y tế.",
+        "Chính sách điểm bán và QR cần xác nhận."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "brand-alliance-campaign",
+      "name": "Brand alliance campaign",
+      "type": "partnership",
+      "objective": "Tìm đối tác cùng tệp khách hàng và giá trị để tạo campaign đồng thương hiệu có giá trị thật.",
+      "target_segments": [
+        "alliance_partners"
+      ],
+      "main_message": "Cùng BYT tạo thêm giá trị chăm sóc chủ động cho cộng đồng khách hàng chung.",
+      "channels": [
+        "Partner proposal",
+        "Facebook",
+        "Internal training"
+      ],
+      "asset_ideas": [
+        "partner proposal",
+        "co-campaign concept",
+        "co-branding guardrail",
+        "outreach email"
+      ],
+      "cta": [
+        "Hẹn trao đổi partnership.",
+        "Nhận proposal hợp tác.",
+        "Chọn một campaign thử nghiệm."
+      ],
+      "guardrails": [
+        "Không dùng logo đối tác khi chưa được phép.",
+        "Không hứa kết quả kinh doanh.",
+        "Không claim thay đối tác."
+      ],
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "zalo-community-growth-campaign",
+      "name": "Zalo community growth campaign",
+      "type": "community_growth",
+      "objective": "Tăng thành viên nhóm Zalo, tạo nhịp chăm sóc, repeat purchase và nguồn member/ambassador tự nhiên.",
+      "target_segments": [
+        "direct_consumers",
+        "membership_customers",
+        "office_workers",
+        "parents_families"
+      ],
+      "main_message": "Vào nhóm để cùng BYT bắt đầu những thói quen lành hơn, nhỏ thôi nhưng đều hơn.",
+      "channels": [
+        "Zalo group",
+        "Zalo OA",
+        "Facebook",
+        "POSM"
+      ],
+      "asset_ideas": [
+        "QR invite",
+        "welcome message",
+        "weekly habit calendar",
+        "mini challenge",
+        "member story"
+      ],
+      "cta": [
+        "Quét QR để vào nhóm.",
+        "Check-in hôm nay.",
+        "Chia sẻ lựa chọn lành hơn của bạn."
+      ],
+      "guardrails": [
+        "Không spam bán hàng.",
+        "Không tư vấn y tế cá nhân hóa.",
+        "Tên nhóm, admin và lịch nội dung cần xác nhận."
+      ],
+      "founder_confirmation_needed": true
+    }
+  ]
+}
+

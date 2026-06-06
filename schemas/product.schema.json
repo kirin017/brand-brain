@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/product.schema.json",
+  "title": "Product",
+  "description": "Draft schema for a Bep Yeu Thuong product profile.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "description",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": [
+        "granola-it-ngot"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "examples": [
+        "Granola Ít Ngọt"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "examples": [
+        "Healthy snack"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "seasonal",
+        "discontinued"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "examples": [
+        "Granola giòn thơm, vị ngọt dịu, dùng cùng sữa chua hoặc sữa hạt cho bữa sáng nhanh."
+      ]
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "yến mạch",
+          "hạt điều",
+          "mật ong"
+        ]
+      ]
+    },
+    "allergens": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "nuts",
+          "gluten"
+        ]
+      ]
+    },
+    "nutrition": {
+      "type": "object",
+      "description": "Use only verified nutrition data. Leave values null if not confirmed.",
+      "properties": {
+        "servingSize": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "calories": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "proteinGrams": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fiberGrams": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "sugarGrams": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "usageMoments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bữa sáng",
+          "bữa xế văn phòng"
+        ]
+      ]
+    },
+    "storageInstructions": {
+      "type": "string",
+      "examples": [
+        "Bảo quản nơi khô ráo, đậy kín sau khi mở."
+      ]
+    },
+    "shelfLife": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "examples": [
+        "14 ngày kể từ ngày sản xuất"
+      ]
+    },
+    "verifiedClaims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Vị ngọt dịu",
+          "Dùng được cùng sữa chua hoặc sữa hạt"
+        ]
+      ]
+    },
+    "claimsToAvoid": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "giảm cân",
+          "detox",
+          "ổn định đường huyết"
+        ]
+      ]
+    },
+    "price": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "orderChannels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assetNotes": {
+      "type": "string",
+      "examples": [
+        "Chụp rõ kết cấu giòn, đặt cạnh tô sữa chua và trái cây."
+      ]
+    }
+  },
+  "additionalProperties": false
+}
+

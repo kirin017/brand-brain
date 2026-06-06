@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "status": "draft_for_ai_agents",
+    "founder_confirmation_needed": true,
+    "notes": "Danh mục sản phẩm, giá, công thức, hạn dùng, dinh dưỡng, chứng nhận, bao bì và claim cần founder xác nhận trước khi dùng công khai."
+  },
+  "product_categories": {
+    "healthy_drinks": {
+      "role": "Tạo điểm chạm uống sạch, dễ thử, phù hợp buổi sáng, văn phòng, Zalo community và điểm bán kết nối.",
+      "products": [
+        {
+          "name": "sữa hạt",
+          "slug": "sua-hat",
+          "use_moments": [
+            "buổi sáng",
+            "bữa xế",
+            "văn phòng",
+            "membership Giọt Lành"
+          ],
+          "funnel_role": "entry_product_to_membership",
+          "safe_messaging": [
+            "Một lựa chọn uống sạch hơn cho ngày bận rộn.",
+            "Dễ dùng trong buổi sáng hoặc bữa xế."
+          ],
+          "forbidden_claims": [
+            "chữa bệnh",
+            "giảm cân",
+            "tăng miễn dịch",
+            "phù hợp mọi đối tượng"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "ginger shot",
+          "slug": "ginger-shot",
+          "use_moments": [
+            "buổi sáng",
+            "sau bữa ăn nếu phù hợp khẩu vị",
+            "routine chăm sóc chủ động"
+          ],
+          "funnel_role": "attention_product_for_morning_routine",
+          "safe_messaging": [
+            "Một shot nhỏ cho nhịp chăm sóc buổi sáng.",
+            "Vị gừng rõ, phù hợp người thích thức uống đậm vị."
+          ],
+          "forbidden_claims": [
+            "trị cảm",
+            "tăng đề kháng",
+            "đốt mỡ",
+            "tốt cho tiêu hóa"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "detox",
+          "slug": "detox",
+          "public_name_risk": "Từ detox có rủi ro compliance nếu bị hiểu là thải độc cơ thể.",
+          "use_moments": [
+            "thức uống rau củ/trái cây",
+            "routine uống sạch"
+          ],
+          "funnel_role": "needs_renaming_or_strict_guardrail",
+          "safe_messaging": [
+            "Thức uống rau củ/trái cây tươi cho ngày muốn uống nhẹ hơn.",
+            "Một lựa chọn uống sạch hơn trong nhịp chăm sóc hằng ngày."
+          ],
+          "forbidden_claims": [
+            "detox cơ thể",
+            "thải độc",
+            "giảm cân",
+            "làm sạch gan/thận",
+            "chữa bệnh"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "detox extra",
+          "slug": "detox-extra",
+          "public_name_risk": "Tên gọi cần kiểm tra vì có thể tạo hiểu nhầm về công dụng detox mạnh hơn.",
+          "use_moments": [
+            "draft drink line",
+            "routine uống sạch"
+          ],
+          "funnel_role": "needs_founder_and_compliance_review",
+          "safe_messaging": [
+            "Phiên bản thức uống rau củ/trái cây đậm vị hơn nếu công thức được xác nhận."
+          ],
+          "forbidden_claims": [
+            "thải độc mạnh",
+            "giảm cân nhanh",
+            "làm sạch cơ thể",
+            "tăng hiệu quả detox"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "enzim",
+          "slug": "enzim",
+          "public_name_risk": "Tên enzim có thể bị hiểu là claim tiêu hóa; cần founder/compliance xác nhận.",
+          "use_moments": [
+            "draft drink line",
+            "thức uống lên men hoặc enzyme nếu công thức được xác nhận"
+          ],
+          "funnel_role": "needs_product_fact_validation",
+          "safe_messaging": [
+            "Thức uống vị tươi, dùng như một lựa chọn uống sạch hơn nếu công thức được xác nhận."
+          ],
+          "forbidden_claims": [
+            "cải thiện tiêu hóa",
+            "trị táo bón",
+            "cân bằng đường ruột",
+            "tốt cho dạ dày"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "nước ép rau quả tươi",
+          "slug": "nuoc-ep-rau-qua-tuoi",
+          "use_moments": [
+            "buổi sáng",
+            "văn phòng",
+            "điểm bán kết nối"
+          ],
+          "funnel_role": "fresh_product_for_trial_and_repeat",
+          "safe_messaging": [
+            "Nước ép rau quả tươi cho một lựa chọn uống sạch hơn.",
+            "Phù hợp khi bạn muốn thêm rau quả vào ngày bận."
+          ],
+          "forbidden_claims": [
+            "thải độc",
+            "giảm cân",
+            "tăng miễn dịch",
+            "phòng bệnh"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "smoothie",
+          "slug": "smoothie",
+          "use_moments": [
+            "bữa sáng",
+            "bữa xế",
+            "sau vận động nhẹ nếu phù hợp"
+          ],
+          "funnel_role": "healthy_drink_food_bridge",
+          "safe_messaging": [
+            "Một lựa chọn mịn, dễ dùng cho bữa sáng hoặc bữa xế.",
+            "Có thể kết hợp trong routine ăn/uống lành hơn."
+          ],
+          "forbidden_claims": [
+            "thay thế bữa ăn",
+            "giảm cân",
+            "phục hồi sức khỏe",
+            "tăng năng lượng cả ngày"
+          ],
+          "founder_confirmation_needed": true
+        }
+      ]
+    },
+    "healthy_food": {
+      "role": "Tạo trải nghiệm ăn lành rõ ràng, phù hợp bữa sáng, bữa xế, gia đình và văn phòng.",
+      "products": [
+        {
+          "name": "set ăn sáng healthy",
+          "slug": "set-an-sang-healthy",
+          "use_moments": [
+            "bữa sáng",
+            "văn phòng",
+            "membership Ban Mai",
+            "membership Bình Minh"
+          ],
+          "funnel_role": "breakfast_habit_builder",
+          "safe_messaging": [
+            "Bữa sáng lành hơn, gọn hơn cho ngày bận.",
+            "Một set dễ dùng để bắt đầu ngày mới tử tế hơn."
+          ],
+          "forbidden_claims": [
+            "đủ chất cho mọi người",
+            "thay thế tư vấn dinh dưỡng",
+            "giảm cân",
+            "tăng năng lượng"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "cơm gạo lứt",
+          "slug": "com-gao-lut",
+          "use_moments": [
+            "bữa trưa",
+            "meal prep",
+            "văn phòng"
+          ],
+          "funnel_role": "meal_solution_for_repeat_purchase",
+          "safe_messaging": [
+            "Một lựa chọn bữa ăn lành hơn cho ngày làm việc.",
+            "Phù hợp khi bạn muốn bữa trưa có chủ ý hơn."
+          ],
+          "forbidden_claims": [
+            "giảm cân",
+            "kiểm soát đường huyết",
+            "phù hợp người tiểu đường",
+            "ăn là khỏi bệnh"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "hoa quả gọt sẵn",
+          "slug": "hoa-qua-got-san",
+          "use_moments": [
+            "bữa xế",
+            "văn phòng",
+            "gia đình",
+            "set ăn sáng"
+          ],
+          "funnel_role": "convenient_add_on",
+          "safe_messaging": [
+            "Hoa quả gọt sẵn giúp bữa xế tiện và tươi hơn.",
+            "Dễ chuẩn bị cho ngày bận."
+          ],
+          "forbidden_claims": [
+            "detox",
+            "giảm cân",
+            "tốt cho mọi bệnh",
+            "an toàn tuyệt đối"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "hũ mạch/yến mạch ủ lạnh",
+          "slug": "hu-mach-yen-mach-u-lanh",
+          "use_moments": [
+            "bữa sáng",
+            "bữa xế",
+            "meal prep"
+          ],
+          "funnel_role": "breakfast_and_membership_product",
+          "safe_messaging": [
+            "Một hũ ăn sáng mát, gọn, dễ dùng.",
+            "Phù hợp khi bạn muốn chuẩn bị bữa sáng nhanh hơn."
+          ],
+          "forbidden_claims": [
+            "no lâu cả ngày",
+            "giảm cân",
+            "kiểm soát đường huyết",
+            "phù hợp mọi chế độ ăn"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "trứng nướng thảo mộc",
+          "slug": "trung-nuong-thao-moc",
+          "use_moments": [
+            "bữa sáng",
+            "set Ban Mai",
+            "set Bình Minh"
+          ],
+          "funnel_role": "breakfast_component",
+          "safe_messaging": [
+            "Một phần ăn sáng thơm vị thảo mộc.",
+            "Dễ kết hợp cùng set bữa sáng."
+          ],
+          "forbidden_claims": [
+            "giàu protein nếu chưa có số liệu",
+            "tốt cho trẻ em",
+            "phù hợp người bệnh",
+            "thay thế bữa ăn"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "cơm trộn rong biển",
+          "slug": "com-tron-rong-bien",
+          "use_moments": [
+            "bữa sáng",
+            "bữa trưa nhẹ",
+            "văn phòng"
+          ],
+          "funnel_role": "savory_convenience_food",
+          "safe_messaging": [
+            "Một lựa chọn mặn gọn hơn cho ngày bận.",
+            "Dễ dùng khi bạn muốn đổi vị trong bữa lành."
+          ],
+          "forbidden_claims": [
+            "giàu i-ốt nếu chưa có số liệu",
+            "tốt cho tuyến giáp",
+            "giảm cân",
+            "phù hợp mọi người"
+          ],
+          "founder_confirmation_needed": true
+        }
+      ]
+    },
+    "convenience_products": {
+      "role": "Giúp khách hàng chuẩn bị sẵn lựa chọn lành hơn, tăng repeat purchase và hỗ trợ điểm bán/CTV/sale.",
+      "products": [
+        {
+          "name": "smoothie cấp đông",
+          "slug": "smoothie-cap-dong",
+          "use_moments": [
+            "chuẩn bị sẵn tại nhà",
+            "văn phòng",
+            "điểm bán"
+          ],
+          "funnel_role": "stock_up_and_repeat",
+          "safe_messaging": [
+            "Chuẩn bị sẵn lựa chọn smoothie tiện hơn cho ngày bận.",
+            "Dễ bảo quản nếu hướng dẫn bảo quản được xác nhận."
+          ],
+          "forbidden_claims": [
+            "giữ nguyên toàn bộ dinh dưỡng nếu chưa có bằng chứng",
+            "detox",
+            "giảm cân",
+            "tăng năng lượng"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "hạt mix chia sẵn",
+          "slug": "hat-mix-chia-san",
+          "use_moments": [
+            "bữa xế",
+            "văn phòng",
+            "topping cho bữa sáng"
+          ],
+          "funnel_role": "snack_and_add_on",
+          "safe_messaging": [
+            "Một phần hạt chia sẵn giúp bữa xế tiện hơn.",
+            "Dễ mang theo trong ngày bận."
+          ],
+          "forbidden_claims": [
+            "giàu omega/protein nếu chưa có số liệu",
+            "giảm cân",
+            "tốt cho tim mạch",
+            "phù hợp mọi đối tượng"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "thực phẩm chia định lượng, hút chân không, cấp đông",
+          "slug": "thuc-pham-chia-dinh-luong-hut-chan-khong-cap-dong",
+          "use_moments": [
+            "meal prep",
+            "gia đình",
+            "khách bận rộn",
+            "future personalized service"
+          ],
+          "funnel_role": "future_convenience_and_personalized_service_bridge",
+          "safe_messaging": [
+            "Giải pháp chuẩn bị sẵn để việc ăn lành dễ duy trì hơn.",
+            "Phù hợp khi BYT có quy trình bảo quản và hướng dẫn dùng rõ."
+          ],
+          "forbidden_claims": [
+            "lộ trình dinh dưỡng cá nhân hóa nếu chưa có chuyên môn",
+            "phù hợp bệnh lý",
+            "giảm cân",
+            "an toàn tuyệt đối"
+          ],
+          "founder_confirmation_needed": true
+        }
+      ]
+    },
+    "future_personalized_services": {
+      "role": "Hướng phát triển tương lai cho gói tiện lợi, chia định lượng hoặc lộ trình ăn/uống theo nhu cầu, chỉ triển khai khi có chuyên môn và quy trình duyệt.",
+      "services": [
+        {
+          "name": "gợi ý sản phẩm theo nhu cầu",
+          "slug": "goi-y-san-pham-theo-nhu-cau",
+          "safe_messaging": [
+            "BYT gợi ý lựa chọn phù hợp hơn với thói quen và khoảnh khắc sử dụng của bạn."
+          ],
+          "forbidden_claims": [
+            "tư vấn điều trị",
+            "thực đơn bệnh lý",
+            "cam kết giảm cân"
+          ],
+          "founder_confirmation_needed": true
+        },
+        {
+          "name": "gói meal prep cá nhân hóa",
+          "slug": "goi-meal-prep-ca-nhan-hoa",
+          "safe_messaging": [
+            "Gói chuẩn bị sẵn theo nhu cầu sinh hoạt nếu BYT có dữ liệu và quy trình phù hợp."
+          ],
+          "forbidden_claims": [
+            "phác đồ dinh dưỡng",
+            "điều trị bệnh",
+            "thay thế chuyên gia"
+          ],
+          "founder_confirmation_needed": true
+        }
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "language": "vi",
+    "brand": "Bếp Yêu Thương",
+    "status": "draft_for_ai_agents",
+    "last_updated_note": "Dữ liệu máy đọc được trích từ Brand Brain hiện tại. Các trường nhạy cảm cần founder xác nhận trước khi dùng công khai."
+  },
+  "brand_name": "Bếp Yêu Thương",
+  "brand_short_name": "BYT",
+  "slogan": {
+    "value": "Ăn lành. Uống sạch. Sống yêu thương.",
+    "founder_confirmation_needed": true,
+    "notes": "Cần xác nhận cách viết cuối cùng, dấu câu, lockup với logo và cách dùng trên thiết kế/bao bì."
+  },
+  "essence": {
+    "short": "Ăn lành. Uống sạch. Sống yêu thương.",
+    "meaning": [
+      "Ăn lành: lựa chọn thực phẩm tốt hơn, gần gũi, dễ dùng trong đời sống Việt.",
+      "Uống sạch: thức uống tử tế hơn, minh bạch hơn, không gắn claim y tế.",
+      "Sống yêu thương: chăm sóc bản thân, gia đình và cộng đồng bằng hành động nhỏ mỗi ngày."
+    ]
+  },
+  "positioning": "Bếp Yêu Thương là thương hiệu F&B lành mạnh và hệ sinh thái chăm sóc sức khỏe chủ động dành cho phụ nữ bận rộn, gia đình Việt và cộng đồng địa phương. BYT kết hợp sản phẩm ăn/uống lành, membership, cộng đồng Zalo, đại sứ, sale, leader, affiliate, điểm bán kết nối và liên minh thương hiệu để giúp khách hàng ăn lành, uống sạch, sống yêu thương hơn theo cách thực tế và bền vững.",
+  "simple_explanation": "BYT là hệ sinh thái F&B lành mạnh giúp người Việt ăn lành, uống sạch và sống yêu thương hơn thông qua sản phẩm, membership, cộng đồng và mạng lưới đối tác gần gũi.",
+  "mission": "Xây dựng một hệ sinh thái F&B lành mạnh cho người Việt, nơi sản phẩm ăn/uống, membership, cộng đồng Zalo, đội ngũ đại sứ, sale, leader, affiliate, điểm bán kết nối và đối tác thương hiệu cùng giúp khách hàng ăn lành, uống sạch và sống yêu thương hơn mỗi ngày.",
+  "vision": "Trở thành hệ sinh thái wellness F&B B2B2C đáng tin tại Việt Nam: không chỉ bán sản phẩm, mà còn tạo cộng đồng, đào tạo người lan tỏa, mở điểm chạm địa phương và kết nối các thương hiệu cùng giá trị để chăm sóc sức khỏe chủ động cho nhiều gia đình Việt hơn.",
+  "business_model": {
+    "type": "B2B2C healthy F&B and proactive wellness ecosystem",
+    "description": "BYT phục vụ khách hàng cuối qua sản phẩm, membership và cộng đồng; đồng thời tăng trưởng qua đại sứ, CTV/affiliate, sale, leader, điểm bán kết nối và brand alliance.",
+    "revenue_streams": [
+      {
+        "name": "Bán sản phẩm lẻ",
+        "founder_confirmation_needed": true
+      },
+      {
+        "name": "Combo sản phẩm",
+        "founder_confirmation_needed": true
+      },
+      {
+        "name": "Membership cards",
+        "founder_confirmation_needed": true
+      },
+      {
+        "name": "CTV/Affiliate/Sale channel",
+        "founder_confirmation_needed": true
+      },
+      {
+        "name": "Connected sales points",
+        "founder_confirmation_needed": true
+      },
+      {
+        "name": "Brand alliance campaigns",
+        "founder_confirmation_needed": true
+      }
+    ],
+    "why_not_only_retail": [
+      "Bán lẻ đơn thuần dễ bị cạnh tranh bằng giá.",
+      "Khó tạo thói quen và mua lại nếu không có community/membership.",
+      "Khó mở rộng địa phương nếu không có điểm bán và người lan tỏa.",
+      "BYT cần retention, trust và cộng đồng thay vì chỉ tối ưu từng đơn hàng."
+    ]
+  },
+  "core_growth_loop": [
+    "Product experience",
+    "Membership",
+    "Ambassador",
+    "Sale/Leader/Affiliate",
+    "Connected sales points",
+    "Zalo community",
+    "Repeat purchase",
+    "Upsell",
+    "Referral and brand alliance expansion"
+  ],
+  "brand_personality": [
+    "ấm áp",
+    "quan tâm",
+    "tự nhiên",
+    "thực tế",
+    "không phán xét",
+    "gần gũi",
+    "đáng tin",
+    "có tính cộng đồng"
+  ],
+  "brand_beliefs": [
+    "Sống khỏe hơn bắt đầu từ lựa chọn nhỏ, không phải thay đổi cực đoan.",
+    "Người bận rộn cần hệ thống hỗ trợ, không chỉ một lời khuyên.",
+    "Membership giúp khách hàng duy trì thói quen tốt hơn so với mua lẻ rời rạc.",
+    "Đại sứ, CTV, sale, leader và affiliate phải là người lan tỏa giá trị, không chỉ chốt đơn.",
+    "Điểm bán kết nối là cầu nối cộng đồng địa phương, không chỉ là nơi đặt sản phẩm.",
+    "Hợp tác thương hiệu phải cùng giá trị trước khi cùng doanh số."
+  ],
+  "brand_do": [
+    "Viết bằng tiếng Việt tự nhiên, gần gũi.",
+    "Tư vấn theo nhu cầu thay vì ép mua.",
+    "Ghi rõ khi thông tin còn là giả định.",
+    "Dùng thông điệp chăm sóc chủ động, dễ duy trì, không phán xét.",
+    "Kết nối sản phẩm với membership, Zalo community và hệ sinh thái B2B2C khi phù hợp."
+  ],
+  "brand_dont": [
+    "Không mô tả BYT như một brand healthy food generic.",
+    "Không claim điều trị bệnh, giảm cân nhanh, detox/thải độc hoặc cam kết kết quả sức khỏe.",
+    "Không hứa thu nhập, doanh thu hoặc lợi nhuận cho CTV/affiliate/leader/điểm bán.",
+    "Không tự tạo màu, font, logo, bao bì, giá, quyền lợi membership hoặc chính sách.",
+    "Không dùng cộng đồng Zalo để spam bán hàng."
+  ]
+}
+

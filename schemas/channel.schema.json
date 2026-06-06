@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bepyeuthuong.local/schemas/channel.schema.json",
+  "title": "BYT Channel",
+  "description": "Schema cho kênh truyền thông, cộng đồng hoặc điểm chạm bán hàng của BYT.",
+  "type": "object",
+  "required": [
+    "channelId",
+    "displayName",
+    "role",
+    "contentTypes"
+  ],
+  "properties": {
+    "channelId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "displayName": {
+      "type": "string",
+      "examples": [
+        "Nhóm Zalo cộng đồng"
+      ]
+    },
+    "role": {
+      "type": "string"
+    },
+    "contentTypes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cadence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ctaPatterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "guardrails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

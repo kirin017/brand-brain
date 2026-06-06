@@ -12,6 +12,16 @@ export interface PromoteApprovedRenderResult {
   finalPath: string;
 }
 
+export class RenderArchiveExistsError extends Error {
+  outputDir: string;
+
+  constructor(outputDir: string) {
+    super(`Render archive already exists: ${outputDir}`);
+    this.name = "RenderArchiveExistsError";
+    this.outputDir = outputDir;
+  }
+}
+
 function assertSafeJobId(jobId: string): void {
   if (!JOB_ID_PATTERN.test(jobId)) {
     throw new Error(`Invalid job_id: ${jobId}`);
@@ -55,7 +65,17 @@ export async function writeRenderArchive(input: {
     jobId: input.payload.job_id
   });
 
-  await fs.mkdir(outputDir, { recursive: true });
+  await fs.mkdir(path.dirname(outputDir), { recursive: true });
+
+  try {
+    await fs.mkdir(outputDir);
+  } catch (error) {
+    if (isFileExistsError(error)) {
+      throw new RenderArchiveExistsError(outputDir);
+    }
+    throw error;
+  }
+
   await fs.writeFile(path.join(outputDir, "render.html"), input.html, "utf8");
   await fs.writeFile(path.join(outputDir, "rendered.png"), input.png);
   await fs.writeFile(path.join(outputDir, "brand-check.md"), input.brandCheckMarkdown, "utf8");
@@ -95,4 +115,8 @@ export async function promoteApprovedRenderToFinal(input: {
   await fs.copyFile(path.join(outputDir, "rendered.png"), finalPath);
 
   return { finalPath };
+}
+
+function isFileExistsError(error: unknown): boolean {
+  return typeof error === "object" && error !== null && "code" in error && error.code === "EEXIST";
 }

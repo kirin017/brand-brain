@@ -66,6 +66,30 @@ export async function POST(request: Request): Promise<Response> {
       );
     }
 
+    if (isFinalApprovalStatus(currentApproval.status)) {
+      return Response.json(
+        {
+          status: "already_decided",
+          error: `Render job is already ${currentApproval.status}.`,
+          job_id: validation.input.job_id
+        },
+        { status: 409 }
+      );
+    }
+
+    const finalPath = path.join(archive.outputDir, "final.png");
+    if (validation.input.decision === "rejected" && await fileExists(finalPath)) {
+      return Response.json(
+        {
+          status: "final_png_exists",
+          error: "Cannot reject a render job after final.png exists.",
+          job_id: validation.input.job_id,
+          final_png: finalPath
+        },
+        { status: 409 }
+      );
+    }
+
     const approval: ApprovalRecord = {
       job_id: validation.input.job_id,
       status: validation.input.decision,
@@ -74,16 +98,42 @@ export async function POST(request: Request): Promise<Response> {
       notes: validation.input.notes
     };
 
-    await fs.writeFile(approvalPath, JSON.stringify(approval, null, 2), "utf8");
+    await writeApprovalRecord(approvalPath, approval);
 
-    const finalPng = validation.input.decision === "approved"
-      ? (await promoteApprovedRenderToFinal({ jobId: validation.input.job_id })).finalPath
-      : null;
+    if (validation.input.decision === "approved") {
+      try {
+        const promoted = await promoteApprovedRenderToFinal({ jobId: validation.input.job_id });
+
+        return Response.json({
+          status: validation.input.decision,
+          job_id: validation.input.job_id,
+          final_png: promoted.finalPath
+        });
+      } catch (error) {
+        try {
+          await writeApprovalRecord(approvalPath, currentApproval);
+        } catch (restoreError) {
+          return Response.json(
+            {
+              status: "promotion_failed_restore_failed",
+              error: getErrorMessage(error),
+              restore_error: getErrorMessage(restoreError)
+            },
+            { status: 500 }
+          );
+        }
+
+        return Response.json(
+          { status: "promotion_failed", error: getErrorMessage(error) },
+          { status: 500 }
+        );
+      }
+    }
 
     return Response.json({
       status: validation.input.decision,
       job_id: validation.input.job_id,
-      final_png: finalPng
+      final_png: null
     });
   } catch (error) {
     if (isNotFoundError(error)) {
@@ -111,6 +161,10 @@ async function readJsonFile<T>(filePath: string): Promise<T> {
   return JSON.parse(await fs.readFile(filePath, "utf8")) as T;
 }
 
+async function writeApprovalRecord(filePath: string, approval: ApprovalRecord): Promise<void> {
+  await fs.writeFile(filePath, JSON.stringify(approval, null, 2), "utf8");
+}
+
 function validateApprovalRequest(body: unknown):
   | { valid: true; input: ApprovalRequestBody }
   | { valid: false; error: string } {
@@ -122,8 +176,8 @@ function validateApprovalRequest(body: unknown):
     return { valid: false, error: "job_id must be a non-empty string." };
   }
 
-  if (typeof body.approver !== "string") {
-    return { valid: false, error: "approver must be a string." };
+  if (typeof body.approver !== "string" || body.approver.trim().length === 0) {
+    return { valid: false, error: "approver must be a non-empty string." };
   }
 
   if (typeof body.notes !== "string") {
@@ -137,12 +191,26 @@ function validateApprovalRequest(body: unknown):
   return {
     valid: true,
     input: {
-      job_id: body.job_id,
-      approver: body.approver,
+      job_id: body.job_id.trim(),
+      approver: body.approver.trim(),
       notes: body.notes,
       decision: body.decision
     }
   };
+}
+
+function isFinalApprovalStatus(status: ApprovalRecord["status"]): boolean {
+  return status === "approved" || status === "rejected";
+}
+
+async function fileExists(filePath: string): Promise<boolean> {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch (error) {
+    if (isNotFoundError(error)) return false;
+    throw error;
+  }
 }
 
 function isApprovalDecision(value: unknown): value is ApprovalDecision {

@@ -2,7 +2,12 @@ import { mkdtemp, readFile, rm, writeFile } from "fs/promises";
 import os from "os";
 import path from "path";
 import { describe, expect, it } from "vitest";
-import { promoteApprovedRenderToFinal, resolveRenderArchivePath, writeRenderArchive } from "./archive";
+import {
+  promoteApprovedRenderToFinal,
+  RenderArchiveExistsError,
+  resolveRenderArchivePath,
+  writeRenderArchive
+} from "./archive";
 import type { ApprovalRecord, RenderPayload, VisualQaResult } from "./types";
 
 const payload: RenderPayload = {
@@ -67,6 +72,33 @@ describe("render archive", () => {
       expect(await readFile(path.join(result.outputDir, "brand-check.md"), "utf8")).toBe("# Brand Check");
       expect(JSON.parse(await readFile(path.join(result.outputDir, "metadata.json"), "utf8")).job_id).toBe(payload.job_id);
       expect(JSON.parse(await readFile(path.join(result.outputDir, "approval.json"), "utf8")).status).toBe("needs_human_approval");
+    });
+  });
+
+  it("rejects duplicate archive writes without overwriting the existing render", async () => {
+    await withTempRoot(async (root) => {
+      const first = await writeRenderArchive({
+        rootDir: root,
+        payload,
+        html: "<html>first</html>",
+        png: Buffer.from("first-png"),
+        brandCheckMarkdown: "# Brand Check",
+        approval,
+        qa
+      });
+
+      await expect(writeRenderArchive({
+        rootDir: root,
+        payload,
+        html: "<html>second</html>",
+        png: Buffer.from("second-png"),
+        brandCheckMarkdown: "# Brand Check",
+        approval,
+        qa
+      })).rejects.toBeInstanceOf(RenderArchiveExistsError);
+
+      expect(await readFile(path.join(first.outputDir, "render.html"), "utf8")).toBe("<html>first</html>");
+      expect(await readFile(path.join(first.outputDir, "rendered.png"))).toEqual(Buffer.from("first-png"));
     });
   });
 

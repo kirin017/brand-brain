@@ -20,7 +20,7 @@ export interface FacebookSquareHtmlInput {
   brandName: string;
   assets: {
     logo?: string;
-    mainImage?: string;
+    main_image?: string;
     background?: string;
   };
 }
@@ -47,7 +47,11 @@ const templates: FacebookSquareTemplate[] = [
 ];
 
 export function listFacebookSquareTemplates(): FacebookSquareTemplate[] {
-  return templates;
+  return templates.map((template) => ({
+    ...template,
+    requiredAssetSlots: [...template.requiredAssetSlots],
+    maxLengths: { ...template.maxLengths }
+  }));
 }
 
 export function getFacebookSquareTemplate(templateId: RenderTemplateId): FacebookSquareTemplate {
@@ -67,8 +71,8 @@ export function renderFacebookSquareHtml(input: FacebookSquareHtmlInput): string
       : `<div class="brand-text">${escapeHtml(input.brandName)}</div>`,
     "</section>",
     '<section class="content-grid">',
-    input.assets.mainImage
-      ? `<div class="image-panel"><img class="main-image" src="${escapeHtml(input.assets.mainImage)}" alt="" /></div>`
+    input.assets.main_image
+      ? `<div class="image-panel"><img class="main-image" src="${escapeHtml(input.assets.main_image)}" alt="" /></div>`
       : '<div class="image-panel image-panel-soft"><div class="image-copy">Ăn lành. Uống sạch. Sống yêu thương.</div></div>',
     '<div class="copy-panel">',
     `<h1 data-qa="headline">${escapeHtml(input.headline)}</h1>`,

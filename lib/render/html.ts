@@ -8,6 +8,10 @@ export function escapeHtml(value: string): string {
 }
 
 export function cssUrl(path: string): string {
+  if (/<\/style/i.test(path) || /[\\\r\n<>]/.test(path)) {
+    throw new Error("Unsafe CSS URL path");
+  }
+
   return `url("${path.replace(/"/g, "%22")}")`;
 }
 

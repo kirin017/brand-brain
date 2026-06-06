@@ -5,6 +5,11 @@ import {
   resolveRenderArchivePath
 } from "../../../../../lib/render/archive";
 import type { ApprovalRecord, RenderPayload } from "../../../../../lib/render/types";
+import {
+  checkApprovalRouteAccess,
+  toRelativeOutputPath,
+  validateFounderConfirmationApproval
+} from "../route-helpers";
 
 export const runtime = "nodejs";
 
@@ -18,6 +23,18 @@ interface ApprovalRequestBody {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  const access = checkApprovalRouteAccess({
+    hostHeader: getRequestHost(request),
+    requestToken: request.headers.get("x-byt-internal-token"),
+    configuredToken: process.env.BYT_INTERNAL_API_TOKEN
+  });
+  if (!access.allowed) {
+    return Response.json(
+      { status: "forbidden", error: access.error },
+      { status: access.status }
+    );
+  }
+
   let body: unknown;
 
   try {
@@ -77,6 +94,18 @@ export async function POST(request: Request): Promise<Response> {
       );
     }
 
+    const founderConfirmationValidation = validateFounderConfirmationApproval({
+      decision: validation.input.decision,
+      founderConfirmationNeeded: metadata.founder_confirmation_needed,
+      notes: validation.input.notes
+    });
+    if (!founderConfirmationValidation.valid) {
+      return Response.json(
+        { status: "invalid_request", error: founderConfirmationValidation.error },
+        { status: 400 }
+      );
+    }
+
     const finalPath = path.join(archive.outputDir, "final.png");
     if (validation.input.decision === "rejected" && await fileExists(finalPath)) {
       return Response.json(
@@ -84,7 +113,7 @@ export async function POST(request: Request): Promise<Response> {
           status: "final_png_exists",
           error: "Cannot reject a render job after final.png exists.",
           job_id: validation.input.job_id,
-          final_png: finalPath
+          final_png: toRelativeOutputPath(finalPath)
         },
         { status: 409 }
       );
@@ -107,7 +136,7 @@ export async function POST(request: Request): Promise<Response> {
         return Response.json({
           status: validation.input.decision,
           job_id: validation.input.job_id,
-          final_png: promoted.finalPath
+          final_png: toRelativeOutputPath(promoted.finalPath)
         });
       } catch (error) {
         try {
@@ -116,15 +145,15 @@ export async function POST(request: Request): Promise<Response> {
           return Response.json(
             {
               status: "promotion_failed_restore_failed",
-              error: getErrorMessage(error),
-              restore_error: getErrorMessage(restoreError)
+              error: "Could not promote approved render and could not restore previous approval state.",
+              restore_error: "Approval restore failed."
             },
             { status: 500 }
           );
         }
 
         return Response.json(
-          { status: "promotion_failed", error: getErrorMessage(error) },
+          { status: "promotion_failed", error: "Could not promote approved render to final.png." },
           { status: 500 }
         );
       }
@@ -151,9 +180,20 @@ export async function POST(request: Request): Promise<Response> {
     }
 
     return Response.json(
-      { status: "internal_error", error: getErrorMessage(error) },
+      { status: "internal_error", error: "Internal approval error." },
       { status: 500 }
     );
+  }
+}
+
+function getRequestHost(request: Request): string | null {
+  const hostHeader = request.headers.get("host");
+  if (hostHeader) return hostHeader;
+
+  try {
+    return new URL(request.url).host;
+  } catch {
+    return null;
   }
 }
 
@@ -223,8 +263,4 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function isNotFoundError(error: unknown): boolean {
   return isRecord(error) && error.code === "ENOENT";
-}
-
-function getErrorMessage(error: unknown): string {
-  return error instanceof Error ? error.message : "Unknown error.";
 }

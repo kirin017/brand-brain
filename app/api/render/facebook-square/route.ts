@@ -13,6 +13,7 @@ import {
 import { renderHtmlToPng } from "../../../../lib/render/html-renderer";
 import { createFacebookSquareRenderPlan } from "../../../../lib/render/render-planner";
 import type { BrandAssetIndex, RenderPlan } from "../../../../lib/render/types";
+import { toRelativeOutputPath } from "./route-helpers";
 
 export const runtime = "nodejs";
 
@@ -135,7 +136,7 @@ export async function POST(request: Request): Promise<Response> {
     return Response.json({
       status: "needs_human_approval",
       job_id: plan.payload.job_id,
-      output_dir: archive.outputDir,
+      archive_path: toRelativeOutputPath(archive.outputDir),
       payload: plan.payload,
       qa: rendered.qa
     });
@@ -144,8 +145,8 @@ export async function POST(request: Request): Promise<Response> {
       return Response.json(
         {
           status: "archive_exists",
-          error: error.message,
-          output_dir: error.outputDir
+          error: "Render archive already exists for this job_id.",
+          archive_path: toRelativeOutputPath(error.outputDir)
         },
         { status: 409 }
       );
@@ -159,7 +160,7 @@ export async function POST(request: Request): Promise<Response> {
     }
 
     return Response.json(
-      { status: "internal_error", error: getErrorMessage(error) },
+      { status: "internal_error", error: "Internal render error." },
       { status: 500 }
     );
   }
@@ -270,8 +271,4 @@ class AssetResolutionError extends Error {
     super(message);
     this.name = "AssetResolutionError";
   }
-}
-
-function getErrorMessage(error: unknown): string {
-  return error instanceof Error ? error.message : "Unknown error.";
 }

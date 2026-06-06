@@ -2,6 +2,15 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { BrandAsset, BrandAssetIndex, RenderFormat } from "./types";
 
+const allowedRootKeys = new Set(["metadata", "assets"]);
+
+const allowedMetadataKeys = new Set([
+  "schema_version",
+  "language",
+  "status",
+  "notes"
+]);
+
 const assetTypes = [
   "logo",
   "product_photo",
@@ -53,16 +62,31 @@ export function validateAssetIndex(index: unknown): { valid: boolean; errors: st
     };
   }
 
+  for (const key of Object.keys(index)) {
+    if (!allowedRootKeys.has(key)) {
+      errors.push(`unsupported root field ${key}`);
+    }
+  }
+
   const metadata = index.metadata;
   if (!isRecord(metadata)) {
     errors.push("metadata must be an object");
   } else {
+    for (const key of Object.keys(metadata)) {
+      if (!allowedMetadataKeys.has(key)) {
+        errors.push(`metadata: unsupported field ${key}`);
+      }
+    }
+
     if (typeof metadata.schema_version !== "string") {
       errors.push("metadata.schema_version must be a string");
     }
     if (metadata.language !== "vi") errors.push("metadata.language must be vi");
     if (typeof metadata.status !== "string") {
       errors.push("metadata.status must be a string");
+    }
+    if (metadata.notes !== undefined && typeof metadata.notes !== "string") {
+      errors.push("metadata.notes must be a string");
     }
   }
 

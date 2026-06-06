@@ -51,6 +51,48 @@ describe("asset selection", () => {
     }
   });
 
+  it("is invalid when the root object has an unknown field", () => {
+    const invalid = {
+      ...index,
+      source: "manual"
+    };
+
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: ["unsupported root field source"]
+    });
+  });
+
+  it("is invalid when metadata notes is present as a non-string", () => {
+    const invalid = {
+      ...index,
+      metadata: {
+        ...index.metadata,
+        notes: 123
+      }
+    };
+
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: ["metadata.notes must be a string"]
+    });
+  });
+
+  it("is invalid when metadata has an unknown field", () => {
+    const invalid = {
+      ...index,
+      metadata: {
+        ...index.metadata,
+        owner: "BYT"
+      }
+    };
+
+    expect(validateAssetIndex(invalid)).toEqual({
+      valid: false,
+      errors: ["metadata: unsupported field owner"]
+    });
+  });
+
   it("is invalid when an asset is missing usage_notes", () => {
     const invalid = {
       metadata: {

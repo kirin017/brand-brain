@@ -13,7 +13,7 @@ import {
 import { renderHtmlToPng } from "../../../../lib/render/html-renderer";
 import { createFacebookSquareRenderPlan } from "../../../../lib/render/render-planner";
 import type { BrandAssetIndex, RenderPlan } from "../../../../lib/render/types";
-import { toRelativeOutputPath } from "./route-helpers";
+import { sanitizeQaForResponse, toRelativeOutputPath } from "./route-helpers";
 
 export const runtime = "nodejs";
 
@@ -111,7 +111,7 @@ export async function POST(request: Request): Promise<Response> {
       return Response.json(
         {
           status: "failed_visual_qa",
-          qa: rendered.qa,
+          qa: sanitizeQaForResponse(rendered.qa),
           payload: plan.payload
         },
         { status: 422 }
@@ -138,7 +138,7 @@ export async function POST(request: Request): Promise<Response> {
       job_id: plan.payload.job_id,
       archive_path: toRelativeOutputPath(archive.outputDir),
       payload: plan.payload,
-      qa: rendered.qa
+      qa: sanitizeQaForResponse(rendered.qa)
     });
   } catch (error) {
     if (error instanceof RenderArchiveExistsError) {

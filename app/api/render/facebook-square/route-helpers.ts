@@ -1,4 +1,5 @@
 import path from "path";
+import type { VisualQaResult } from "../../../../lib/render/types";
 
 type ApprovalDecision = "approved" | "rejected";
 
@@ -6,8 +7,8 @@ export type ApprovalAccessDecision =
   | { allowed: true }
   | { allowed: false; status: 403; error: string };
 
-export function toRelativeOutputPath(inputPath: string, repoRoot = process.cwd()): string {
-  const absoluteRepoRoot = path.resolve(/*turbopackIgnore: true*/ repoRoot);
+export function toRelativeOutputPath(inputPath: string, repoRoot?: string): string {
+  const absoluteRepoRoot = path.resolve(/*turbopackIgnore: true*/ repoRoot ?? process.cwd());
   const absoluteInputPath = path.resolve(/*turbopackIgnore: true*/ inputPath);
   const relativePath = path.relative(absoluteRepoRoot, absoluteInputPath);
   const normalizedPath = relativePath.split(path.sep).join("/");
@@ -75,6 +76,42 @@ export function validateFounderConfirmationApproval(input: {
   return { valid: true };
 }
 
+export function sanitizeQaForResponse(qa: VisualQaResult): VisualQaResult {
+  return {
+    passed: qa.passed,
+    checks: qa.checks.map((check) => ({
+      ...check,
+      details: redactLocalPaths(check.details)
+    }))
+  };
+}
+
+function redactLocalPaths(value: string): string {
+  return redactWindowsPaths(redactRepoRootPaths(redactFileUrls(value)));
+}
+
+function redactFileUrls(value: string): string {
+  return value.replace(/file:\/\/\/?(?:[a-z]:)?[^\s'",)]+/gi, "[redacted-path]");
+}
+
+function redactRepoRootPaths(value: string): string {
+  const repoRoot = path.resolve(/*turbopackIgnore: true*/ process.cwd());
+  const roots = Array.from(new Set([
+    repoRoot,
+    repoRoot.split(path.sep).join("/"),
+    repoRoot.split(path.sep).join("\\")
+  ].filter((root) => root.length > 0)));
+
+  return roots.reduce((currentValue, root) => {
+    const pattern = new RegExp(`${escapeRegExp(root)}(?:[\\\\/][^\\s'",)]*)?`, "gi");
+    return currentValue.replace(pattern, "[redacted-path]");
+  }, value);
+}
+
+function redactWindowsPaths(value: string): string {
+  return value.replace(/\b[a-z]:[\\/][^\s'",)]+/gi, "[redacted-path]");
+}
+
 function isLocalhostHost(hostHeader: string | null): boolean {
   const host = normalizeHost(hostHeader);
   return host === "localhost" || host === "127.0.0.1" || host === "[::1]" || host === "::1";
@@ -90,4 +127,8 @@ function normalizeHost(hostHeader: string | null): string {
 
   const portSeparatorIndex = host.indexOf(":");
   return portSeparatorIndex >= 0 ? host.slice(0, portSeparatorIndex) : host;
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }

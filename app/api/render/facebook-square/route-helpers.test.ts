@@ -2,6 +2,7 @@ import path from "path";
 import { describe, expect, it } from "vitest";
 import {
   checkApprovalRouteAccess,
+  sanitizeQaForResponse,
   toRelativeOutputPath,
   validateFounderConfirmationApproval
 } from "./route-helpers";
@@ -88,5 +89,27 @@ describe("facebook square route helpers", () => {
       founderConfirmationNeeded: ["Logo chính thức cần founder xác nhận."],
       notes: ""
     })).toEqual({ valid: true });
+  });
+
+  it("redacts local file URLs and Windows paths from QA response details", () => {
+    const sanitized = sanitizeQaForResponse({
+      passed: false,
+      checks: [
+        {
+          name: "background_images_loaded",
+          passed: false,
+          details: "Failed URLs: file:///D:/brand-brain/assets/bg.png and D:\\brand-brain\\assets\\bg.png."
+        }
+      ]
+    });
+    const details = sanitized.checks[0]?.details ?? "";
+
+    expect(sanitized.passed).toBe(false);
+    expect(sanitized.checks[0]?.name).toBe("background_images_loaded");
+    expect(sanitized.checks[0]?.passed).toBe(false);
+    expect(details).toContain("[redacted-path]");
+    expect(details).not.toContain("file://");
+    expect(details).not.toContain("D:/");
+    expect(details).not.toContain("D:\\");
   });
 });

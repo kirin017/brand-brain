@@ -39,6 +39,16 @@ describe("render status gates", () => {
     expect(status).toBe("blocked_for_missing_asset");
   });
 
+  it("requires human approval for medium compliance risk", () => {
+    const status = nextStatusAfterTextCheck({
+      complianceRisk: "Medium",
+      missingRequiredAssets: [],
+      unresolvedFounderConfirmations: []
+    });
+
+    expect(status).toBe("needs_human_approval");
+  });
+
   it("requires human approval when founder confirmations remain", () => {
     const status = nextStatusAfterTextCheck({
       complianceRisk: "Low",
@@ -47,5 +57,35 @@ describe("render status gates", () => {
     });
 
     expect(status).toBe("needs_human_approval");
+  });
+
+  it("maps clean low risk input to ready_for_render", () => {
+    const status = nextStatusAfterTextCheck({
+      complianceRisk: "Low",
+      missingRequiredAssets: [],
+      unresolvedFounderConfirmations: []
+    });
+
+    expect(status).toBe("ready_for_render");
+  });
+
+  it("prioritizes high compliance risk over missing assets", () => {
+    const status = nextStatusAfterTextCheck({
+      complianceRisk: "High",
+      missingRequiredAssets: ["main_image"],
+      unresolvedFounderConfirmations: []
+    });
+
+    expect(status).toBe("blocked_for_compliance");
+  });
+
+  it("prioritizes missing assets over medium compliance risk", () => {
+    const status = nextStatusAfterTextCheck({
+      complianceRisk: "Medium",
+      missingRequiredAssets: ["main_image"],
+      unresolvedFounderConfirmations: []
+    });
+
+    expect(status).toBe("blocked_for_missing_asset");
   });
 });

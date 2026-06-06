@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "schema_version": "0.1.0",
+    "language": "vi",
+    "status": "draft",
+    "notes": "Asset index nháp cho HTML final render. Logo, màu, font, QR, ảnh sản phẩm và ảnh nền cần founder xác nhận trước khi dùng public."
+  },
+  "assets": [
+    {
+      "id": "byt_logo_current_001",
+      "type": "logo",
+      "path": "assets/logos/logoBYTconen.png",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Logo hiện có trong repo; cần founder xác nhận quyền dùng và quy tắc placement trước khi final.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_logo_transparent_001",
+      "type": "logo",
+      "path": "assets/logos/Logo tách nền BYT.png",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Logo tách nền hiện có trong repo; cần founder xác nhận trước khi final.",
+      "founder_confirmation_needed": true
+    }
+  ]
+}

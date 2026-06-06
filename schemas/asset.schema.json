@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byt.local/schemas/asset.schema.json",
+  "title": "BYT Asset Index",
+  "type": "object",
+  "required": ["metadata", "assets"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["schema_version", "language", "status"],
+      "properties": {
+        "schema_version": { "type": "string" },
+        "language": { "const": "vi" },
+        "status": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "path",
+          "status",
+          "allowed_channels",
+          "allowed_formats",
+          "usage_notes",
+          "founder_confirmation_needed"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "type": {
+            "enum": [
+              "logo",
+              "product_photo",
+              "background",
+              "lifestyle_reference",
+              "qr",
+              "design_token"
+            ]
+          },
+          "path": { "type": "string" },
+          "status": {
+            "enum": [
+              "draft",
+              "needs_founder_confirmation",
+              "approved",
+              "restricted",
+              "do_not_use"
+            ]
+          },
+          "allowed_channels": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "allowed_formats": {
+            "type": "array",
+            "items": { "enum": ["facebook_square"] }
+          },
+          "usage_notes": { "type": "string" },
+          "founder_confirmation_needed": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

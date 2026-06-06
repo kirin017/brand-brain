@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byt.local/schemas/approval.schema.json",
+  "title": "BYT Render Approval",
+  "type": "object",
+  "required": ["job_id", "status", "approver", "decided_at", "notes"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "status": {
+      "enum": ["needs_human_approval", "approved", "rejected"]
+    },
+    "approver": { "type": "string" },
+    "decided_at": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

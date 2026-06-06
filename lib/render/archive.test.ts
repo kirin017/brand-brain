@@ -2,7 +2,7 @@ import { mkdtemp, readFile, rm, writeFile } from "fs/promises";
 import os from "os";
 import path from "path";
 import { describe, expect, it } from "vitest";
-import { promoteApprovedRenderToFinal, writeRenderArchive } from "./archive";
+import { promoteApprovedRenderToFinal, resolveRenderArchivePath, writeRenderArchive } from "./archive";
 import type { ApprovalRecord, RenderPayload, VisualQaResult } from "./types";
 
 const payload: RenderPayload = {
@@ -42,6 +42,14 @@ async function withTempRoot(run: (root: string) => Promise<void>): Promise<void>
 }
 
 describe("render archive", () => {
+  it("resolves archive paths under the facebook square month directory", async () => {
+    await withTempRoot(async (root) => {
+      const result = resolveRenderArchivePath({ rootDir: root, jobId: payload.job_id });
+
+      expect(result.outputDir).toBe(path.join(root, "facebook-square", "2026-06", payload.job_id));
+    });
+  });
+
   it("writes all render archive files", async () => {
     await withTempRoot(async (root) => {
       const result = await writeRenderArchive({

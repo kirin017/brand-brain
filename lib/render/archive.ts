@@ -18,10 +18,12 @@ function assertSafeJobId(jobId: string): void {
   }
 }
 
-function resolveRenderArchivePath(input: { rootDir?: string; jobId: string }): RenderArchiveResult {
+export function resolveRenderArchivePath(input: { rootDir?: string; jobId: string }): RenderArchiveResult {
   assertSafeJobId(input.jobId);
 
-  const root = path.resolve(input.rootDir ?? path.join(process.cwd(), "outputs"));
+  const root = input.rootDir
+    ? path.resolve(/* turbopackIgnore: true */ input.rootDir)
+    : path.resolve(process.cwd(), "outputs");
   const month = input.jobId.slice(0, 7);
   const outputDir = path.resolve(root, "facebook-square", month, input.jobId);
   const relative = path.relative(root, outputDir);

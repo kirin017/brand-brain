@@ -9,6 +9,7 @@ export interface VisualQaMaxLengths {
 
 export interface BrowserVisualQaOptions {
   requiredBackgroundUrls?: string[];
+  backgroundImageTimeoutMs?: number;
 }
 
 const defaultMaxLengths: VisualQaMaxLengths = {
@@ -69,19 +70,41 @@ export async function runBrowserVisualQa(
   const browserChecks = await page.evaluate(() => {
     const frame = document.querySelector(".frame");
     const imageElements = Array.from(document.images);
+    const backgroundElements = frame
+      ? [frame, ...Array.from(frame.querySelectorAll("*"))]
+      : Array.from(document.querySelectorAll("*"));
     const overflowElements = Array.from(document.querySelectorAll("[data-qa]")).filter((element) => {
       const htmlElement = element as HTMLElement;
       return htmlElement.scrollWidth > htmlElement.clientWidth || htmlElement.scrollHeight > htmlElement.clientHeight;
     });
+    const extractBackgroundUrls = (backgroundImage: string): string[] => {
+      const urls: string[] = [];
+      const pattern = /url\((?:"([^"]+)"|'([^']+)'|([^)"']+))\)/gi;
+      let match = pattern.exec(backgroundImage);
+
+      while (match) {
+        urls.push((match[1] ?? match[2] ?? match[3]).trim());
+        match = pattern.exec(backgroundImage);
+      }
+
+      return urls;
+    };
+    const backgroundImageUrls = Array.from(new Set(
+      backgroundElements.flatMap((element) => extractBackgroundUrls(getComputedStyle(element).backgroundImage))
+    ));
 
     return {
       frameSize: frame ? { width: frame.clientWidth, height: frame.clientHeight } : null,
       imagesLoaded: imageElements.every((image) => image.complete && image.naturalWidth > 0),
-      overflowCount: overflowElements.length
+      overflowCount: overflowElements.length,
+      backgroundImageUrls
     };
   });
-  const requiredBackgroundUrls = options.requiredBackgroundUrls ?? [];
-  const backgroundResults = requiredBackgroundUrls.length > 0
+  const backgroundUrls = Array.from(new Set([
+    ...(options.requiredBackgroundUrls ?? []),
+    ...(browserChecks.backgroundImageUrls ?? [])
+  ]));
+  const backgroundResults = backgroundUrls.length > 0
     ? await page.evaluate(async ({ urls, timeoutMs }) => {
       const loadImage = (url: string): Promise<{ url: string; loaded: boolean }> => new Promise((resolve) => {
         const image = new Image();
@@ -107,7 +130,7 @@ export async function runBrowserVisualQa(
       });
 
       return Promise.all(urls.map((url) => loadImage(url)));
-    }, { urls: requiredBackgroundUrls, timeoutMs: 3000 })
+    }, { urls: backgroundUrls, timeoutMs: options.backgroundImageTimeoutMs ?? 3000 })
     : [];
   const failedBackgroundUrls = backgroundResults
     .filter((result) => !result.loaded)
@@ -132,9 +155,7 @@ export async function runBrowserVisualQa(
     {
       name: "background_images_loaded",
       passed: failedBackgroundUrls.length === 0,
-      details: requiredBackgroundUrls.length === 0
-        ? "No required background images configured."
-        : `Loaded ${requiredBackgroundUrls.length - failedBackgroundUrls.length}/${requiredBackgroundUrls.length} required background images.`
+      details: getBackgroundImageDetails(backgroundUrls, failedBackgroundUrls)
     }
   ];
 
@@ -142,6 +163,17 @@ export async function runBrowserVisualQa(
     passed: checks.every((check) => check.passed),
     checks
   };
+}
+
+function getBackgroundImageDetails(backgroundUrls: string[], failedBackgroundUrls: string[]): string {
+  if (backgroundUrls.length === 0) {
+    return "No background image URLs found.";
+  }
+  if (failedBackgroundUrls.length === 0) {
+    return `All ${backgroundUrls.length} background image URLs loaded.`;
+  }
+
+  return `Failed background image URLs: ${failedBackgroundUrls.join(", ")}`;
 }
 
 export function mergeQaResults(...results: VisualQaResult[]): VisualQaResult {

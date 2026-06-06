@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import type { Page } from "playwright";
+import { chromium, type Page } from "playwright";
 import { mergeQaResults, runBrowserVisualQa, runStaticVisualQa } from "./visual-qa";
 
 describe("static visual QA", () => {
@@ -93,6 +93,35 @@ describe("browser visual QA", () => {
 
     expect(result.passed).toBe(true);
     expect(result.checks.some((check) => check.name === "background_images_loaded" && check.passed)).toBe(true);
+  });
+
+  it("fails when a rendered CSS background image does not load", async () => {
+    const browser = await chromium.launch();
+    try {
+      const page = await browser.newPage({
+        viewport: { width: 1080, height: 1080 },
+        deviceScaleFactor: 1
+      });
+      await page.setContent(`
+        <style>
+          .frame {
+            width: 1080px;
+            height: 1080px;
+            background-image: url("http://127.0.0.1:9/missing-bg.png");
+          }
+        </style>
+        <main class="frame"></main>
+      `);
+
+      const result = await runBrowserVisualQa(page, { backgroundImageTimeoutMs: 100 });
+      const backgroundCheck = result.checks.find((check) => check.name === "background_images_loaded");
+
+      expect(result.passed).toBe(false);
+      expect(backgroundCheck?.passed).toBe(false);
+      expect(backgroundCheck?.details).toContain("http://127.0.0.1:9/missing-bg.png");
+    } finally {
+      await browser.close();
+    }
   });
 });
 

@@ -38,6 +38,7 @@ export interface BrandAssetIndex {
     schema_version: string;
     language: "vi";
     status: string;
+    notes?: string;
   };
   assets: BrandAsset[];
 }

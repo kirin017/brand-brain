@@ -1,8 +1,12 @@
 import type { GeneratedOutput, GenerationInput } from "../types";
-import { listMissingRequiredAssets } from "./assets";
+import { findApprovedAsset, listMissingRequiredAssets } from "./assets";
 import { getFacebookSquareTemplate } from "./facebook-square-templates";
-import { nextStatusAfterTextCheck } from "./status";
-import type { BrandAssetIndex, RenderPlan, RenderTemplateId } from "./types";
+import { nextStatusAfterTextCheck, type RenderJobStatus } from "./status";
+import type { BrandAsset, BrandAssetIndex, RenderFormat, RenderPlan, RenderTemplateId } from "./types";
+
+const renderChannel = "Facebook";
+const renderFormat: RenderFormat = "facebook_square";
+const assetSlots = ["logo", "main_image", "background", "qr"] as const;
 
 export function createFacebookSquareRenderPlan(
   input: GenerationInput,
@@ -15,38 +19,37 @@ export function createFacebookSquareRenderPlan(
   const missingRequiredAssets = listMissingRequiredAssets(assetIndex, {
     requiredSlots: template.requiredAssetSlots,
     assetIdsBySlot,
-    channel: "Facebook",
-    format: "facebook_square"
+    channel: renderChannel,
+    format: renderFormat
   });
 
-  const founderConfirmations = output.founderConfirmationNeeded.filter((item) =>
-    isBlockingFounderConfirmation(item)
-  );
+  const founderConfirmations = output.founderConfirmationNeeded.filter((item) => item.trim().length > 0);
 
-  const status = nextStatusAfterTextCheck({
+  const baseStatus = nextStatusAfterTextCheck({
     complianceRisk: output.complianceCheck.riskLevel,
     missingRequiredAssets,
     unresolvedFounderConfirmations: founderConfirmations
   });
+  const status = nextStatusAfterApprovalCheck(baseStatus, output.complianceCheck.humanApprovalRequired);
 
   return {
     status,
-    status_reasons: buildStatusReasons(missingRequiredAssets, founderConfirmations, output.complianceCheck.riskLevel),
+    status_reasons: buildStatusReasons({
+      riskLevel: output.complianceCheck.riskLevel,
+      humanApprovalRequired: output.complianceCheck.humanApprovalRequired,
+      missingRequiredAssets,
+      founderConfirmations
+    }),
     payload: {
-      job_id: createJobId(input),
-      format: "facebook_square",
+      job_id: createJobId(input, output),
+      format: renderFormat,
       template_id: templateId,
       campaign: input.campaign,
       product_membership: input.productMembership,
       headline: output.copy.headline,
       supporting_copy: output.copy.supportingCopy[0] ?? output.designBrief.mainMessage,
       cta: output.salesCommunityCta,
-      assets: {
-        logo: assetIdsBySlot.logo,
-        main_image: assetIdsBySlot.main_image,
-        background: assetIdsBySlot.background,
-        qr: assetIdsBySlot.qr
-      },
+      assets: buildPayloadAssets(assetIndex, assetIdsBySlot),
       compliance: {
         risk_level: output.complianceCheck.riskLevel,
         human_approval_required: output.complianceCheck.humanApprovalRequired || status === "needs_human_approval"
@@ -70,24 +73,66 @@ function chooseAssetIdsBySlot(
   assetIndex: BrandAssetIndex
 ): Record<string, string | undefined> {
   const productSearch = normalize(input.productMembership);
-  const mainImage = assetIndex.assets.find((asset) => {
+  const mainImage = chooseCandidateAssetId(assetIndex, (asset) => {
     const haystack = normalize(`${asset.id} ${asset.usage_notes}`);
     return asset.type === "product_photo" && haystack.includes(productSearch);
   });
 
-  const logo = assetIndex.assets.find((asset) => asset.type === "logo" && asset.status === "approved");
-  const background = assetIndex.assets.find((asset) => asset.type === "background" && asset.status === "approved");
+  const logo = chooseCandidateAssetId(assetIndex, (asset) => asset.type === "logo");
+  const background = chooseCandidateAssetId(assetIndex, (asset) => asset.type === "background");
+  const qr = chooseCandidateAssetId(assetIndex, (asset) => asset.type === "qr");
 
   return {
-    logo: logo?.id,
-    main_image: mainImage?.id,
-    background: background?.id
+    logo,
+    main_image: mainImage,
+    background,
+    qr
   };
 }
 
-function createJobId(input: GenerationInput): string {
+function chooseCandidateAssetId(
+  assetIndex: BrandAssetIndex,
+  predicate: (asset: BrandAsset) => boolean
+): string | undefined {
+  const candidates = assetIndex.assets.filter(predicate);
+  const eligible = candidates.find((asset) => findApprovedAsset(assetIndex, asset.id, renderChannel, renderFormat));
+  return eligible?.id ?? candidates[0]?.id;
+}
+
+function buildPayloadAssets(
+  assetIndex: BrandAssetIndex,
+  assetIdsBySlot: Record<string, string | undefined>
+): RenderPlan["payload"]["assets"] {
+  const assets: RenderPlan["payload"]["assets"] = {};
+
+  for (const slot of assetSlots) {
+    const asset = findApprovedAsset(assetIndex, assetIdsBySlot[slot], renderChannel, renderFormat);
+    if (asset) {
+      assets[slot] = asset.id;
+    }
+  }
+
+  return assets;
+}
+
+function nextStatusAfterApprovalCheck(status: RenderJobStatus, humanApprovalRequired: boolean): RenderJobStatus {
+  if (status === "ready_for_render" && humanApprovalRequired) {
+    return "needs_human_approval";
+  }
+
+  return status;
+}
+
+function createJobId(input: GenerationInput, output: GeneratedOutput): string {
   const day = new Date().toISOString().slice(0, 10);
-  return `${day}-facebook-${slugify(input.campaign)}-${slugify(input.productMembership)}`;
+  const hash = createStableHash([
+    input.campaign,
+    input.productMembership,
+    output.copy.headline,
+    output.salesCommunityCta
+  ]);
+  const slugParts = [slugify(input.campaign), slugify(input.productMembership)].filter(Boolean);
+  return [day, "facebook", ...slugParts, hash].join("-");
 }
 
 function slugify(value: string): string {
@@ -105,26 +150,41 @@ function normalize(value: string): string {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-function isBlockingFounderConfirmation(value: string): boolean {
-  const normalized = normalize(value);
-  return ["logo", "mau", "font", "qr", "gia", "quyen loi", "anh san pham", "bao bi"].some((term) =>
-    normalized.includes(term)
-  );
+function createStableHash(values: string[]): string {
+  const value = values.map(normalize).join("|");
+  let hash = 0x811c9dc5;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 0x01000193) >>> 0;
+  }
+
+  return hash.toString(36).padStart(8, "0").slice(-8);
 }
 
-function buildStatusReasons(
-  missingRequiredAssets: string[],
-  founderConfirmations: string[],
-  riskLevel: string
-): string[] {
-  const reasons = [
-    ...missingRequiredAssets.map((slot) => `Missing approved asset for slot: ${slot}`),
-    ...founderConfirmations.map((item) => `Founder confirmation required: ${item}`)
-  ];
+function buildStatusReasons(input: {
+  riskLevel: string;
+  humanApprovalRequired: boolean;
+  missingRequiredAssets: string[];
+  founderConfirmations: string[];
+}): string[] {
+  const reasons: string[] = [];
 
-  if (riskLevel === "High") {
+  if (input.riskLevel === "High") {
     reasons.push("Compliance risk is High");
   }
+
+  reasons.push(...input.missingRequiredAssets.map((slot) => `Missing approved asset for slot: ${slot}`));
+
+  if (input.riskLevel === "Medium") {
+    reasons.push("Compliance risk is Medium and requires human approval");
+  }
+
+  if (input.humanApprovalRequired) {
+    reasons.push("Compliance check requires human approval");
+  }
+
+  reasons.push(...input.founderConfirmations.map((item) => `Founder confirmation required: ${item}`));
 
   return reasons;
 }

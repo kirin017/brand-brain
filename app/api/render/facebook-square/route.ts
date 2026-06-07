@@ -1,8 +1,7 @@
-import path from "path";
-import { pathToFileURL } from "url";
 import { getBrandDataBundle } from "../../../../lib/brand-data";
 import { generateBrandOutput } from "../../../../lib/generator";
 import type { BrandDataBundle, GenerationInput, OutputType, RiskSensitivity } from "../../../../lib/types";
+import { AssetResolutionError, resolveAssetDataUrl } from "../../../../lib/render/asset-resolver";
 import { loadAssetIndex } from "../../../../lib/render/assets";
 import { RenderArchiveExistsError, writeRenderArchive } from "../../../../lib/render/archive";
 import {
@@ -92,6 +91,7 @@ export async function POST(request: Request): Promise<Response> {
     const templateAssets = resolveTemplateAssetUrls(assetIndex, plan.payload.assets);
     const html = renderFacebookSquareHtml({
       templateId: plan.payload.template_id,
+      templateVariant: plan.payload.template_variant,
       headline: plan.payload.headline,
       supportingCopy: plan.payload.supporting_copy,
       cta: plan.payload.cta,
@@ -225,27 +225,10 @@ function resolveTemplateAssetUrls(
     const assetId = assets[slot];
     if (!assetId) continue;
 
-    resolvedAssets[slot] = resolveAssetFileUrl(assetIndex, assetId);
+    resolvedAssets[slot] = resolveAssetDataUrl(assetIndex, assetId);
   }
 
   return resolvedAssets;
-}
-
-function resolveAssetFileUrl(assetIndex: BrandAssetIndex, assetId: string): string {
-  const asset = assetIndex.assets.find((item) => item.id === assetId);
-  if (!asset) {
-    throw new AssetResolutionError(`Unknown asset id in render payload: ${assetId}`);
-  }
-
-  const repoRoot = path.resolve(/*turbopackIgnore: true*/ process.cwd());
-  const assetPath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), asset.path);
-  const relativeAssetPath = path.relative(repoRoot, assetPath);
-
-  if (relativeAssetPath.startsWith("..") || path.isAbsolute(relativeAssetPath)) {
-    throw new AssetResolutionError(`Asset path escapes repository root for asset id: ${assetId}`);
-  }
-
-  return pathToFileURL(assetPath).toString();
 }
 
 function getBrandName(data: BrandDataBundle): string {
@@ -264,11 +247,4 @@ function isRiskSensitivity(value: unknown): value is RiskSensitivity {
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
-}
-
-class AssetResolutionError extends Error {
-  constructor(message: string) {
-    super(message);
-    this.name = "AssetResolutionError";
-  }
 }

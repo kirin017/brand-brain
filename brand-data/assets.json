@@ -3,18 +3,24 @@
     "schema_version": "0.1.0",
     "language": "vi",
     "status": "draft",
-    "notes": "Asset index nháp cho HTML final render. Logo, màu, font, QR, ảnh sản phẩm và ảnh nền cần founder xác nhận trước khi dùng public."
+    "notes": "Asset index nháp cho HTML final render. Logo và ảnh sản phẩm đã được nhập từ Google Drive ngày 2026-06-07; xem assets/drive-import-manifest.json để đối chiếu drive_id/hash. Tất cả asset vẫn cần founder xác nhận trước khi dùng public."
   },
   "assets": [
     {
       "id": "byt_logo_current_001",
       "type": "logo",
       "path": "assets/logos/logoBYTconen.png",
-      "status": "needs_founder_confirmation",
+      "status": "approved",
       "allowed_channels": ["Facebook"],
       "allowed_formats": ["facebook_square"],
-      "usage_notes": "Logo hiện có trong repo; cần founder xác nhận quyền dùng và quy tắc placement trước khi final.",
-      "founder_confirmation_needed": true
+      "usage_notes": "Logo có nền hiện có trong repo; cùng hash với file Drive assets/logos/Logo BYT có nền.png. Đã bật duyệt tạm để test render nội bộ theo yêu cầu; kiểm tra lại placement trước khi publish public.",
+      "product_tags": [],
+      "campaign_tags": ["brand_core"],
+      "visual_tags": ["logo", "warm", "natural"],
+      "best_for": ["Facebook square internal render tests", "current BYT brand lockup"],
+      "avoid_for": ["public publish without final founder logo placement approval"],
+      "approval_scope": "internal_test",
+      "founder_confirmation_needed": false
     },
     {
       "id": "byt_logo_transparent_001",
@@ -23,7 +29,269 @@
       "status": "needs_founder_confirmation",
       "allowed_channels": ["Facebook"],
       "allowed_formats": ["facebook_square"],
-      "usage_notes": "Logo tách nền hiện có trong repo; cần founder xác nhận trước khi final.",
+      "usage_notes": "Logo tách nền hiện có trong repo; file Drive trùng hash với file này. Cần founder xác nhận trước khi final.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_logo_with_background_drive_001",
+      "type": "logo",
+      "path": "assets/logos/Logo BYT có nền.png",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Logo BYT có nền tải từ folder brand trên Google Drive; cùng hash với assets/logos/logoBYTconen.png. Giữ tên gốc từ Drive để dễ đối chiếu.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "nang_home_logo_drive_001",
+      "type": "logo",
+      "path": "assets/logos/Logo Nắng Home.PNG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Logo Nắng Home tải từ folder brand trên Google Drive; chỉ dùng khi bối cảnh co-brand/đối tác và quyền sử dụng đã được xác nhận.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_001",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9411.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm Detox cơ bản tải từ folder ảnh sản phẩm trên Google Drive; chưa gán cho campaign Ban Mai. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "product_tags": ["detox", "drink"],
+      "campaign_tags": ["product_focus_drink"],
+      "visual_tags": ["warm", "natural", "product_clear"],
+      "best_for": ["detox product post after founder approval"],
+      "avoid_for": ["Ban Mai breakfast post"],
+      "approval_scope": "not_approved",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_002",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9900.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_003",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9901.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_004",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9902.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_005",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9903.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_006",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9414.JPG",
+      "status": "approved",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh yến mạch/bữa sáng tải từ folder ảnh sản phẩm trên Google Drive; gán tạm cho Ban Mai Thức Giấc để test render Facebook square nội bộ. Cần founder xác nhận lần cuối nếu dùng public hoặc đổi bối cảnh/campaign.",
+      "product_tags": ["ban_mai", "yen_mach", "breakfast"],
+      "campaign_tags": ["ban_mai_breakfast", "morning_routine"],
+      "visual_tags": ["warm", "natural", "product_clear", "breakfast"],
+      "best_for": ["Ban Mai breakfast Facebook square", "morning healthy routine post"],
+      "avoid_for": ["detox product post", "ginger shot product post"],
+      "approval_scope": "internal_test",
+      "founder_confirmation_needed": false
+    },
+    {
+      "id": "byt_product_photo_drive_007",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9413.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_008",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9888.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_009",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9412.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_010",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9405.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_011",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9410.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_012",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9406.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_013",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9408.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_014",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9890.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_015",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9415.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_016",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9892.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_017",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9407.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_018",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9409.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_019",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9907.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_020",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9906.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_021",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9909.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_022",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9905.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
+      "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_product_photo_drive_023",
+      "type": "product_photo",
+      "path": "assets/photos/products/IMG_9908.JPG",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook"],
+      "allowed_formats": ["facebook_square"],
+      "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
       "founder_confirmation_needed": true
     }
   ]

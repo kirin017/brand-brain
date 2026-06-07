@@ -1,6 +1,7 @@
 import type { GeneratedOutput, GenerationInput } from "../types";
 import { findApprovedAsset, listMissingRequiredAssets } from "./assets";
 import { getFacebookSquareTemplate } from "./facebook-square-templates";
+import { buildRenderCopy } from "./render-copy";
 import { nextStatusAfterTextCheck, type RenderJobStatus } from "./status";
 import type { BrandAsset, BrandAssetIndex, RenderFormat, RenderPlan, RenderTemplateId } from "./types";
 
@@ -24,6 +25,7 @@ export function createFacebookSquareRenderPlan(
   });
 
   const founderConfirmations = output.founderConfirmationNeeded.filter((item) => item.trim().length > 0);
+  const renderCopy = buildRenderCopy(input, output);
 
   const baseStatus = nextStatusAfterTextCheck({
     complianceRisk: output.complianceCheck.riskLevel,
@@ -46,9 +48,9 @@ export function createFacebookSquareRenderPlan(
       template_id: templateId,
       campaign: input.campaign,
       product_membership: input.productMembership,
-      headline: output.copy.headline,
-      supporting_copy: output.copy.supportingCopy[0] ?? output.designBrief.mainMessage,
-      cta: output.salesCommunityCta,
+      headline: renderCopy.headline,
+      supporting_copy: renderCopy.supporting_copy,
+      cta: renderCopy.cta,
       assets: buildPayloadAssets(assetIndex, assetIdsBySlot),
       compliance: {
         risk_level: output.complianceCheck.riskLevel,

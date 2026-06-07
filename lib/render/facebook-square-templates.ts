@@ -161,7 +161,7 @@ function getBaseCss(background?: string): string {
     h1 { margin: 0; font-size: 52px; line-height: 1.25; font-weight: 850; color: #17211b; overflow-wrap: anywhere; }
     p { margin: 0; font-size: 31px; line-height: 1.35; color: #637066; }
     .cta { align-self: flex-start; max-width: 100%; border-radius: 8px; background: #326b4f; color: #ffffff; padding: 18px 24px; font-size: 26px; font-weight: 800; line-height: 1.2; overflow-wrap: anywhere; }
-    .frame-community-focus .content-grid { grid-template-columns: .9fr 1.1fr; }
-    .frame-community-focus h1 { font-size: 62px; }
+    .layout-community .content-grid { grid-template-columns: .9fr 1.1fr; }
+    .layout-community h1 { font-size: 62px; }
   `;
 }

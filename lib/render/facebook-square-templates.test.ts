@@ -26,6 +26,9 @@ describe("facebook square templates", () => {
     expect(getFacebookSquareTemplate("giot-lanh-membership").requiredAssetSlots).toEqual([]);
     expect(getFacebookSquareTemplate("an-lanh-song-khoe-community").requiredAssetSlots).toEqual([]);
     expect(getFacebookSquareTemplate("zalo-community").requiredAssetSlots).toEqual([]);
+    expect(getFacebookSquareTemplate("sale-ctv-recruitment").requiredAssetSlots).toEqual([]);
+    expect(getFacebookSquareTemplate("connected-point-posm").requiredAssetSlots).toEqual([]);
+    expect(getFacebookSquareTemplate("brand-alliance").requiredAssetSlots).toEqual([]);
   });
 
   it("renders template-specific frame classes", () => {
@@ -40,7 +43,11 @@ describe("facebook square templates", () => {
     });
 
     expect(html).toContain("frame-an-lanh-song-khoe-community");
+    expect(html).toContain("layout-community");
     expect(html).toContain("variant-a");
+    expect(html).toContain(".layout-community .content-grid");
+    expect(html).toContain(".layout-community h1");
+    expect(html).not.toContain(".frame-community-focus");
   });
 
   it("escapes text when rendering HTML", () => {

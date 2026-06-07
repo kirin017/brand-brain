@@ -120,9 +120,7 @@ export function renderFacebookSquareHtml(input: FacebookSquareHtmlInput): string
       : `<div class="brand-text">${escapeHtml(input.brandName)}</div>`,
     "</section>",
     '<section class="content-grid">',
-    input.assets.main_image
-      ? `<div class="image-panel"><img class="main-image" src="${escapeHtml(input.assets.main_image)}" alt="" /></div>`
-      : '<div class="image-panel image-panel-soft"><div class="image-copy">Ăn lành. Uống sạch. Sống yêu thương.</div></div>',
+    renderVisualPanel(input, template),
     '<div class="copy-panel">',
     `<h1 data-qa="headline">${escapeHtml(input.headline)}</h1>`,
     `<p data-qa="supporting-copy">${escapeHtml(input.supportingCopy)}</p>`,
@@ -137,6 +135,17 @@ export function renderFacebookSquareHtml(input: FacebookSquareHtmlInput): string
     css,
     body
   });
+}
+
+function renderVisualPanel(input: FacebookSquareHtmlInput, template: FacebookSquareTemplate): string {
+  if (input.assets.main_image) {
+    return `<div class="image-panel"><img class="main-image" src="${escapeHtml(input.assets.main_image)}" alt="" /></div>`;
+  }
+
+  const fallbackCopy =
+    template.layout === "community" ? "Ăn lành. Uống sạch. Sống yêu thương." : "Bếp Yêu Thương";
+
+  return `<div class="image-panel image-panel-soft"><div class="image-copy">${escapeHtml(fallbackCopy)}</div></div>`;
 }
 
 function getBaseCss(background?: string): string {
@@ -161,7 +170,23 @@ function getBaseCss(background?: string): string {
     h1 { margin: 0; font-size: 52px; line-height: 1.25; font-weight: 850; color: #17211b; overflow-wrap: anywhere; }
     p { margin: 0; font-size: 31px; line-height: 1.35; color: #637066; }
     .cta { align-self: flex-start; max-width: 100%; border-radius: 8px; background: #326b4f; color: #ffffff; padding: 18px 24px; font-size: 26px; font-weight: 800; line-height: 1.2; overflow-wrap: anywhere; }
-    .layout-community .content-grid { grid-template-columns: .9fr 1.1fr; }
-    .layout-community h1 { font-size: 62px; }
+    .layout-community .content-grid,
+    .layout-membership .content-grid,
+    .layout-recruitment .content-grid,
+    .layout-point .content-grid,
+    .layout-alliance .content-grid { grid-template-columns: .82fr 1.18fr; }
+    .layout-community .image-panel-soft { background: #fffdf9; border-color: #dce4dc; }
+    .layout-community .image-copy { font-size: 42px; line-height: 1.2; }
+    .layout-membership .image-panel-soft { background: #fff8ec; }
+    .layout-recruitment .image-panel-soft,
+    .layout-point .image-panel-soft,
+    .layout-alliance .image-panel-soft { background: #f8fbf7; }
+    .frame-an-lanh-song-khoe-community h1,
+    .frame-zalo-community h1 { font-size: 54px; }
+    .frame-sale-ctv-recruitment h1,
+    .frame-connected-point-posm h1,
+    .frame-brand-alliance h1 { font-size: 50px; }
+    .variant-b .content-grid { grid-template-columns: 1.08fr .92fr; }
+    .variant-c .content-grid { gap: 34px; }
   `;
 }

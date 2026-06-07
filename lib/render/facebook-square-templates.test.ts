@@ -46,8 +46,56 @@ describe("facebook square templates", () => {
     expect(html).toContain("layout-community");
     expect(html).toContain("variant-a");
     expect(html).toContain(".layout-community .content-grid");
-    expect(html).toContain(".layout-community h1");
+    expect(html).toContain(".frame-an-lanh-song-khoe-community h1");
+    expect(html).not.toContain(".layout-community h1");
     expect(html).not.toContain(".frame-community-focus");
+  });
+
+  it("renders product-led templates with image and copy panels", () => {
+    const html = renderFacebookSquareHtml({
+      templateId: "ban-mai-breakfast",
+      templateVariant: "A",
+      headline: "Bữa sáng lành hơn",
+      supportingCopy: "Một hũ yến mạch nhỏ cho ngày bận rộn.",
+      cta: "Nhắn Bếp",
+      brandName: "Bếp Yêu Thương",
+      assets: { main_image: "data:image/png;base64,abc" }
+    });
+
+    expect(html).toContain("image-panel");
+    expect(html).toContain("copy-panel");
+    expect(html).toContain("Bữa sáng lành hơn");
+  });
+
+  it("renders community templates without requiring a product image", () => {
+    const html = renderFacebookSquareHtml({
+      templateId: "an-lanh-song-khoe-community",
+      templateVariant: "A",
+      headline: "Ăn lành bắt đầu từ một bữa nhỏ",
+      supportingCopy: "Không cần hoàn hảo, chỉ cần dễ duy trì hơn hôm qua.",
+      cta: "Chia sẻ trong nhóm",
+      brandName: "Bếp Yêu Thương",
+      assets: {}
+    });
+
+    expect(html).toContain("layout-community");
+    expect(html).toContain("Ăn lành. Uống sạch. Sống yêu thương.");
+  });
+
+  it("renders non-community templates with a brand fallback visual", () => {
+    const html = renderFacebookSquareHtml({
+      templateId: "giot-lanh-membership",
+      templateVariant: "A",
+      headline: "Một nhịp chăm sóc nhẹ nhàng",
+      supportingCopy: "Đồng hành bằng những thói quen nhỏ dễ duy trì.",
+      cta: "Tìm hiểu hội viên",
+      brandName: "Bếp Yêu Thương",
+      assets: {}
+    });
+
+    expect(html).toContain("layout-membership");
+    expect(html).toContain("image-panel-soft");
+    expect(html).toContain('<div class="image-copy">Bếp Yêu Thương</div>');
   });
 
   it("escapes text when rendering HTML", () => {

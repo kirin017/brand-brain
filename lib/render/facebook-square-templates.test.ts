@@ -7,30 +7,46 @@ import {
 import { cssUrl } from "./html";
 
 describe("facebook square templates", () => {
-  it("lists the three initial templates", () => {
+  it("lists the Phase 1 BYT context templates", () => {
     expect(listFacebookSquareTemplates().map((template) => template.id)).toEqual([
-      "product-focus",
-      "membership-focus",
-      "community-focus"
+      "ban-mai-breakfast",
+      "giot-lanh-membership",
+      "product-focus-drink",
+      "an-lanh-song-khoe-community",
+      "zalo-community",
+      "sale-ctv-recruitment",
+      "connected-point-posm",
+      "brand-alliance"
     ]);
   });
 
-  it("defines required asset slots for product template", () => {
-    expect(getFacebookSquareTemplate("product-focus").requiredAssetSlots).toEqual([
-      "main_image"
-    ]);
+  it("requires real product images only for product-led templates", () => {
+    expect(getFacebookSquareTemplate("ban-mai-breakfast").requiredAssetSlots).toEqual(["main_image"]);
+    expect(getFacebookSquareTemplate("product-focus-drink").requiredAssetSlots).toEqual(["main_image"]);
+    expect(getFacebookSquareTemplate("giot-lanh-membership").requiredAssetSlots).toEqual([]);
+    expect(getFacebookSquareTemplate("an-lanh-song-khoe-community").requiredAssetSlots).toEqual([]);
+    expect(getFacebookSquareTemplate("zalo-community").requiredAssetSlots).toEqual([]);
   });
 
-  it("defines required asset slots for membership and community templates", () => {
-    expect(getFacebookSquareTemplate("membership-focus").requiredAssetSlots).toEqual([
-      "main_image"
-    ]);
-    expect(getFacebookSquareTemplate("community-focus").requiredAssetSlots).toEqual([]);
+  it("renders template-specific frame classes", () => {
+    const html = renderFacebookSquareHtml({
+      templateId: "an-lanh-song-khoe-community",
+      templateVariant: "A",
+      headline: "Ăn lành bắt đầu từ một bữa nhỏ",
+      supportingCopy: "Một gợi ý dễ làm cho ngày bận rộn.",
+      cta: "Lưu lại cho hôm nay",
+      brandName: "Bếp Yêu Thương",
+      assets: {}
+    });
+
+    expect(html).toContain("frame-an-lanh-song-khoe-community");
+    expect(html).toContain("variant-a");
   });
 
   it("escapes text when rendering HTML", () => {
     const html = renderFacebookSquareHtml({
-      templateId: "community-focus",
+      templateId: "an-lanh-song-khoe-community",
+      templateVariant: "A",
       headline: "Ăn lành <script>",
       supportingCopy: "Một lựa chọn nhỏ & dễ duy trì.",
       cta: "Nhắn Bếp",
@@ -45,7 +61,8 @@ describe("facebook square templates", () => {
 
   it("renders main image from asset slot names", () => {
     const html = renderFacebookSquareHtml({
-      templateId: "product-focus",
+      templateId: "ban-mai-breakfast",
+      templateVariant: "A",
       headline: "Bữa ăn lành hơn",
       supportingCopy: "Một lựa chọn nhỏ cho ngày bận rộn.",
       cta: "Nhắn Bếp",
@@ -80,9 +97,14 @@ describe("facebook square templates", () => {
     listed.pop();
 
     expect(listFacebookSquareTemplates().map((template) => template.id)).toEqual([
-      "product-focus",
-      "membership-focus",
-      "community-focus"
+      "ban-mai-breakfast",
+      "giot-lanh-membership",
+      "product-focus-drink",
+      "an-lanh-song-khoe-community",
+      "zalo-community",
+      "sale-ctv-recruitment",
+      "connected-point-posm",
+      "brand-alliance"
     ]);
   });
 });

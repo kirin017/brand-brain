@@ -10,10 +10,13 @@ export interface FacebookSquareTemplate {
     supportingCopy: number;
     cta: number;
   };
+  layout: "split-product" | "membership" | "community" | "recruitment" | "point" | "alliance";
+  visualTone: string;
 }
 
 export interface FacebookSquareHtmlInput {
   templateId: RenderTemplateId;
+  templateVariant: "A" | "B" | "C";
   headline: string;
   supportingCopy: string;
   cta: string;
@@ -27,22 +30,68 @@ export interface FacebookSquareHtmlInput {
 
 const templates: FacebookSquareTemplate[] = [
   {
-    id: "product-focus",
-    label: "Product Focus",
+    id: "ban-mai-breakfast",
+    label: "Ban Mai Breakfast",
     requiredAssetSlots: ["main_image"],
-    maxLengths: { headline: 54, supportingCopy: 110, cta: 36 }
+    maxLengths: { headline: 54, supportingCopy: 105, cta: 36 },
+    layout: "split-product",
+    visualTone: "warm breakfast, natural morning, product clear"
   },
   {
-    id: "membership-focus",
-    label: "Membership Focus",
-    requiredAssetSlots: ["main_image"],
-    maxLengths: { headline: 58, supportingCopy: 120, cta: 38 }
-  },
-  {
-    id: "community-focus",
-    label: "Community Focus",
+    id: "giot-lanh-membership",
+    label: "Giot Lanh Membership",
     requiredAssetSlots: [],
-    maxLengths: { headline: 62, supportingCopy: 130, cta: 40 }
+    maxLengths: { headline: 58, supportingCopy: 120, cta: 38 },
+    layout: "membership",
+    visualTone: "warm membership, caring, community trust"
+  },
+  {
+    id: "product-focus-drink",
+    label: "Product Focus Drink",
+    requiredAssetSlots: ["main_image"],
+    maxLengths: { headline: 52, supportingCopy: 100, cta: 36 },
+    layout: "split-product",
+    visualTone: "product clarity, natural ingredients, no medical style"
+  },
+  {
+    id: "an-lanh-song-khoe-community",
+    label: "An Lanh Song Khoe Community",
+    requiredAssetSlots: [],
+    maxLengths: { headline: 60, supportingCopy: 125, cta: 38 },
+    layout: "community",
+    visualTone: "healthy living community, gentle, non-judgmental"
+  },
+  {
+    id: "zalo-community",
+    label: "Zalo Community",
+    requiredAssetSlots: [],
+    maxLengths: { headline: 58, supportingCopy: 120, cta: 36 },
+    layout: "community",
+    visualTone: "Zalo group, friendly, trust building"
+  },
+  {
+    id: "sale-ctv-recruitment",
+    label: "Sale CTV Recruitment",
+    requiredAssetSlots: [],
+    maxLengths: { headline: 56, supportingCopy: 110, cta: 34 },
+    layout: "recruitment",
+    visualTone: "practical opportunity, no income overpromise"
+  },
+  {
+    id: "connected-point-posm",
+    label: "Connected Point POSM",
+    requiredAssetSlots: [],
+    maxLengths: { headline: 52, supportingCopy: 100, cta: 32 },
+    layout: "point",
+    visualTone: "local touchpoint, QR ready, clear CTA"
+  },
+  {
+    id: "brand-alliance",
+    label: "Brand Alliance",
+    requiredAssetSlots: [],
+    maxLengths: { headline: 56, supportingCopy: 110, cta: 34 },
+    layout: "alliance",
+    visualTone: "partner trust, shared value, no fake luxury"
   }
 ];
 
@@ -64,7 +113,7 @@ export function renderFacebookSquareHtml(input: FacebookSquareHtmlInput): string
   const template = getFacebookSquareTemplate(input.templateId);
   const css = getBaseCss(input.assets.background);
   const body = [
-    `<main class="frame frame-${template.id}">`,
+    `<main class="frame frame-${template.id} layout-${template.layout} variant-${input.templateVariant.toLowerCase()}">`,
     '<section class="brand-row">',
     input.assets.logo
       ? `<img class="brand-logo" src="${escapeHtml(input.assets.logo)}" alt="${escapeHtml(input.brandName)}" />`
@@ -109,9 +158,9 @@ function getBaseCss(background?: string): string {
     .image-copy { font-size: 38px; line-height: 1.18; font-weight: 800; color: #326b4f; }
     .main-image { width: 100%; height: 100%; object-fit: cover; }
     .copy-panel { min-width: 0; display: flex; flex-direction: column; gap: 28px; }
-    h1 { margin: 0; font-size: 66px; line-height: 1.04; font-weight: 850; color: #17211b; }
+    h1 { margin: 0; font-size: 52px; line-height: 1.25; font-weight: 850; color: #17211b; overflow-wrap: anywhere; }
     p { margin: 0; font-size: 31px; line-height: 1.35; color: #637066; }
-    .cta { align-self: flex-start; border-radius: 8px; background: #326b4f; color: #ffffff; padding: 20px 26px; font-size: 28px; font-weight: 800; line-height: 1.1; }
+    .cta { align-self: flex-start; max-width: 100%; border-radius: 8px; background: #326b4f; color: #ffffff; padding: 18px 24px; font-size: 26px; font-weight: 800; line-height: 1.2; overflow-wrap: anywhere; }
     .frame-community-focus .content-grid { grid-template-columns: .9fr 1.1fr; }
     .frame-community-focus h1 { font-size: 62px; }
   `;

@@ -15,6 +15,7 @@ Can tao cac template theo ngu canh BYT:
 - `ban-mai-breakfast`: bai Facebook/Zalo ve bua sang, yen mach, thoi quen buoi sang.
 - `giot-lanh-membership`: bai membership, loi ich dong hanh va thoi quen lanh.
 - `product-focus-drink`: bai san pham do uong/sua hat/ginger shot/detox voi claim an toan.
+- `an-lanh-song-khoe-community`: bai nhom ve an lanh, song khoe, thoi quen nho moi ngay; community-first, khong product-first.
 - `zalo-community`: banner/post cong dong, khong qua ban hang.
 - `sale-ctv-recruitment`: noi dung tuyen CTV/sale/ambassador, khong hua thu nhap.
 - `connected-point-posm`: POSM/QR card diem ban ket noi.
@@ -51,8 +52,8 @@ Can mo rong `brand-data/assets.json` hoac tach thanh schema rieng neu file qua l
 Moi asset nen co them cac truong:
 
 - `product_tags`: vi du `["ban_mai", "yen_mach", "breakfast"]`.
-- `campaign_tags`: vi du `["ban_mai_breakfast", "morning_routine"]`.
-- `visual_tags`: vi du `["warm", "natural", "product_clear", "family_safe"]`.
+- `campaign_tags`: vi du `["ban_mai_breakfast", "morning_routine", "an_lanh_song_khoe"]`.
+- `visual_tags`: vi du `["warm", "natural", "product_clear", "family_safe", "community_first"]`.
 - `best_for`: danh sach ngu canh nen dung.
 - `avoid_for`: danh sach ngu canh khong nen dung.
 - `approval_scope`: noi ro approved cho test noi bo, public, hay campaign cu the.
@@ -119,6 +120,7 @@ Neu asset khong khop tag, khong fallback sang anh approved bat ky. Tra ve ly do 
 Can co test cho:
 
 - template selector chon dung template theo campaign/product.
+- template selector chon dung `an-lanh-song-khoe-community` khi input la nhom an lanh/song khoe, khong ep sang template ban san pham.
 - asset matcher khong chon asset sai tag.
 - moi template render duoc HTML hop le.
 - Visual QA bat loi text overflow, anh khong load, copy noi bo.
@@ -138,4 +140,3 @@ Phase 2 khong nam trong implementation dau tien.
 ## Quyet Dinh
 
 Tien hanh Phase 1 theo huong HTML Template Design System. Day la loi automation dau tien cho BYT vi de kiem soat brand, de test, khong phu thuoc external API va khong lam sai san pham that.
-

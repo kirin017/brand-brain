@@ -1,9 +1,10 @@
 import type { GeneratedOutput, GenerationInput } from "../types";
-import { findApprovedAsset, listMissingRequiredAssets } from "./assets";
+import { chooseApprovedAssetIdForSlot, normalizeRenderTag } from "./asset-matcher";
+import { listMissingRequiredAssets } from "./assets";
 import { getFacebookSquareTemplate } from "./facebook-square-templates";
 import { buildRenderCopy } from "./render-copy";
 import { nextStatusAfterTextCheck, type RenderJobStatus } from "./status";
-import type { BrandAsset, BrandAssetIndex, RenderFormat, RenderPlan, RenderTemplateId } from "./types";
+import type { BrandAssetIndex, RenderFormat, RenderPlan, RenderTemplateId } from "./types";
 
 const renderChannel = "Facebook";
 const renderFormat: RenderFormat = "facebook_square";
@@ -16,7 +17,7 @@ export function createFacebookSquareRenderPlan(
 ): RenderPlan {
   const templateId = chooseTemplate(input);
   const template = getFacebookSquareTemplate(templateId);
-  const assetIdsBySlot = chooseAssetIdsBySlot(input, assetIndex);
+  const assetIdsBySlot = chooseAssetIdsBySlot(input, assetIndex, templateId);
   const missingRequiredAssets = listMissingRequiredAssets(assetIndex, {
     requiredSlots: template.requiredAssetSlots,
     assetIdsBySlot,
@@ -32,7 +33,11 @@ export function createFacebookSquareRenderPlan(
     missingRequiredAssets,
     unresolvedFounderConfirmations: founderConfirmations
   });
-  const status = nextStatusAfterApprovalCheck(baseStatus, output.complianceCheck.humanApprovalRequired);
+  const status = nextStatusAfterApprovalCheck(
+    baseStatus,
+    output.complianceCheck.humanApprovalRequired,
+    templateId
+  );
 
   return {
     status,
@@ -46,12 +51,13 @@ export function createFacebookSquareRenderPlan(
       job_id: createJobId(input, output),
       format: renderFormat,
       template_id: templateId,
+      template_variant: chooseTemplateVariant(input),
       campaign: input.campaign,
       product_membership: input.productMembership,
       headline: renderCopy.headline,
       supporting_copy: renderCopy.supporting_copy,
       cta: renderCopy.cta,
-      assets: buildPayloadAssets(assetIndex, assetIdsBySlot),
+      assets: buildPayloadAssets(assetIdsBySlot),
       compliance: {
         risk_level: output.complianceCheck.riskLevel,
         human_approval_required: output.complianceCheck.humanApprovalRequired || status === "needs_human_approval"
@@ -62,63 +68,113 @@ export function createFacebookSquareRenderPlan(
 }
 
 function chooseTemplate(input: GenerationInput): RenderTemplateId {
-  if (input.outputType === "zalo_group_content") return "community-focus";
-  if (input.outputType === "membership_campaign_content") return "membership-focus";
-  if (input.productMembership.toLowerCase().includes("thức giấc")) return "membership-focus";
-  if (input.productMembership.toLowerCase().includes("rực rỡ")) return "membership-focus";
-  if (input.productMembership.toLowerCase().includes("giọt lành")) return "membership-focus";
-  return "product-focus";
+  const text = normalize([
+    input.outputType,
+    input.goal,
+    input.productMembership,
+    input.campaign,
+    input.channel,
+    input.format,
+    input.notes
+  ].join(" "));
+
+  if (text.includes("connected point") || text.includes("diem ban") || text.includes("qr")) {
+    return "connected-point-posm";
+  }
+  if (text.includes("alliance") || text.includes("doi tac") || text.includes("hop tac")) {
+    return "brand-alliance";
+  }
+  if (text.includes("ctv") || text.includes("affiliate") || text.includes("sale") || text.includes("leader")) {
+    return "sale-ctv-recruitment";
+  }
+  if (text.includes("an lanh") || text.includes("song khoe") || text.includes("healthy living")) {
+    return "an-lanh-song-khoe-community";
+  }
+  if (input.outputType === "zalo_group_content") {
+    return "zalo-community";
+  }
+  if (text.includes("giot lanh")) {
+    return "giot-lanh-membership";
+  }
+  if (text.includes("ban mai") || text.includes("thuc giac") || text.includes("breakfast")) {
+    return "ban-mai-breakfast";
+  }
+  return "product-focus-drink";
+}
+
+function chooseTemplateVariant(input: GenerationInput): "A" | "B" | "C" {
+  const text = normalize(input.notes);
+  if (text.includes("variant b") || text.includes("bien the b")) return "B";
+  if (text.includes("variant c") || text.includes("bien the c")) return "C";
+  return "A";
 }
 
 function chooseAssetIdsBySlot(
   input: GenerationInput,
-  assetIndex: BrandAssetIndex
+  assetIndex: BrandAssetIndex,
+  templateId: RenderTemplateId
 ): Record<string, string | undefined> {
-  const productSearch = normalize(input.productMembership);
-  const mainImage = chooseCandidateAssetId(assetIndex, (asset) => {
-    const haystack = normalize(`${asset.id} ${asset.usage_notes}`);
-    return asset.type === "product_photo" && haystack.includes(productSearch);
+  const requiredProductTags = buildRequiredProductTags(input, templateId);
+  const mainImage = chooseApprovedAssetIdForSlot(assetIndex, {
+    slot: "main_image",
+    type: "product_photo",
+    channel: renderChannel,
+    format: renderFormat,
+    requiredTags: requiredProductTags
+  });
+  const logo = chooseApprovedAssetIdForSlot(assetIndex, {
+    slot: "logo",
+    type: "logo",
+    channel: renderChannel,
+    format: renderFormat,
+    requiredTags: []
+  });
+  const background = chooseApprovedAssetIdForSlot(assetIndex, {
+    slot: "background",
+    type: "background",
+    channel: renderChannel,
+    format: renderFormat,
+    requiredTags: [templateId]
+  });
+  const qr = chooseApprovedAssetIdForSlot(assetIndex, {
+    slot: "qr",
+    type: "qr",
+    channel: renderChannel,
+    format: renderFormat,
+    requiredTags: []
   });
 
-  const logo = chooseCandidateAssetId(assetIndex, (asset) => asset.type === "logo");
-  const background = chooseCandidateAssetId(assetIndex, (asset) => asset.type === "background");
-  const qr = chooseCandidateAssetId(assetIndex, (asset) => asset.type === "qr");
-
-  return {
-    logo,
-    main_image: mainImage,
-    background,
-    qr
-  };
+  return { logo, main_image: mainImage, background, qr };
 }
 
-function chooseCandidateAssetId(
-  assetIndex: BrandAssetIndex,
-  predicate: (asset: BrandAsset) => boolean
-): string | undefined {
-  const candidates = assetIndex.assets.filter(predicate);
-  const eligible = candidates.find((asset) => findApprovedAsset(assetIndex, asset.id, renderChannel, renderFormat));
-  return eligible?.id ?? candidates[0]?.id;
+function buildRequiredProductTags(input: GenerationInput, templateId: RenderTemplateId): string[] {
+  if (templateId === "ban-mai-breakfast") return ["ban_mai", "breakfast"];
+  if (templateId === "product-focus-drink") return [normalizeRenderTag(input.productMembership)];
+  return [];
 }
 
-function buildPayloadAssets(
-  assetIndex: BrandAssetIndex,
-  assetIdsBySlot: Record<string, string | undefined>
-): RenderPlan["payload"]["assets"] {
+function buildPayloadAssets(assetIdsBySlot: Record<string, string | undefined>): RenderPlan["payload"]["assets"] {
   const assets: RenderPlan["payload"]["assets"] = {};
 
   for (const slot of assetSlots) {
-    const asset = findApprovedAsset(assetIndex, assetIdsBySlot[slot], renderChannel, renderFormat);
-    if (asset) {
-      assets[slot] = asset.id;
+    const assetId = assetIdsBySlot[slot];
+    if (assetId) {
+      assets[slot] = assetId;
     }
   }
 
   return assets;
 }
 
-function nextStatusAfterApprovalCheck(status: RenderJobStatus, humanApprovalRequired: boolean): RenderJobStatus {
-  if (status === "ready_for_render" && humanApprovalRequired) {
+function nextStatusAfterApprovalCheck(
+  status: RenderJobStatus,
+  humanApprovalRequired: boolean,
+  templateId: RenderTemplateId
+): RenderJobStatus {
+  if (
+    status === "ready_for_render" &&
+    (humanApprovalRequired || templateId === "an-lanh-song-khoe-community")
+  ) {
     return "needs_human_approval";
   }
 

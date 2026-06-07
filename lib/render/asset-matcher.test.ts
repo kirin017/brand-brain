@@ -36,6 +36,13 @@ const index: BrandAssetIndex = {
       founder_confirmation_needed: true,
       product_tags: ["ban_mai", "breakfast"],
       campaign_tags: ["ban_mai_breakfast"]
+    }),
+    asset({
+      id: "unconfirmed-only",
+      type: "product_photo",
+      status: "needs_founder_confirmation",
+      founder_confirmation_needed: true,
+      product_tags: ["unconfirmed_only"]
     })
   ]
 };
@@ -76,6 +83,26 @@ describe("chooseApprovedAssetIdForSlot", () => {
       format: "facebook_square",
       requiredTags: []
     })).toBe("approved-logo");
+  });
+
+  it("does not return an asset when slot and type are incompatible", () => {
+    expect(chooseApprovedAssetIdForSlot(index, {
+      slot: "logo",
+      type: "product_photo",
+      channel: "Facebook",
+      format: "facebook_square",
+      requiredTags: ["ban_mai"]
+    })).toBeUndefined();
+  });
+
+  it("does not return an unconfirmed asset even when tags match", () => {
+    expect(chooseApprovedAssetIdForSlot(index, {
+      slot: "main_image",
+      type: "product_photo",
+      channel: "Facebook",
+      format: "facebook_square",
+      requiredTags: ["unconfirmed_only"]
+    })).toBeUndefined();
   });
 });
 

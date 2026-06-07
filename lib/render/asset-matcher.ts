@@ -9,10 +9,19 @@ export interface AssetMatchRequest {
   requiredTags: string[];
 }
 
+const slotAssetTypes = {
+  logo: "logo",
+  main_image: "product_photo",
+  background: "background",
+  qr: "qr"
+} as const satisfies Record<AssetMatchRequest["slot"], AssetType>;
+
 export function chooseApprovedAssetIdForSlot(
   index: BrandAssetIndex,
   request: AssetMatchRequest
 ): string | undefined {
+  if (request.type !== slotAssetTypes[request.slot]) return undefined;
+
   const requiredTags = request.requiredTags.map(normalizeRenderTag).filter(Boolean);
   const candidates = index.assets.filter((asset) => {
     if (asset.type !== request.type) return false;

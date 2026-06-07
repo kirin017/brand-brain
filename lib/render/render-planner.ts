@@ -78,7 +78,27 @@ function chooseTemplate(input: GenerationInput): RenderTemplateId {
     input.notes
   ].join(" "));
 
-  if (text.includes("connected point") || text.includes("diem ban") || text.includes("qr")) {
+  if (input.outputType === "connected_point_pitch") {
+    return "connected-point-posm";
+  }
+  if (input.outputType === "brand_alliance_invitation") {
+    return "brand-alliance";
+  }
+  if (input.outputType === "sales_script") {
+    return "sale-ctv-recruitment";
+  }
+  if (input.outputType === "membership_campaign_content") {
+    if (isBanMaiText(text)) return "ban-mai-breakfast";
+    return "giot-lanh-membership";
+  }
+
+  if (text.includes("an lanh") || text.includes("song khoe") || text.includes("healthy living")) {
+    return "an-lanh-song-khoe-community";
+  }
+  if (input.outputType === "zalo_group_content") {
+    return "zalo-community";
+  }
+  if (text.includes("connected point") || text.includes("diem ban")) {
     return "connected-point-posm";
   }
   if (text.includes("alliance") || text.includes("doi tac") || text.includes("hop tac")) {
@@ -87,19 +107,27 @@ function chooseTemplate(input: GenerationInput): RenderTemplateId {
   if (text.includes("ctv") || text.includes("affiliate") || text.includes("sale") || text.includes("leader")) {
     return "sale-ctv-recruitment";
   }
-  if (text.includes("an lanh") || text.includes("song khoe") || text.includes("healthy living")) {
-    return "an-lanh-song-khoe-community";
-  }
-  if (input.outputType === "zalo_group_content") {
-    return "zalo-community";
-  }
-  if (text.includes("giot lanh")) {
-    return "giot-lanh-membership";
-  }
-  if (text.includes("ban mai") || text.includes("thuc giac") || text.includes("breakfast")) {
+  if (isBanMaiText(text)) {
     return "ban-mai-breakfast";
   }
+  if (isMembershipText(text)) {
+    return "giot-lanh-membership";
+  }
   return "product-focus-drink";
+}
+
+function isBanMaiText(text: string): boolean {
+  return text.includes("ban mai") || text.includes("thuc giac") || text.includes("breakfast");
+}
+
+function isMembershipText(text: string): boolean {
+  return (
+    text.includes("giot lanh") ||
+    text.includes("binh minh") ||
+    text.includes("ruc ro") ||
+    text.includes("mat troi") ||
+    text.includes("be con")
+  );
 }
 
 function chooseTemplateVariant(input: GenerationInput): "A" | "B" | "C" {
@@ -115,13 +143,15 @@ function chooseAssetIdsBySlot(
   templateId: RenderTemplateId
 ): Record<string, string | undefined> {
   const requiredProductTags = buildRequiredProductTags(input, templateId);
-  const mainImage = chooseApprovedAssetIdForSlot(assetIndex, {
-    slot: "main_image",
-    type: "product_photo",
-    channel: renderChannel,
-    format: renderFormat,
-    requiredTags: requiredProductTags
-  });
+  const mainImage = requiredProductTags.length > 0
+    ? chooseApprovedAssetIdForSlot(assetIndex, {
+        slot: "main_image",
+        type: "product_photo",
+        channel: renderChannel,
+        format: renderFormat,
+        requiredTags: requiredProductTags
+      })
+    : undefined;
   const logo = chooseApprovedAssetIdForSlot(assetIndex, {
     slot: "logo",
     type: "logo",

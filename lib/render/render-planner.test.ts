@@ -129,6 +129,132 @@ describe("render planner", () => {
     expect(plan.status).toBe("needs_human_approval");
   });
 
+  it("does not attach an unrelated product photo to a community render", () => {
+    const plan = createFacebookSquareRenderPlan(
+      {
+        ...input,
+        outputType: "zalo_group_content",
+        goal: "Nuôi dưỡng nhóm Zalo",
+        productMembership: "Khác / nhập trong ghi chú",
+        campaign: "Nurture nhóm cộng đồng",
+        notes: ""
+      },
+      output,
+      createAssetIndex([approvedProduct("ban-mai-photo", ["ban_mai", "breakfast"])])
+    );
+
+    expect(plan.payload.template_id).toBe("zalo-community");
+    expect(plan.payload.assets).not.toHaveProperty("main_image");
+  });
+
+  it("selects connected point template from connected_point_pitch output type", () => {
+    const plan = createFacebookSquareRenderPlan(
+      {
+        ...input,
+        outputType: "connected_point_pitch",
+        goal: "Mở điểm bán địa phương",
+        productMembership: "Khác / nhập trong ghi chú",
+        campaign: "Local partner pitch",
+        notes: ""
+      },
+      output,
+      createAssetIndex([])
+    );
+
+    expect(plan.payload.template_id).toBe("connected-point-posm");
+  });
+
+  it("selects brand alliance template from brand_alliance_invitation output type", () => {
+    const plan = createFacebookSquareRenderPlan(
+      {
+        ...input,
+        outputType: "brand_alliance_invitation",
+        goal: "Mời đối tác cùng tệp khách hàng",
+        productMembership: "Khác / nhập trong ghi chú",
+        campaign: "Partner invitation",
+        notes: ""
+      },
+      output,
+      createAssetIndex([])
+    );
+
+    expect(plan.payload.template_id).toBe("brand-alliance");
+  });
+
+  it("selects sale CTV recruitment template from sales_script output type", () => {
+    const plan = createFacebookSquareRenderPlan(
+      {
+        ...input,
+        outputType: "sales_script",
+        goal: "Tư vấn khách hàng",
+        productMembership: "Khác / nhập trong ghi chú",
+        campaign: "Follow up nhẹ nhàng",
+        notes: ""
+      },
+      output,
+      createAssetIndex([])
+    );
+
+    expect(plan.payload.template_id).toBe("sale-ctv-recruitment");
+  });
+
+  it("selects Giot Lanh membership template for Binh Minh Ruc Ro membership campaign", () => {
+    const plan = createFacebookSquareRenderPlan(
+      {
+        ...input,
+        outputType: "membership_campaign_content",
+        goal: "Nuôi dưỡng hội viên",
+        productMembership: "Bình Minh Rực Rỡ",
+        campaign: "Membership nurture",
+        notes: ""
+      },
+      output,
+      createAssetIndex([])
+    );
+
+    expect(plan.payload.template_id).toBe("giot-lanh-membership");
+    expect(plan.status).toBe("ready_for_render");
+    expect(plan.payload.assets).not.toHaveProperty("main_image");
+  });
+
+  it("keeps Zalo healthy living QR mentions out of connected point template", () => {
+    const plan = createFacebookSquareRenderPlan(
+      {
+        ...input,
+        outputType: "zalo_group_content",
+        goal: "Mời nhóm ăn lành sống khỏe",
+        productMembership: "Ăn lành - Sống khỏe",
+        campaign: "Nurture nhóm ăn lành sống khỏe",
+        notes: "Nhắc thành viên quét QR để vào nhóm"
+      },
+      output,
+      createAssetIndex([])
+    );
+
+    expect(plan.payload.template_id).toBe("an-lanh-song-khoe-community");
+    expect(plan.payload.template_id).not.toBe("connected-point-posm");
+  });
+
+  it("selects template variant B from notes", () => {
+    const plan = createFacebookSquareRenderPlan(
+      { ...input, notes: "Dùng variant B cho layout này" },
+      output,
+      createAssetIndex([approvedProduct("ban-mai-photo", ["ban_mai", "breakfast"])])
+    );
+
+    expect(plan.payload.template_variant).toBe("B");
+  });
+
+  it("selects template variant C from Vietnamese notes", () => {
+    const plan = createFacebookSquareRenderPlan(
+      { ...input, notes: "Dùng biến thể C cho layout này" },
+      output,
+      createAssetIndex([approvedProduct("ban-mai-photo", ["ban_mai", "breakfast"])])
+    );
+
+    expect(plan.payload.template_variant).toBe("C");
+  });
+
   it("blocks Ban Mai render when approved product photo has the wrong tags", () => {
     const plan = createFacebookSquareRenderPlan(
       { ...input, productMembership: "Ban Mai Thức Giấc", campaign: "Ban Mai breakfast campaign" },

@@ -4,7 +4,7 @@ import {
   listMissingRequiredAssets,
   validateAssetIndex
 } from "./assets";
-import type { BrandAssetIndex } from "./types";
+import type { BrandAsset, BrandAssetIndex } from "./types";
 
 const index: BrandAssetIndex = {
   metadata: {
@@ -36,9 +36,73 @@ const index: BrandAssetIndex = {
   ]
 };
 
+function createAsset(id: string): BrandAsset {
+  return {
+    id,
+    type: "product_photo",
+    path: `assets/products/${id}.png`,
+    status: "approved",
+    allowed_channels: ["Facebook"],
+    allowed_formats: ["facebook_square"],
+    usage_notes: "Approved test asset.",
+    founder_confirmation_needed: false
+  };
+}
+
+function createAssetIndex(assets: unknown[]): BrandAssetIndex {
+  return {
+    metadata: {
+      schema_version: "0.1.0",
+      language: "vi",
+      status: "draft"
+    },
+    assets: assets as BrandAsset[]
+  };
+}
+
 describe("asset selection", () => {
   it("validates an asset index shape", () => {
     expect(validateAssetIndex(index).valid).toBe(true);
+  });
+
+  it("accepts optional asset tag metadata fields", () => {
+    const index = createAssetIndex([
+      {
+        ...createAsset("ban-mai-yen-mach"),
+        product_tags: ["ban_mai", "yen_mach", "breakfast"],
+        campaign_tags: ["ban_mai_breakfast"],
+        visual_tags: ["warm", "natural", "product_clear"],
+        best_for: ["Ban Mai breakfast Facebook square"],
+        avoid_for: ["detox product post"],
+        approval_scope: "internal_test"
+      }
+    ]);
+
+    expect(validateAssetIndex(index)).toEqual({ valid: true, errors: [] });
+  });
+
+  it("rejects asset tag metadata that is not an array of strings", () => {
+    const index = createAssetIndex([
+      {
+        ...createAsset("bad-tags"),
+        product_tags: ["ban_mai", 123],
+        campaign_tags: "ban_mai_breakfast",
+        visual_tags: [null],
+        best_for: [false],
+        avoid_for: [{}],
+        approval_scope: 42
+      }
+    ] as unknown as BrandAsset[]);
+
+    const validation = validateAssetIndex(index);
+
+    expect(validation.valid).toBe(false);
+    expect(validation.errors).toContain("bad-tags: product_tags must contain strings only");
+    expect(validation.errors).toContain("bad-tags: campaign_tags must be an array");
+    expect(validation.errors).toContain("bad-tags: visual_tags must contain strings only");
+    expect(validation.errors).toContain("bad-tags: best_for must contain strings only");
+    expect(validation.errors).toContain("bad-tags: avoid_for must contain strings only");
+    expect(validation.errors).toContain("bad-tags: approval_scope must be a string");
   });
 
   it("returns invalid without throwing for malformed root values", () => {

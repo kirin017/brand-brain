@@ -3,9 +3,14 @@ import type { ComplianceRisk } from "../types";
 export type RenderFormat = "facebook_square";
 
 export type RenderTemplateId =
-  | "product-focus"
-  | "membership-focus"
-  | "community-focus";
+  | "ban-mai-breakfast"
+  | "giot-lanh-membership"
+  | "product-focus-drink"
+  | "an-lanh-song-khoe-community"
+  | "zalo-community"
+  | "sale-ctv-recruitment"
+  | "connected-point-posm"
+  | "brand-alliance";
 
 export type AssetStatus =
   | "draft"
@@ -31,6 +36,12 @@ export interface BrandAsset {
   allowed_formats: RenderFormat[];
   usage_notes: string;
   founder_confirmation_needed: boolean;
+  product_tags?: string[];
+  campaign_tags?: string[];
+  visual_tags?: string[];
+  best_for?: string[];
+  avoid_for?: string[];
+  approval_scope?: string;
 }
 
 export interface BrandAssetIndex {
@@ -47,6 +58,7 @@ export interface RenderPayload {
   job_id: string;
   format: RenderFormat;
   template_id: RenderTemplateId;
+  template_variant: "A" | "B" | "C";
   campaign: string;
   product_membership: string;
   headline: string;

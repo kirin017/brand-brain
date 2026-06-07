@@ -36,7 +36,13 @@ const allowedAssetKeys = new Set([
   "allowed_channels",
   "allowed_formats",
   "usage_notes",
-  "founder_confirmation_needed"
+  "founder_confirmation_needed",
+  "product_tags",
+  "campaign_tags",
+  "visual_tags",
+  "best_for",
+  "avoid_for",
+  "approval_scope"
 ]);
 
 export async function loadAssetIndex(): Promise<BrandAssetIndex> {
@@ -127,6 +133,12 @@ export function validateAssetIndex(index: unknown): { valid: boolean; errors: st
     if (typeof asset.founder_confirmation_needed !== "boolean") {
       errors.push(`${assetId}: founder_confirmation_needed must be boolean`);
     }
+    for (const fieldName of ["product_tags", "campaign_tags", "visual_tags", "best_for", "avoid_for"]) {
+      validateOptionalStringArray(asset, assetId, fieldName, errors);
+    }
+    if (asset.approval_scope !== undefined && typeof asset.approval_scope !== "string") {
+      errors.push(`${assetId}: approval_scope must be a string`);
+    }
   }
 
   return { valid: errors.length === 0, errors };
@@ -138,6 +150,23 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function isAllowedValue<T extends string>(value: unknown, allowedValues: readonly T[]): value is T {
   return typeof value === "string" && allowedValues.includes(value as T);
+}
+
+function validateOptionalStringArray(
+  asset: Record<string, unknown>,
+  assetId: string,
+  fieldName: string,
+  errors: string[]
+): void {
+  const value = asset[fieldName];
+  if (value === undefined) return;
+  if (!Array.isArray(value)) {
+    errors.push(`${assetId}: ${fieldName} must be an array`);
+    return;
+  }
+  if (!value.every((item) => typeof item === "string")) {
+    errors.push(`${assetId}: ${fieldName} must contain strings only`);
+  }
 }
 
 export function findApprovedAsset(

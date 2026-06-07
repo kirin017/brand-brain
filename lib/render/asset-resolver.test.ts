@@ -28,6 +28,13 @@ describe("asset data URL resolver", () => {
       .toThrow("Unsupported image file type for asset id: asset-1");
   });
 
+  it("reports missing supported image files as asset resolution errors", () => {
+    const missingPath = path.join(".tmp-missing-asset-resolver", "missing.png");
+
+    expect(() => resolveAssetDataUrl(createAssetIndex(missingPath), "asset-1"))
+      .toThrow("Cannot read asset file for asset id: asset-1");
+  });
+
   it("rejects asset paths that escape the repository root", () => {
     const escapingPath = path.join("..", "__outside-byt-asset.png");
 

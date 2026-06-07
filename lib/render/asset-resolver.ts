@@ -24,7 +24,12 @@ export function resolveAssetDataUrl(assetIndex: BrandAssetIndex, assetId: string
   }
 
   const mimeType = getImageMimeType(assetPath, assetId);
-  const encoded = fs.readFileSync(assetPath).toString("base64");
+  let encoded: string;
+  try {
+    encoded = fs.readFileSync(assetPath).toString("base64");
+  } catch {
+    throw new AssetResolutionError(`Cannot read asset file for asset id: ${assetId}`);
+  }
 
   return `data:${mimeType};base64,${encoded}`;
 }

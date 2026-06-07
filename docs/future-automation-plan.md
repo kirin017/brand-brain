@@ -27,6 +27,35 @@ Brand Brain
 → Publish
 ```
 
+## Phase Đầu Tiên Được Ưu Tiên: HTML-To-Image Cho Facebook Square
+
+BYT sẽ ưu tiên HTML-to-image cho Facebook square post trước khi kết nối Canva/Figma/image generation API. Lý do:
+
+- Agent viết HTML/CSS ổn định hơn so với tạo ảnh bằng prompt tự do.
+- Text tiếng Việt, CTA, layout, badge và Brand Checker dễ kiểm soát hơn.
+- Sản phẩm F&B cần ảnh thật hoặc asset đã duyệt, không nên để AI tự bịa sản phẩm/bao bì.
+- HTML render có thể xuất `render.html`, `rendered.png`, `metadata.json`, `brand-check.md`, `approval.json` và sau duyệt là `final.png`.
+
+Luồng ưu tiên:
+
+```text
+Brand Brain
+→ Brand Brain Generator
+→ Text Brand Checker
+→ Template Selector
+→ Approved Asset Selector
+→ HTML Render
+→ Visual QA
+→ Human Approval
+→ Export final.png
+```
+
+Quy tắc:
+
+- Không có asset bắt buộc đã duyệt thì không xuất final.
+- Compliance risk `High` thì không render final.
+- Ảnh AI chỉ được dùng nếu đã qua duyệt và được ghi vào `brand-data/assets.json` với status `approved`.
+
 ## Vai Trò Từng Bước
 
 ### 1. Brand Brain
@@ -362,4 +391,3 @@ Chỉ triển khai khi đã có:
 - Chưa tích hợp Google Drive.
 - Chưa publish tự động.
 - Tất cả prompt/template dưới đây là tài liệu chuẩn bị cho automation tương lai.
-

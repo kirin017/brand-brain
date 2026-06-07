@@ -1,4 +1,4 @@
-import { chromium } from "playwright";
+import { chromium, type Page } from "playwright";
 import { mergeQaResults, runBrowserVisualQa, runStaticVisualQa } from "./visual-qa";
 import type { VisualQaResult } from "./types";
 import type { VisualQaMaxLengths } from "./visual-qa";
@@ -36,6 +36,7 @@ export async function renderHtmlToPng(input: {
       deviceScaleFactor: 1
     });
     await page.setContent(addBaseUrl(input.html, input.baseUrl), { waitUntil: "networkidle" });
+    await waitForImages(page);
     const browserQa = await runBrowserVisualQa(page, {
       requiredBackgroundUrls: input.requiredBackgroundUrls
     });
@@ -48,6 +49,35 @@ export async function renderHtmlToPng(input: {
   } finally {
     await browser.close();
   }
+}
+
+async function waitForImages(page: Page): Promise<void> {
+  await page.evaluate(async () => {
+    const images = Array.from(document.images);
+
+    await Promise.all(images.map((image) => {
+      if (image.complete) return Promise.resolve();
+
+      return new Promise<void>((resolve) => {
+        const timeout = window.setTimeout(() => {
+          cleanup();
+          resolve();
+        }, 5000);
+        const cleanup = () => {
+          window.clearTimeout(timeout);
+          image.removeEventListener("load", onDone);
+          image.removeEventListener("error", onDone);
+        };
+        const onDone = () => {
+          cleanup();
+          resolve();
+        };
+
+        image.addEventListener("load", onDone, { once: true });
+        image.addEventListener("error", onDone, { once: true });
+      });
+    }));
+  });
 }
 
 function addBaseUrl(html: string, baseUrl?: string): string {

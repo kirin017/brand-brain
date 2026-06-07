@@ -123,6 +123,50 @@ describe("browser visual QA", () => {
       await browser.close();
     }
   });
+
+  it("allows tiny overflow tolerance and reports overflowing data-qa names", async () => {
+    const browser = await chromium.launch();
+    try {
+      const page = await browser.newPage({
+        viewport: { width: 1080, height: 1080 },
+        deviceScaleFactor: 1
+      });
+      await page.setContent(`
+        <style>
+          .frame {
+            width: 1080px;
+            height: 1080px;
+          }
+          .clip {
+            width: 100px;
+            height: 20px;
+            overflow: hidden;
+          }
+          .minor-content {
+            width: 102px;
+            height: 20px;
+          }
+          .major-content {
+            width: 104px;
+            height: 20px;
+          }
+        </style>
+        <main class="frame">
+          <div class="clip" data-qa="minor-overflow"><div class="minor-content"></div></div>
+          <div class="clip" data-qa="headline"><div class="major-content"></div></div>
+        </main>
+      `);
+
+      const result = await runBrowserVisualQa(page);
+      const overflowCheck = result.checks.find((check) => check.name === "no_text_overflow");
+
+      expect(result.passed).toBe(false);
+      expect(overflowCheck?.passed).toBe(false);
+      expect(overflowCheck?.details).toBe("Overflow element count is 1: headline.");
+    } finally {
+      await browser.close();
+    }
+  });
 });
 
 describe("visual QA result merging", () => {

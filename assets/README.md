@@ -1,14 +1,21 @@
 # Assets
 
-Thư mục này dành cho tài sản thương hiệu và thiết kế trong giai đoạn sau.
+Thư mục này dành cho tài sản thương hiệu và thiết kế.
 
-Hiện chưa lưu asset cuối cùng. Khi bắt đầu dùng, có thể chia tiếp:
+## Cấu trúc hiện tại
 
 - `logos/`
 - `photos/`
-- `icons/`
-- `packaging/`
-- `campaign-assets/`
+  - `products/`
+- `drive-import-manifest.json`
 
-Không lưu file nhạy cảm, dữ liệu khách hàng thật hoặc tài sản chưa có quyền sử dụng.
+## Nguồn Drive đã nhập
 
+- Folder brand: logo BYT, logo Nắng Home.
+- Folder ảnh sản phẩm: ảnh chụp sản phẩm.
+
+Các file đã nhập được index trong `brand-data/assets.json`. Manifest `drive-import-manifest.json` lưu `drive_id`, đường dẫn, dung lượng và hash SHA-256 để đối chiếu lại nguồn.
+
+## Lưu ý sử dụng
+
+Không mặc định xem asset là final/approved. Tất cả logo và ảnh sản phẩm vẫn cần founder xác nhận quyền dùng, bối cảnh dùng và quy tắc placement trước khi dùng public.

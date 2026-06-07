@@ -56,6 +56,10 @@ Quy tắc:
 - Compliance risk `High` thì không render final.
 - Ảnh AI chỉ được dùng nếu đã qua duyệt và được ghi vào `brand-data/assets.json` với status `approved`.
 
+## Phase 1 HTML Template Design System
+
+The first production path uses local HTML templates, structured asset tags, Visual QA, and human approval before final PNG export. External Canva, Figma, image generation, and Zalo publishing remain outside Phase 1.
+
 ## Vai Trò Từng Bước
 
 ### 1. Brand Brain

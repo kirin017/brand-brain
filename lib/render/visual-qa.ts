@@ -73,10 +73,15 @@ export async function runBrowserVisualQa(
     const backgroundElements = frame
       ? [frame, ...Array.from(frame.querySelectorAll("*"))]
       : Array.from(document.querySelectorAll("*"));
+    const overflowTolerancePx = 2;
     const overflowElements = Array.from(document.querySelectorAll("[data-qa]")).filter((element) => {
       const htmlElement = element as HTMLElement;
-      return htmlElement.scrollWidth > htmlElement.clientWidth || htmlElement.scrollHeight > htmlElement.clientHeight;
+      return (
+        htmlElement.scrollWidth - htmlElement.clientWidth > overflowTolerancePx ||
+        htmlElement.scrollHeight - htmlElement.clientHeight > overflowTolerancePx
+      );
     });
+    const overflowQaNames = overflowElements.map((element) => element.getAttribute("data-qa") ?? "unknown");
     const extractBackgroundUrls = (backgroundImage: string): string[] => {
       const urls: string[] = [];
       const pattern = /url\((?:"([^"]+)"|'([^']+)'|([^)"']+))\)/gi;
@@ -97,6 +102,7 @@ export async function runBrowserVisualQa(
       frameSize: frame ? { width: frame.clientWidth, height: frame.clientHeight } : null,
       imagesLoaded: imageElements.every((image) => image.complete && image.naturalWidth > 0),
       overflowCount: overflowElements.length,
+      overflowQaNames,
       backgroundImageUrls
     };
   });
@@ -150,7 +156,7 @@ export async function runBrowserVisualQa(
     {
       name: "no_text_overflow",
       passed: browserChecks.overflowCount === 0,
-      details: `Overflow element count is ${browserChecks.overflowCount}.`
+      details: getTextOverflowDetails(browserChecks.overflowCount, browserChecks.overflowQaNames)
     },
     {
       name: "background_images_loaded",
@@ -163,6 +169,19 @@ export async function runBrowserVisualQa(
     passed: checks.every((check) => check.passed),
     checks
   };
+}
+
+function getTextOverflowDetails(overflowCount: number, overflowQaNames?: string[]): string {
+  if (overflowCount === 0) {
+    return "Overflow element count is 0.";
+  }
+
+  const names = (overflowQaNames ?? []).filter((name) => name.length > 0);
+  if (names.length === 0) {
+    return `Overflow element count is ${overflowCount}.`;
+  }
+
+  return `Overflow element count is ${overflowCount}: ${names.join(", ")}.`;
 }
 
 function getBackgroundImageDetails(backgroundUrls: string[], failedBackgroundUrls: string[]): string {

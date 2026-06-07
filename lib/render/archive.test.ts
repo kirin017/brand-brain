@@ -13,7 +13,8 @@ import type { ApprovalRecord, RenderPayload, VisualQaResult } from "./types";
 const payload: RenderPayload = {
   job_id: "2026-06-06-facebook-ban-mai-00000001",
   format: "facebook_square",
-  template_id: "community-focus",
+  template_id: "an-lanh-song-khoe-community",
+  template_variant: "A",
   campaign: "Ban Mai breakfast campaign",
   product_membership: "Ban Mai Thức Giấc",
   headline: "Bữa sáng lành hơn",

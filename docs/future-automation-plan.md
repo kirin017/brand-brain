@@ -1,6 +1,6 @@
 # Kế Hoạch Tự Động Hóa Tương Lai Cho BYT Brand Brain
 
-Tài liệu này mô tả hướng kết nối tương lai giữa BYT Brand Brain và các công cụ thiết kế như Canva, Figma hoặc image generation tool. Giai đoạn hiện tại **chưa tích hợp API ngoài**, chưa tự động xuất bản và chưa tạo ảnh cuối. Mục tiêu là chuẩn hóa luồng dữ liệu để sau này kết nối an toàn, có kiểm duyệt và đúng thương hiệu.
+Tài liệu này mô tả hướng kết nối tương lai giữa BYT Brand Brain và các công cụ thiết kế như Canva, Figma hoặc image generation tool. Phase 1 hiện có thể tạo local `final.png` sau human approval, nhưng **chưa tích hợp API ngoài**, chưa lưu lên Google Drive và chưa tự động xuất bản. Mục tiêu là chuẩn hóa luồng dữ liệu để sau này kết nối an toàn, có kiểm duyệt và đúng thương hiệu.
 
 ## Mục Tiêu
 

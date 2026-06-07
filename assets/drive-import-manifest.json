@@ -1,0 +1,236 @@
+[
+    {
+        "source":  "brand",
+        "drive_id":  "1kIQHTnrOZ-BfPyqpUv_abLF9FH7KqWsv",
+        "original_title":  "Logo Nắng Home.PNG",
+        "saved_path":  "assets/logos/Logo Nắng Home.PNG",
+        "bytes":  1124623,
+        "sha256":  "343D2D7EE90D787AB2AEA8636C9D6B20840571270F715966A772FBC4D621B340",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "brand",
+        "drive_id":  "1C3XlKupSXPMvAlW1rFL56SFb9Jl0nkVN",
+        "original_title":  "Logo BYT có nền.png",
+        "saved_path":  "assets/logos/Logo BYT có nền.png",
+        "bytes":  2881784,
+        "sha256":  "D3B018FA46242C1FB8D921436C9FF8FC0751EB7F811554C62944B0C7C3456044",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "brand",
+        "drive_id":  "1AchyM_MemiLDIL-55Raq-R8RpUDGddVF",
+        "original_title":  "Logo tách nền BYT.png",
+        "saved_path":  "assets/logos/Logo tách nền BYT.png",
+        "bytes":  206934,
+        "sha256":  "47F6FA80F079A452D3DBB8AF79E28205CFF5C380423C3305D8B02CBED86AF833",
+        "action":  "already_exists_same"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1VBunF7dKn-VYEfALSOQLyk9_31inXMjf",
+        "original_title":  "IMG_9411.JPG",
+        "saved_path":  "assets/photos/products/IMG_9411.JPG",
+        "bytes":  540027,
+        "sha256":  "F70BA5A14009FD9B322D64468F019AF43B617931E3B85BF3587E23404ED4971F",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "19I7iUiCwQYV-qiUbRaTdUWtoHZqQxyEc",
+        "original_title":  "IMG_9900.JPG",
+        "saved_path":  "assets/photos/products/IMG_9900.JPG",
+        "bytes":  520864,
+        "sha256":  "0926D06DB57FE4247D2CA99615E09A53D9343F195EAEB08B60043330BA853461",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1f4HNV8zey_wk80iRgjoPizQWs14YuXzL",
+        "original_title":  "IMG_9901.JPG",
+        "saved_path":  "assets/photos/products/IMG_9901.JPG",
+        "bytes":  512535,
+        "sha256":  "0288A2DBE4299F8F36AA84B05E507EF92D672E43F4DE66B75DAD35584D5B6B3B",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1sFhllb6Dsvv_e3SN5EtAGPZZwCTY8Qwc",
+        "original_title":  "IMG_9902.JPG",
+        "saved_path":  "assets/photos/products/IMG_9902.JPG",
+        "bytes":  492835,
+        "sha256":  "C6759872623F7BBA29E8BBF5981D54ED1BFEFBCA870F1EDD5A3C160229900546",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "11v_cSGdKTfMNfQlqLdOhzfoABkv7vNvX",
+        "original_title":  "IMG_9903.JPG",
+        "saved_path":  "assets/photos/products/IMG_9903.JPG",
+        "bytes":  442856,
+        "sha256":  "3DF128B9885C84E3804D2538FAB8FC9DB1D5E76D61F47274E69A63F751137C2B",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1YO7DHEJ3EZRPJWnBe3KLXEDXvJziN9Mt",
+        "original_title":  "IMG_9414.JPG",
+        "saved_path":  "assets/photos/products/IMG_9414.JPG",
+        "bytes":  392905,
+        "sha256":  "D7D0D3633B97AAD7C61A67AAF32F5157556A0288162964F4DF492A99617879C6",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1IENFPprYJU6YP5tnEIH30hQ_tmJwv8zt",
+        "original_title":  "IMG_9413.JPG",
+        "saved_path":  "assets/photos/products/IMG_9413.JPG",
+        "bytes":  391304,
+        "sha256":  "5716F35433EC226DA316378C88F6E13016FE695F0D80F99944521E07298EE9A5",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1oKQolr23cyrgkXrFrfU2CJF_Q3PuVBXu",
+        "original_title":  "IMG_9888.JPG",
+        "saved_path":  "assets/photos/products/IMG_9888.JPG",
+        "bytes":  389614,
+        "sha256":  "4125248BE6F5344B917E5FBE42FD47735E6CD8C75D52CE1B194AA9C0F3E8F25D",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1jxx4ZFs1ivR9FpmU7vDKaPhDSFKZdWcB",
+        "original_title":  "IMG_9412.JPG",
+        "saved_path":  "assets/photos/products/IMG_9412.JPG",
+        "bytes":  385998,
+        "sha256":  "98CAF5C813C7C18F1C394EAED6045CB52C203F4B180E47EF04DDCDA301D76C32",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1F3ZwXV4cHd6r3le4sOBw0V_tY1c288Ag",
+        "original_title":  "IMG_9405.JPG",
+        "saved_path":  "assets/photos/products/IMG_9405.JPG",
+        "bytes":  376136,
+        "sha256":  "F37323569F7E4A348F175BD87EB2DCAC81C5F7E2C0C33F6D56C959DE2A8025DE",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1QlG9MBV4bv7nSuzhK0ZVmZtC2wPUL3fr",
+        "original_title":  "IMG_9410.JPG",
+        "saved_path":  "assets/photos/products/IMG_9410.JPG",
+        "bytes":  335943,
+        "sha256":  "DDB85BFC307D9F72A7E285B6473EFD58937334985EE756DB5AF3E0FF935EE8A9",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1A_rDzjg8YSf5T-rI9ceeaxP7qJqEZRqO",
+        "original_title":  "IMG_9406.JPG",
+        "saved_path":  "assets/photos/products/IMG_9406.JPG",
+        "bytes":  327406,
+        "sha256":  "88B52D457C59DE8BC510B54D45886089AA6DEE0FCFD8D21E668EB682C8F6E3F4",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1s8j6vSN0d1TGXTg1YnClEjj3Ggr6sjK8",
+        "original_title":  "IMG_9408.JPG",
+        "saved_path":  "assets/photos/products/IMG_9408.JPG",
+        "bytes":  309752,
+        "sha256":  "DBA198EC9B0621704266A1B7370750764ED8065CBCDD8D974EE25DFD88AEE7DF",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1STVNH_PygGvRMsVKufsgD4UiYX-wKH0y",
+        "original_title":  "IMG_9890.JPG",
+        "saved_path":  "assets/photos/products/IMG_9890.JPG",
+        "bytes":  302162,
+        "sha256":  "4C621E931A618CC1FB1A6018EA95F94637E93439343EC4D8F336335152E39ACE",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "14Sw6OqnKCLuzzSctN_MTpOYpqLxY-zN7",
+        "original_title":  "IMG_9415.JPG",
+        "saved_path":  "assets/photos/products/IMG_9415.JPG",
+        "bytes":  301740,
+        "sha256":  "F94AA83ED3DF43007E1E999CA3F61977BFD275813EF5052B24A171EA08B9A9EE",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "10aLYV6dvyLpiAMxI5VloVwnTMEX8Upan",
+        "original_title":  "IMG_9892.JPG",
+        "saved_path":  "assets/photos/products/IMG_9892.JPG",
+        "bytes":  294158,
+        "sha256":  "7E166089164A98D1A3D74320E7324F78E631025798CFD56E5E9F440685E1DFFC",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1CbRbvyx0fh8dTpCdLSQ5MSXnNp46PrFF",
+        "original_title":  "IMG_9407.JPG",
+        "saved_path":  "assets/photos/products/IMG_9407.JPG",
+        "bytes":  249472,
+        "sha256":  "7211C8CFF4C5CE9EA9A0179766054A69C588A695DEFBA4E70BC0E8A5F6A3A170",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "130Db7cVFypAOwBCK_jpLMNQBGEubcZ2c",
+        "original_title":  "IMG_9409.JPG",
+        "saved_path":  "assets/photos/products/IMG_9409.JPG",
+        "bytes":  245757,
+        "sha256":  "237EED34E4DB9D367247950E5D1F04607D95366FCC7F94A49D5A8ADA2EC66E1A",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1UIOUXQ88Hcx1nhPEEcUW4n3Eqo2lXGiS",
+        "original_title":  "IMG_9907.JPG",
+        "saved_path":  "assets/photos/products/IMG_9907.JPG",
+        "bytes":  242907,
+        "sha256":  "0DC3D1C7F5FAE7EB11017A900908310AFEEA1D14069C1B82321FA6DEA6465CF1",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "19OwJOFj0JD9BcGyn-lpMtJMhRC6pId53",
+        "original_title":  "IMG_9906.JPG",
+        "saved_path":  "assets/photos/products/IMG_9906.JPG",
+        "bytes":  240002,
+        "sha256":  "660A8CDD7F694B708C8EA49E3019E4CB34331180FFBB3366DF843F302CC4C26F",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1nvM75sugat3bJooFqGDF-JIvMN5o8B2S",
+        "original_title":  "IMG_9909.JPG",
+        "saved_path":  "assets/photos/products/IMG_9909.JPG",
+        "bytes":  207457,
+        "sha256":  "EEFEAB82F13C65934E3BD7748D3CC8152D5D9F37AEF846F4A96E383577993A5B",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "1dFSCehJCcxs7pXFlz4aTA3P5WikOo7gn",
+        "original_title":  "IMG_9905.JPG",
+        "saved_path":  "assets/photos/products/IMG_9905.JPG",
+        "bytes":  206574,
+        "sha256":  "5F24FFFEBD0ECD63E2AB476A680009E2828C07DE9BAA7CD0469D479EB604D9B2",
+        "action":  "downloaded"
+    },
+    {
+        "source":  "product",
+        "drive_id":  "120LFQ_voVjzS81wv472HtRa87rTRzFux",
+        "original_title":  "IMG_9908.JPG",
+        "saved_path":  "assets/photos/products/IMG_9908.JPG",
+        "bytes":  191231,
+        "sha256":  "CF698ADAEBE46E1DA9D9284E57D504D2D8990917D3C0A845A6744FCE9633FF12",
+        "action":  "downloaded"
+    }
+]

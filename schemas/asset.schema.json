@@ -61,6 +61,27 @@
             "items": { "enum": ["facebook_square"] }
           },
           "usage_notes": { "type": "string" },
+          "product_tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "campaign_tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "visual_tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "best_for": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "avoid_for": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "approval_scope": { "type": "string" },
           "founder_confirmation_needed": { "type": "boolean" }
         },
         "additionalProperties": false

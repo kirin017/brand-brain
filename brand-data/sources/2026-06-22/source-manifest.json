@@ -1,0 +1,81 @@
+﻿{
+    "snapshot_date":  "2026-06-22",
+    "generated_by":  "Codex Google Drive/Sheets import",
+    "guardrails":  [
+                       "Nguồn này có thể chứa giá, chính sách, số điện thoại/đối tác và nội dung vận hành; không xuất public nếu chưa kiểm tra quyền dùng.",
+                       "Một số nội dung sản phẩm dùng từ detox, nhẹ bụng, tiêu hóa hoặc mô tả tác động cơ thể; khi viết public vẫn phải áp dụng compliance guardrails trong BRAND_CONTEXT_SUMMARY.md và brand-brain/11-compliance-rule-brain.md.",
+                       "JSON chiến lược hiện tại chưa bị ghi đè; snapshot này là nguồn tham chiếu để cập nhật có kiểm soát."
+                   ],
+    "spreadsheets":  [
+                         {
+                             "role":  "product_catalog_pricing_recipes",
+                             "title":  "FINAL_BYT_DANH MỤC SẢN PHẨM KÈM ẢNH \u0026 GIÁ \u0026 CHÍNH SÁCH",
+                             "drive_id":  "1sisaPBk6rqFBCU-C1L-yXjHR_7lCV95KaB2DQuALbQY",
+                             "source_url":  "https://docs.google.com/spreadsheets/d/1sisaPBk6rqFBCU-C1L-yXjHR_7lCV95KaB2DQuALbQY/edit?usp=sharing",
+                             "mime_type":  "application/vnd.google-apps.spreadsheet",
+                             "modified_time":  "2026-06-21T07:25:54.281Z",
+                             "exported_file":  {
+                                                   "local_path":  "brand-data/sources/2026-06-22/spreadsheets/product-catalog-pricing-recipes.xlsx",
+                                                   "size_bytes":  199954,
+                                                   "sha256":  "140851F137BFB4AB4476CC441A74A59BCC03CCE1C63D7874E1A5335B07CA5CB1"
+                                               },
+                             "extracted_csv_dir":  "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes"
+                         },
+                         {
+                             "role":  "membership_commission_partners",
+                             "title":  "THẺ MEMBERSHIP",
+                             "drive_id":  "1U73iQWNULe8Ki3CWKJKfdtm2yduhg8OVWP6OZmPfqSA",
+                             "source_url":  "https://docs.google.com/spreadsheets/d/1U73iQWNULe8Ki3CWKJKfdtm2yduhg8OVWP6OZmPfqSA/edit?usp=sharing",
+                             "mime_type":  "application/vnd.google-apps.spreadsheet",
+                             "modified_time":  "2026-05-18T15:48:22.709Z",
+                             "exported_file":  {
+                                                   "local_path":  "brand-data/sources/2026-06-22/spreadsheets/membership-commission-partners.xlsx",
+                                                   "size_bytes":  393299,
+                                                   "sha256":  "66531EB91FB5962F68CD46C98E7D97915C63C56C06B1C4493CB0BC5BA225DA6B"
+                                               },
+                             "extracted_csv_dir":  "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners"
+                         },
+                         {
+                             "role":  "zalo_content_community",
+                             "title":  "TỔNG HỢP NHÓM ZALO",
+                             "drive_id":  "1yyGp3G2qy5IQZly3UxPpgsXixn3VXsbgkb8vrnYMx3s",
+                             "source_url":  "https://docs.google.com/spreadsheets/d/1yyGp3G2qy5IQZly3UxPpgsXixn3VXsbgkb8vrnYMx3s/edit?usp=sharing",
+                             "mime_type":  "application/vnd.google-apps.spreadsheet",
+                             "modified_time":  "2026-06-21T07:04:13.741Z",
+                             "exported_file":  {
+                                                   "local_path":  "brand-data/sources/2026-06-22/spreadsheets/zalo-content-community.xlsx",
+                                                   "size_bytes":  550774,
+                                                   "sha256":  "FF782D69B6E0FF9B1CF0CF804F4A262664B1474C372247744F26075F4E88D90B"
+                                               },
+                             "extracted_csv_dir":  "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community"
+                         }
+                     ],
+    "documents":  [
+                      {
+                          "role":  "commission_policy_pdf",
+                          "title":  "FINAL_CHÍNH SÁCH HOA HỒNG_BYT.pdf",
+                          "drive_id":  "1FvZX_yx6dBVgWCiU429F1Pqpxur4JLou",
+                          "source_url":  "https://drive.google.com/file/d/1FvZX_yx6dBVgWCiU429F1Pqpxur4JLou/view?usp=sharing",
+                          "mime_type":  "application/pdf",
+                          "modified_time":  "2026-06-21T14:16:25.265Z",
+                          "downloaded_file":  {
+                                                  "local_path":  "brand-data/sources/2026-06-22/documents/commission-policy.pdf",
+                                                  "size_bytes":  90735,
+                                                  "sha256":  "6F68EFDF812FDF955059DF91CB9859A2DACF2271D01CC4EE567626ACDAB318C5"
+                                              },
+                          "extracted_text":  {
+                                                 "local_path":  "brand-data/sources/2026-06-22/extracted/commission-policy.txt",
+                                                 "size_bytes":  16138,
+                                                 "sha256":  "3A9C2A1C25CCA7A4C03DC774673261C1E8B3224CE7DFDB2F76632D1D9521DEE6"
+                                             }
+                      }
+                  ],
+    "asset_folder_manifest":  "assets/menu-product-images/2026-06-22/manifest.json",
+    "workbook_summary":  "brand-data/sources/2026-06-22/extracted/workbook-summary.json",
+    "normalized_product_catalog":  {
+                                       "local_path":  "brand-data/sources/2026-06-22/extracted/product-catalog-normalized.json",
+                                       "size_bytes":  839237,
+                                       "sha256":  "10DCBF5D8E83B8EE8EE2FC2CACF15F3F1A352382D0EAA047C6C1633946AAD6FD",
+                                       "notes":  "JSON tiện đọc được tạo từ tab danh mục giá và tab công thức; không thay thế review compliance trước khi public."
+                                   }
+}

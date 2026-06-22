@@ -1,0 +1,13 @@
+﻿"POLICY MATRIX – Chính sách level, quyền lợi, thưởng và cơ chế tính"
+Dùng sheet này làm bảng chuẩn để Partner/CTV lookup hoa hồng. Các cột D:F là số tiền dùng cho công thức. Thay đổi tại đây thì dashboard tự cập nhật.
+Level,Đối tượng áp dụng,Điều kiện lên level,HH Thẻ Giọt Lành,HH Thẻ Ban Mai,HH Set Ban Mai,Bonus mốc,Quyền lợi,Việc cần làm,Payout,Ghi chú kiểm soát
+Theo dõi,Partner/CTV mới,"Có trong danh sách, chưa có tương tác rõ",0.0,0.0,0.0,Không,Nhận thông tin/case study,Phản hồi và xác nhận nhu cầu,Không payout,Chưa cấp mã nếu không có tương tác
+Người Gieo Giọt Lành,Khách/Người nhận quà,Giới thiệu 1–3 người hoặc phản hồi tích cực,20000.0,25000.0,0.0,3 giới thiệu: tặng 1 set/ voucher,"Mã quà lan tỏa, voucher",Giới thiệu nhẹ cho người thân/khách quen,Theo tuần nếu có đơn,Không gọi là CTV để tránh áp lực bán
+Affiliate cơ bản,CTV mới,Có tối thiểu 3 đơn/tháng hoặc có tệp rõ,30000.0,40000.0,2000.0,10 thẻ: +100K,"Mã riêng, content mẫu, script inbox",Đăng story/inbox theo mẫu,Theo tuần,Không cần ôm hàng
+Đại sứ Ban Mai,Affiliate/CTV active,5–15 thẻ/tháng hoặc có group order nhỏ,40000.0,50000.0,3000.0,20 thẻ: +300K,"Content kit, sample ưu tiên, training",Bán thẻ và gom đơn nhỏ,Theo tuần,Ưu tiên tệp văn phòng/wellness
+Leader An Nhiên,Leader chủ lực,20–50 thẻ/tháng hoặc set đều hằng tuần,50000.0,60000.0,5000.0,50 thẻ: +1M,"Hoa hồng cao, dashboard riêng, sample","Bán đều, báo cáo lead, giữ hình ảnh brand",Theo tuần,Có thể mở điểm gom thử nghiệm
+Captain Giọt Lành,Leader quản nhóm,"Quản 5–10 leader/điểm gom, có doanh số nhóm thật",55000.0,65000.0,5000.0,Bonus nhóm theo doanh số thật,"Training kit, quyền mở pod, vinh danh","Onboard leader mới, coaching nhóm",Theo tuần/tháng,Không thưởng chỉ vì tuyển người
+Đối tác thử nghiệm,Đối tác/đại lý mới,Có địa điểm/tệp khách nhưng chưa có doanh số đều,40000.0,50000.0,3000.0,Theo mốc pilot,"POSM, QR, menu, sample test","Trưng bày QR, giới thiệu khách, gom đơn",Theo tuần,"Ưu tiên pre-order, không ôm hàng"
+Điểm gom,Văn phòng/studio/spa/shop,Có điểm nhận/gom đơn ổn định,45000.0,55000.0,4000.0,100 set/tháng: +300K,"Phí điểm gom, menu riêng, lịch giao","Gom đơn đúng giờ, gửi danh sách trước cut-off",Theo tuần,Không phá giá hệ thống
+Đại lý,Đối tác bán thường xuyên,Bán đều 50+ thẻ hoặc 100+ set/tháng,50000.0,60000.0,5000.0,Theo doanh số riêng,"Chính sách đại lý, ưu tiên khu vực",Bán/giới thiệu/gom đơn theo quy chuẩn,Theo tuần/tháng,Có thể có thỏa thuận riêng
+Đối tác chiến lược,Corporate/Wellness partner,Có hợp tác dài hạn hoặc gói corporate,60000.0,70000.0,6000.0,Theo hợp đồng,"Co-branding, sự kiện riêng, gói doanh nghiệp",Triển khai theo kế hoạch tháng/quý,Theo hợp đồng,Cần duyệt chính sách riêng

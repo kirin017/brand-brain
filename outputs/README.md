@@ -6,6 +6,7 @@ Thư mục này dành cho đầu ra do người hoặc AI agent tạo trong giai
 - Caption
 - Kịch bản sale
 - Bài Zalo
+- Gói bài group kéo tương tác/kéo inbox
 - Kết quả brand check
 - Draft campaign
 

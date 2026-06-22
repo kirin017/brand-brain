@@ -1,0 +1,812 @@
+﻿LỊCH ĐĂNG BÀI NHÓM ZALO: MUA GOM GIÁ TỐT
+Ngày,Tuần,STT bài / ngày,Khung giờ,Pillar,Chủ đề cụ thể,Mục tiêu,Template ID,Form mẫu tin nhắn,Prompt generate ảnh poster,Nguồn nội dung,Ghi chú,Trạng thái,Owner
+Ngày 1,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: sữa hạt Giọt Lành,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: sữa hạt Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 1,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: sữa hạt Giọt Lành,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: sữa hạt Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 1,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: sữa hạt Giọt Lành,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: sữa hạt Giọt Lành
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: sữa hạt Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 1,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: sữa hạt Giọt Lành,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: sữa hạt Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 1,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: sữa hạt Giọt Lành,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: sữa hạt Giọt Lành
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: sữa hạt Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 2,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: set Ban Mai ăn sáng,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: set Ban Mai ăn sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 2,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: set Ban Mai ăn sáng,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: set Ban Mai ăn sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 2,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: set Ban Mai ăn sáng,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: set Ban Mai ăn sáng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: set Ban Mai ăn sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 2,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: set Ban Mai ăn sáng,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: set Ban Mai ăn sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 2,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: set Ban Mai ăn sáng,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: set Ban Mai ăn sáng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: set Ban Mai ăn sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 3,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: ginger shot buổi sáng,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: ginger shot buổi sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 3,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: ginger shot buổi sáng,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: ginger shot buổi sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 3,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: ginger shot buổi sáng,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: ginger shot buổi sáng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: ginger shot buổi sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 3,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: ginger shot buổi sáng,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: ginger shot buổi sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 3,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: ginger shot buổi sáng,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: ginger shot buổi sáng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: ginger shot buổi sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 4,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: detox/Detox Extra,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: detox/Detox Extra
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 4,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: detox/Detox Extra,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: detox/Detox Extra
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 4,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: detox/Detox Extra,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: detox/Detox Extra
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: detox/Detox Extra"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 4,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: detox/Detox Extra,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: detox/Detox Extra
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 4,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: detox/Detox Extra,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: detox/Detox Extra
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: detox/Detox Extra"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 5,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: hũ mạch/yến mạch,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: hũ mạch/yến mạch
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 5,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: hũ mạch/yến mạch,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: hũ mạch/yến mạch
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 5,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: hũ mạch/yến mạch,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: hũ mạch/yến mạch
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: hũ mạch/yến mạch"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 5,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: hũ mạch/yến mạch,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: hũ mạch/yến mạch
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 5,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: hũ mạch/yến mạch,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: hũ mạch/yến mạch
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: hũ mạch/yến mạch"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 6,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: salad + cơm lứt,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: salad + cơm lứt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 6,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: salad + cơm lứt,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: salad + cơm lứt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 6,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: salad + cơm lứt,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: salad + cơm lứt
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: salad + cơm lứt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 6,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: salad + cơm lứt,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: salad + cơm lứt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 6,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: salad + cơm lứt,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: salad + cơm lứt
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: salad + cơm lứt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 7,Tuần 1,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: set Mặt Trời Bé Con,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: set Mặt Trời Bé Con
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 7,Tuần 1,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: set Mặt Trời Bé Con,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: set Mặt Trời Bé Con
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 7,Tuần 1,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: set Mặt Trời Bé Con,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: set Mặt Trời Bé Con
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: set Mặt Trời Bé Con"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 7,Tuần 1,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: set Mặt Trời Bé Con,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: set Mặt Trời Bé Con
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 7,Tuần 1,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: set Mặt Trời Bé Con,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: set Mặt Trời Bé Con
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: set Mặt Trời Bé Con"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 8,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: nước ép/smoothie,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: nước ép/smoothie
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 8,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: nước ép/smoothie,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: nước ép/smoothie
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 8,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: nước ép/smoothie,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: nước ép/smoothie
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: nước ép/smoothie"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 8,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: nước ép/smoothie,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: nước ép/smoothie
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 8,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: nước ép/smoothie,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: nước ép/smoothie
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: nước ép/smoothie"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 9,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: trứng nướng thảo mộc,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: trứng nướng thảo mộc
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 9,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: trứng nướng thảo mộc,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: trứng nướng thảo mộc
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 9,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: trứng nướng thảo mộc,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: trứng nướng thảo mộc
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: trứng nướng thảo mộc"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 9,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: trứng nướng thảo mộc,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: trứng nướng thảo mộc
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 9,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: trứng nướng thảo mộc,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: trứng nướng thảo mộc
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: trứng nướng thảo mộc"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 10,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: hạt mix/bột hạt,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: hạt mix/bột hạt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 10,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: hạt mix/bột hạt,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: hạt mix/bột hạt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 10,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: hạt mix/bột hạt,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: hạt mix/bột hạt
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: hạt mix/bột hạt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 10,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: hạt mix/bột hạt,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: hạt mix/bột hạt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 10,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: hạt mix/bột hạt,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: hạt mix/bột hạt
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: hạt mix/bột hạt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 11,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: combo ăn sáng dân văn phòng,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: combo ăn sáng dân văn phòng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 11,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: combo ăn sáng dân văn phòng,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: combo ăn sáng dân văn phòng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 11,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: combo ăn sáng dân văn phòng,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: combo ăn sáng dân văn phòng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: combo ăn sáng dân văn phòng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 11,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: combo ăn sáng dân văn phòng,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: combo ăn sáng dân văn phòng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 11,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: combo ăn sáng dân văn phòng,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: combo ăn sáng dân văn phòng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: combo ăn sáng dân văn phòng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 12,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: combo mẹ bỉm/mẹ bé,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: combo mẹ bỉm/mẹ bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 12,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: combo mẹ bỉm/mẹ bé,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: combo mẹ bỉm/mẹ bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 12,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: combo mẹ bỉm/mẹ bé,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: combo mẹ bỉm/mẹ bé
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: combo mẹ bỉm/mẹ bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 12,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: combo mẹ bỉm/mẹ bé,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: combo mẹ bỉm/mẹ bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 12,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: combo mẹ bỉm/mẹ bé,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: combo mẹ bỉm/mẹ bé
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: combo mẹ bỉm/mẹ bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 13,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: thử thách 7 ngày,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: thử thách 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 13,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: thử thách 7 ngày,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: thử thách 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 13,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: thử thách 7 ngày,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: thử thách 7 ngày
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: thử thách 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 13,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: thử thách 7 ngày,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: thử thách 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 13,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: thử thách 7 ngày,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: thử thách 7 ngày
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: thử thách 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 14,Tuần 2,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: minigame/vote vị yêu thích,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: minigame/vote vị yêu thích
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 14,Tuần 2,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: minigame/vote vị yêu thích,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: minigame/vote vị yêu thích
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 14,Tuần 2,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: minigame/vote vị yêu thích,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: minigame/vote vị yêu thích
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: minigame/vote vị yêu thích"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 14,Tuần 2,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: minigame/vote vị yêu thích,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: minigame/vote vị yêu thích
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 14,Tuần 2,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: minigame/vote vị yêu thích,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: minigame/vote vị yêu thích
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: minigame/vote vị yêu thích"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 15,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: gói 7 ngày,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: gói 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 15,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: gói 7 ngày,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: gói 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 15,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: gói 7 ngày,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: gói 7 ngày
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: gói 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 15,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: gói 7 ngày,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: gói 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 15,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: gói 7 ngày,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: gói 7 ngày
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: gói 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 16,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: gói tháng,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: gói tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 16,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: gói tháng,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: gói tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 16,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: gói tháng,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: gói tháng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: gói tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 16,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: gói tháng,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: gói tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 16,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: gói tháng,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: gói tháng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: gói tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 17,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: đối tác spa/gym,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: đối tác spa/gym
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 17,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: đối tác spa/gym,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: đối tác spa/gym
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 17,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: đối tác spa/gym,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: đối tác spa/gym
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: đối tác spa/gym"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 17,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: đối tác spa/gym,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: đối tác spa/gym
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 17,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: đối tác spa/gym,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: đối tác spa/gym
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: đối tác spa/gym"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 18,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: đối tác mẹ & bé,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: đối tác mẹ & bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 18,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: đối tác mẹ & bé,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: đối tác mẹ & bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 18,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: đối tác mẹ & bé,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: đối tác mẹ & bé
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: đối tác mẹ & bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 18,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: đối tác mẹ & bé,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: đối tác mẹ & bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 18,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: đối tác mẹ & bé,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: đối tác mẹ & bé
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: đối tác mẹ & bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 19,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: quà dùng thử sản phẩm mới,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: quà dùng thử sản phẩm mới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 19,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: quà dùng thử sản phẩm mới,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: quà dùng thử sản phẩm mới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 19,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: quà dùng thử sản phẩm mới,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: quà dùng thử sản phẩm mới
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: quà dùng thử sản phẩm mới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 19,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: quà dùng thử sản phẩm mới,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: quà dùng thử sản phẩm mới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 19,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: quà dùng thử sản phẩm mới,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: quà dùng thử sản phẩm mới
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: quà dùng thử sản phẩm mới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 20,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: combo giờ vàng,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: combo giờ vàng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 20,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: combo giờ vàng,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: combo giờ vàng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 20,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: combo giờ vàng,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: combo giờ vàng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: combo giờ vàng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 20,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: combo giờ vàng,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: combo giờ vàng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 20,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: combo giờ vàng,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: combo giờ vàng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: combo giờ vàng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 21,Tuần 3,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: feedback khách,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: feedback khách
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 21,Tuần 3,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: feedback khách,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: feedback khách
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 21,Tuần 3,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: feedback khách,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: feedback khách
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: feedback khách"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 21,Tuần 3,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: feedback khách,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: feedback khách
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 21,Tuần 3,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: feedback khách,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: feedback khách
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: feedback khách"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 22,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: ảnh giao hàng/bill,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: ảnh giao hàng/bill
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 22,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: ảnh giao hàng/bill,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: ảnh giao hàng/bill
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 22,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: ảnh giao hàng/bill,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: ảnh giao hàng/bill
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: ảnh giao hàng/bill"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 22,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: ảnh giao hàng/bill,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: ảnh giao hàng/bill
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 22,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: ảnh giao hàng/bill,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: ảnh giao hàng/bill
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: ảnh giao hàng/bill"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 23,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: quyền lợi thẻ Giọt Lành,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: quyền lợi thẻ Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 23,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: quyền lợi thẻ Giọt Lành,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: quyền lợi thẻ Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 23,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: quyền lợi thẻ Giọt Lành,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: quyền lợi thẻ Giọt Lành
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: quyền lợi thẻ Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 23,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: quyền lợi thẻ Giọt Lành,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: quyền lợi thẻ Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 23,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: quyền lợi thẻ Giọt Lành,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: quyền lợi thẻ Giọt Lành
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: quyền lợi thẻ Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 24,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: quyền lợi thẻ Ban Mai/Bình Minh,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: quyền lợi thẻ Ban Mai/Bình Minh
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 24,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: quyền lợi thẻ Ban Mai/Bình Minh,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: quyền lợi thẻ Ban Mai/Bình Minh
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 24,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: quyền lợi thẻ Ban Mai/Bình Minh,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: quyền lợi thẻ Ban Mai/Bình Minh
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: quyền lợi thẻ Ban Mai/Bình Minh"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 24,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: quyền lợi thẻ Ban Mai/Bình Minh,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: quyền lợi thẻ Ban Mai/Bình Minh
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 24,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: quyền lợi thẻ Ban Mai/Bình Minh,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: quyền lợi thẻ Ban Mai/Bình Minh
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: quyền lợi thẻ Ban Mai/Bình Minh"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 25,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: hướng dẫn bảo quản,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: hướng dẫn bảo quản
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 25,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: hướng dẫn bảo quản,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: hướng dẫn bảo quản
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 25,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: hướng dẫn bảo quản,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: hướng dẫn bảo quản
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: hướng dẫn bảo quản"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 25,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: hướng dẫn bảo quản,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: hướng dẫn bảo quản
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 25,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: hướng dẫn bảo quản,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: hướng dẫn bảo quản
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: hướng dẫn bảo quản"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 26,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: menu tuần tới,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: menu tuần tới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 26,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: menu tuần tới,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: menu tuần tới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 26,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: menu tuần tới,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: menu tuần tới
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: menu tuần tới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 26,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: menu tuần tới,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: menu tuần tới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 26,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: menu tuần tới,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: menu tuần tới
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: menu tuần tới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 27,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: gói detox/giảm cân,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: gói detox/giảm cân
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 27,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: gói detox/giảm cân,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: gói detox/giảm cân
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 27,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: gói detox/giảm cân,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: gói detox/giảm cân
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: gói detox/giảm cân"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 27,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: gói detox/giảm cân,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: gói detox/giảm cân
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 27,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: gói detox/giảm cân,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: gói detox/giảm cân
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: gói detox/giảm cân"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 28,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: vinh danh thành viên/điểm,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: vinh danh thành viên/điểm
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 28,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: vinh danh thành viên/điểm,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: vinh danh thành viên/điểm
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 28,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: vinh danh thành viên/điểm,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: vinh danh thành viên/điểm
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: vinh danh thành viên/điểm"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 28,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: vinh danh thành viên/điểm,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: vinh danh thành viên/điểm
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 28,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: vinh danh thành viên/điểm,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: vinh danh thành viên/điểm
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: vinh danh thành viên/điểm"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 29,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: flash deal cuối tháng,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: flash deal cuối tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 29,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: flash deal cuối tháng,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: flash deal cuối tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 29,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: flash deal cuối tháng,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: flash deal cuối tháng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: flash deal cuối tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 29,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: flash deal cuối tháng,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: flash deal cuối tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 29,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: flash deal cuối tháng,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: flash deal cuối tháng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: flash deal cuối tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng
+Ngày 30,Tuần 4,1.0,09:00,Deal gom 3 người,Mở kèo gom nhóm 3 người: tổng kết + mở danh sách tháng sau,Kích hoạt gom nhanh,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Mở kèo gom nhóm 3 người: tổng kết + mở danh sách tháng sau
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Mở kèo gom nhóm 3 người: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 30,Tuần 4,2.0,11:00,Deal gom 5 người,Tăng kèo gom nhóm 5 người: tổng kết + mở danh sách tháng sau,Tăng số lượng,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Tăng kèo gom nhóm 5 người: tổng kết + mở danh sách tháng sau
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Tăng kèo gom nhóm 5 người: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 30,Tuần 4,3.0,13:30,So sánh giá gom,So sánh giá lẻ vs giá gom nhóm 3/5/10: tổng kết + mở danh sách tháng sau,Tạo lý do rủ thêm,COMPARISON,"[SO SÁNH TIẾT KIỆM] So sánh giá lẻ vs giá gom nhóm 3/5/10: tổng kết + mở danh sách tháng sau
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""So sánh giá lẻ vs giá gom nhóm 3/5/10: tổng kết + mở danh sách tháng sau"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 30,Tuần 4,4.0,15:00,Deal gom 10 người,Kèo gom lớn nhóm 10 người: tổng kết + mở danh sách tháng sau,Tạo đơn lớn,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Kèo gom lớn nhóm 10 người: tổng kết + mở danh sách tháng sau
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Mua gom giá tốt"", chủ đề ""Kèo gom lớn nhóm 10 người: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal gom,,Chưa đăng
+Ngày 30,Tuần 4,5.0,19:30,Nhắc chốt + feedback,Chốt gom cuối ngày còn thiếu người để chốt: tổng kết + mở danh sách tháng sau,Hoàn tất nhóm gom,REMINDER,"[NHẮC CHỐT] Chốt gom cuối ngày còn thiếu người để chốt: tổng kết + mở danh sách tháng sau
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt gom cuối ngày còn thiếu người để chốt: tổng kết + mở danh sách tháng sau"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách gom,,Chưa đăng

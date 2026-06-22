@@ -6,6 +6,7 @@ File này định nghĩa vai trò agent, phạm vi đọc dữ liệu và nguyê
 
 - Luôn đọc `BRAND_CONTEXT_SUMMARY.md` trước khi xử lý nhiệm vụ lớn.
 - Chỉ dùng thông tin đã có trong `brand-brain/` và `brand-data/`.
+- Với thông tin sản phẩm, giá, combo, membership, công thức, hoa hồng, CTV/đối tác và Zalo, bắt đầu từ `brand-data/sources/source-index.json` rồi đọc snapshot mới nhất.
 - Nếu thiếu thông tin, ghi rõ `Giả định` hoặc `Cần xác nhận`.
 - Không tạo claim y tế, giảm cân, detox, điều trị bệnh hoặc cam kết kết quả sức khỏe.
 - Ưu tiên tiếng Việt tự nhiên, gần gũi, không phán xét.
@@ -21,6 +22,7 @@ File này định nghĩa vai trò agent, phạm vi đọc dữ liệu và nguyê
 | Design Generator Agent | `prompts/design-generator-agent.md` | Tạo prompt/đầu ra thiết kế theo brief |
 | Brand Checker Agent | `prompts/brand-checker-agent.md` | Kiểm tra độ đúng thương hiệu và compliance |
 | Zalo Community Agent | `prompts/zalo-community-agent.md` | Tạo nội dung nhóm Zalo và chăm sóc cộng đồng |
+| Group Sales Content Agent | `prompts/group-sales-content-agent.md` | Tạo bài đăng group kéo tương tác, mua gom, kéo inbox và chuyển đổi mềm |
 | Sales Script Agent | `prompts/sales-script-agent.md` | Viết kịch bản sale, follow-up, xử lý từ chối |
 | Membership Campaign Agent | `prompts/membership-campaign-agent.md` | Thiết kế chiến dịch hội viên và duy trì thành viên |
 | Connected Point Agent | `prompts/connected-point-agent.md` | Tạo tài liệu cho điểm bán kết nối |

@@ -1,0 +1,104 @@
+﻿TEMPLATE ĐĂNG BÀI TRONG CÁC GROUP ZALO - BẾP YÊU THƯƠNG
+Template ID,Dùng cho,Khung tin nhắn copy nhanh,Prompt poster đi kèm
+DEAL_LE,"Mua lẻ, Liên minh tiêu dùng thông minh, deal ngày","[DEAL HÔM NAY] [chủ đề/sản phẩm]
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+DEAL_GOM,"Mua gom, Mua lẻ, Liên minh tiêu dùng thông minh","[GOM NHÓM GIÁ TỐT] [chủ đề/sản phẩm]
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+MENU,"Hôm nay Bếp có gì, Membership, Mua lẻ","[MENU HÔM NAY] [chủ đề/sản phẩm]
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+MEMBER_DEAL,"Membership, Hôm nay Bếp có gì, Mua lẻ","[ƯU ĐÃI THÀNH VIÊN] [chủ đề/sản phẩm]
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+PARTNER_DEAL,Liên minh tiêu dùng & điểm bán,"[PARTNER HÔM NAY] [chủ đề/sản phẩm]
+• Điểm/đối tác: [tên điểm]
+• Ưu đãi cho thành viên nhóm: [quyền lợi]
+• Địa chỉ: [địa chỉ]
+• Cách nhận ưu đãi: [quét QR/nhắn mã]
+• Thời gian áp dụng: [ngày/giờ]
+Ai cần thông tin comment ""PARTNER"".","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+AFF_DEAL,Group kiếm tiền/Affiliate,"[DEAL CÓ HOA HỒNG] [chủ đề/sản phẩm]
+• Sản phẩm dễ bán: [tên sản phẩm]
+• Giá bán: [giá]
+• Hoa hồng dự kiến: [mức hoa hồng]
+• Tệp khách phù hợp: [mẹ bỉm/dân VP/sinh viên/...]
+• Tài liệu bán: [link/bài mẫu]
+Muốn nhận deal nhắn ""AFF"".","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+FLASH_DEAL,"Mua lẻ, combo giờ vàng","[COMBO GIỜ VÀNG] [chủ đề/sản phẩm]
+• Combo: [tên combo]
+• Giá thường: [giá thường] → Giá giờ vàng: [giá deal]
+• Khung giờ áp dụng: [giờ bắt đầu] - [giờ kết thúc]
+• Số lượng: [SL]
+• Giao tại: [khu vực/khung giờ]
+Đặt nhanh: comment ""GIỜ VÀNG + SĐT + SỐ LƯỢNG"".","Tạo poster Zalo 1:1 cho nhóm ""Bếp Yêu Thương"", chủ đề ""[chủ đề/sản phẩm]"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster."
+MINIGAME,Kéo tương tác mọi group,"[MINIGAME] [chủ đề/sản phẩm]
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""[chủ đề/sản phẩm]"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại."
+FEEDBACK,Feedback khách/điểm/giao hàng,"[FEEDBACK THẬT] [chủ đề/sản phẩm]
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""[chủ đề/sản phẩm]"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT."
+KNOWLEDGE,"Official, membership, kiến thức sức khỏe","[GÓC ĂN LÀNH] [chủ đề/sản phẩm]
+Nội dung chính: [1 mẹo dinh dưỡng/thói quen]
+Ứng dụng hôm nay: [gợi ý sản phẩm/menu]
+Lưu ý an toàn: sản phẩm hỗ trợ lối sống lành mạnh, không thay thế tư vấn y tế.","Tạo infographic Zalo 1:1 chủ đề ""[chủ đề/sản phẩm]"", phong cách tối giản, màu xanh lá/be, 3-5 bullet ngắn, icon dinh dưỡng/đào tạo, có logo placeholder BYT, dễ đọc trên điện thoại."
+CHECKLIST,"Điểm bán, kiếm tiền, hướng dẫn","[CHECKLIST] [chủ đề/sản phẩm]
+1. [Bước/lưu ý 1]
+2. [Bước/lưu ý 2]
+3. [Bước/lưu ý 3]
+CTA: ai cần bản hướng dẫn đầy đủ comment ""CHECKLIST"".","Tạo infographic Zalo 1:1 chủ đề ""[chủ đề/sản phẩm]"", phong cách tối giản, màu xanh lá/be, 3-5 bullet ngắn, icon dinh dưỡng/đào tạo, có logo placeholder BYT, dễ đọc trên điện thoại."
+RECRUIT_POINT,Tuyển điểm liên kết,"[TUYỂN ĐIỂM LIÊN KẾT] [chủ đề/sản phẩm]
+BYT tìm [spa/cafe/phòng tập/shop mẹ bé] tại [khu vực].
+Quyền lợi: thêm sản phẩm healthy + QR cộng đồng + hoa hồng khi có đơn.
+Chủ điểm quan tâm comment ""ĐIỂM"" hoặc inbox.","Tạo poster Zalo 1:1 cho ""[chủ đề/sản phẩm]"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại."
+TRAINING,Kiếm tiền/CTV,"[LỚP MINI] [chủ đề/sản phẩm]
+Chủ đề: [tên buổi]
+Dành cho: [CTV/sale/mẹ bỉm/sinh viên]
+Kết quả sau buổi: [biết đăng bài/chốt khách/mở đơn]
+Đăng ký: comment ""HỌC"".","Tạo infographic Zalo 1:1 chủ đề ""[chủ đề/sản phẩm]"", phong cách tối giản, màu xanh lá/be, 3-5 bullet ngắn, icon dinh dưỡng/đào tạo, có logo placeholder BYT, dễ đọc trên điện thoại."
+VINHDANH,Vinh danh CTV/điểm/khách/thành viên,"[VINH DANH] [chủ đề/sản phẩm]
+Chúc mừng: [tên/cửa hàng/điểm/CTV]
+Kết quả: [doanh thu/QR/đơn/thẻ]
+Bài học rút ra: [1 insight]
+CTA: ai muốn lên bảng tuần sau comment ""TÔI"".","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""[chủ đề/sản phẩm]"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT."
+STORY,"Official, câu chuyện thương hiệu","[CÂU CHUYỆN BYT] [chủ đề/sản phẩm]
+Mở bài: [1 câu chuyện thật]
+Thông điệp: Ăn lành – Uống sạch – Sống yêu thương.
+CTA: chia sẻ 1 thói quen healthy bạn muốn bắt đầu tuần này.","Tạo poster kể chuyện thương hiệu BYT 1:1 chủ đề ""[chủ đề/sản phẩm]"", ảnh bếp/cộng đồng ấm áp, màu xanh lá/be/nâu nhạt, text ngắn cảm xúc, có slogan ""Ăn lành – Uống sạch – Sống yêu thương""."
+CAMPAIGN,"Official, membership, thử thách 7 ngày","[CHIẾN DỊCH THÁNG] [chủ đề/sản phẩm]
+Mục tiêu: [mục tiêu cộng đồng]
+Cách tham gia: [bước 1-2-3]
+Quà/đóng góp: [quyền lợi/ý nghĩa]
+CTA: comment ""THAM GIA"".","Tạo poster kể chuyện thương hiệu BYT 1:1 chủ đề ""[chủ đề/sản phẩm]"", ảnh bếp/cộng đồng ấm áp, màu xanh lá/be/nâu nhạt, text ngắn cảm xúc, có slogan ""Ăn lành – Uống sạch – Sống yêu thương""."
+CHARITY,"Official, từ thiện/gây quỹ","[HOẠT ĐỘNG YÊU THƯƠNG] [chủ đề/sản phẩm]
+Mục tiêu gây quỹ/từ thiện: [mục tiêu]
+Cách đóng góp: [mua sản phẩm/chuyển khoản/quyên góp]
+Cập nhật minh bạch: [mốc báo cáo]
+CTA: cùng BYT lan tỏa yêu thương.","Tạo poster kể chuyện thương hiệu BYT 1:1 chủ đề ""[chủ đề/sản phẩm]"", ảnh bếp/cộng đồng ấm áp, màu xanh lá/be/nâu nhạt, text ngắn cảm xúc, có slogan ""Ăn lành – Uống sạch – Sống yêu thương""."
+REMINDER,"Chốt đơn, chốt gom, chốt đặt trước","[NHẮC CHỐT] [chủ đề/sản phẩm]
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""[chủ đề/sản phẩm]"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại."
+COMPARISON,So sánh giá lẻ/gom/thẻ/gói,"[SO SÁNH TIẾT KIỆM] [chủ đề/sản phẩm]
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""[chủ đề/sản phẩm]"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại."

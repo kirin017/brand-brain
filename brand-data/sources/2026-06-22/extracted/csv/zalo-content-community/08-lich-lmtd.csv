@@ -1,0 +1,812 @@
+﻿LỊCH ĐĂNG BÀI GROUP ZALO: LIÊN MINH TIÊU DÙNG THÔNG MINH - BẾP YÊU THƯƠNG
+Ngày,Tuần,STT bài / ngày,Khung giờ,Pillar,Chủ đề cụ thể,Mục tiêu,Template ID,Form mẫu tin nhắn,Prompt generate ảnh poster,Nguồn nội dung,Ghi chú,Trạng thái,Owner
+Ngày 1,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: sữa hạt Giọt Lành,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: sữa hạt Giọt Lành
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 1,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: sữa hạt Giọt Lành,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: sữa hạt Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 1,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: sữa hạt Giọt Lành,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: sữa hạt Giọt Lành
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: sữa hạt Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 1,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: sữa hạt Giọt Lành,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: sữa hạt Giọt Lành
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: sữa hạt Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 1,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: sữa hạt Giọt Lành,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: sữa hạt Giọt Lành
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: sữa hạt Giọt Lành"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 2,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: set Ban Mai ăn sáng,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: set Ban Mai ăn sáng
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 2,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: set Ban Mai ăn sáng,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: set Ban Mai ăn sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 2,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: set Ban Mai ăn sáng,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: set Ban Mai ăn sáng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: set Ban Mai ăn sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 2,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: set Ban Mai ăn sáng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: set Ban Mai ăn sáng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: set Ban Mai ăn sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 2,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: set Ban Mai ăn sáng,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: set Ban Mai ăn sáng
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: set Ban Mai ăn sáng"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 3,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: ginger shot buổi sáng,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: ginger shot buổi sáng
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 3,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: ginger shot buổi sáng,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: ginger shot buổi sáng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 3,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: ginger shot buổi sáng,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: ginger shot buổi sáng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: ginger shot buổi sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 3,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: ginger shot buổi sáng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: ginger shot buổi sáng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: ginger shot buổi sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 3,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: ginger shot buổi sáng,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: ginger shot buổi sáng
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: ginger shot buổi sáng"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 4,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: detox/Detox Extra,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: detox/Detox Extra
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 4,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: detox/Detox Extra,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: detox/Detox Extra
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 4,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: detox/Detox Extra,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: detox/Detox Extra
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: detox/Detox Extra"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 4,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: detox/Detox Extra,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: detox/Detox Extra
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: detox/Detox Extra"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 4,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: detox/Detox Extra,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: detox/Detox Extra
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: detox/Detox Extra"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 5,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: hũ mạch/yến mạch,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: hũ mạch/yến mạch
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 5,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: hũ mạch/yến mạch,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: hũ mạch/yến mạch
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 5,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: hũ mạch/yến mạch,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: hũ mạch/yến mạch
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: hũ mạch/yến mạch"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 5,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: hũ mạch/yến mạch,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: hũ mạch/yến mạch
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: hũ mạch/yến mạch"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 5,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: hũ mạch/yến mạch,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: hũ mạch/yến mạch
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: hũ mạch/yến mạch"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 6,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: salad + cơm lứt,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: salad + cơm lứt
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 6,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: salad + cơm lứt,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: salad + cơm lứt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 6,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: salad + cơm lứt,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: salad + cơm lứt
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: salad + cơm lứt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 6,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: salad + cơm lứt,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: salad + cơm lứt
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: salad + cơm lứt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 6,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: salad + cơm lứt,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: salad + cơm lứt
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: salad + cơm lứt"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 7,Tuần 1,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: set Mặt Trời Bé Con,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: set Mặt Trời Bé Con
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 7,Tuần 1,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: set Mặt Trời Bé Con,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: set Mặt Trời Bé Con
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 7,Tuần 1,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: set Mặt Trời Bé Con,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: set Mặt Trời Bé Con
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: set Mặt Trời Bé Con"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 7,Tuần 1,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: set Mặt Trời Bé Con,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: set Mặt Trời Bé Con
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: set Mặt Trời Bé Con"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 7,Tuần 1,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: set Mặt Trời Bé Con,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: set Mặt Trời Bé Con
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: set Mặt Trời Bé Con"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 8,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: nước ép/smoothie,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: nước ép/smoothie
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 8,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: nước ép/smoothie,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: nước ép/smoothie
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 8,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: nước ép/smoothie,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: nước ép/smoothie
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: nước ép/smoothie"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 8,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: nước ép/smoothie,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: nước ép/smoothie
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: nước ép/smoothie"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 8,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: nước ép/smoothie,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: nước ép/smoothie
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: nước ép/smoothie"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 9,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: trứng nướng thảo mộc,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: trứng nướng thảo mộc
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 9,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: trứng nướng thảo mộc,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: trứng nướng thảo mộc
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 9,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: trứng nướng thảo mộc,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: trứng nướng thảo mộc
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: trứng nướng thảo mộc"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 9,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: trứng nướng thảo mộc,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: trứng nướng thảo mộc
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: trứng nướng thảo mộc"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 9,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: trứng nướng thảo mộc,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: trứng nướng thảo mộc
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: trứng nướng thảo mộc"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 10,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: hạt mix/bột hạt,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: hạt mix/bột hạt
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 10,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: hạt mix/bột hạt,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: hạt mix/bột hạt
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 10,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: hạt mix/bột hạt,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: hạt mix/bột hạt
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: hạt mix/bột hạt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 10,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: hạt mix/bột hạt,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: hạt mix/bột hạt
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: hạt mix/bột hạt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 10,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: hạt mix/bột hạt,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: hạt mix/bột hạt
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: hạt mix/bột hạt"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 11,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: combo ăn sáng dân văn phòng,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: combo ăn sáng dân văn phòng
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 11,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: combo ăn sáng dân văn phòng,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: combo ăn sáng dân văn phòng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 11,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: combo ăn sáng dân văn phòng,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: combo ăn sáng dân văn phòng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: combo ăn sáng dân văn phòng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 11,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: combo ăn sáng dân văn phòng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: combo ăn sáng dân văn phòng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: combo ăn sáng dân văn phòng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 11,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: combo ăn sáng dân văn phòng,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: combo ăn sáng dân văn phòng
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: combo ăn sáng dân văn phòng"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 12,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: combo mẹ bỉm/mẹ bé,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: combo mẹ bỉm/mẹ bé
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 12,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: combo mẹ bỉm/mẹ bé,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: combo mẹ bỉm/mẹ bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 12,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: combo mẹ bỉm/mẹ bé,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: combo mẹ bỉm/mẹ bé
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: combo mẹ bỉm/mẹ bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 12,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: combo mẹ bỉm/mẹ bé,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: combo mẹ bỉm/mẹ bé
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: combo mẹ bỉm/mẹ bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 12,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: combo mẹ bỉm/mẹ bé,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: combo mẹ bỉm/mẹ bé
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: combo mẹ bỉm/mẹ bé"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 13,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: thử thách 7 ngày,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: thử thách 7 ngày
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 13,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: thử thách 7 ngày,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: thử thách 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 13,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: thử thách 7 ngày,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: thử thách 7 ngày
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: thử thách 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 13,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: thử thách 7 ngày,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: thử thách 7 ngày
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: thử thách 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 13,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: thử thách 7 ngày,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: thử thách 7 ngày
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: thử thách 7 ngày"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 14,Tuần 2,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: minigame/vote vị yêu thích,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: minigame/vote vị yêu thích
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 14,Tuần 2,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: minigame/vote vị yêu thích,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: minigame/vote vị yêu thích
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 14,Tuần 2,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: minigame/vote vị yêu thích,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: minigame/vote vị yêu thích
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: minigame/vote vị yêu thích"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 14,Tuần 2,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: minigame/vote vị yêu thích,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: minigame/vote vị yêu thích
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: minigame/vote vị yêu thích"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 14,Tuần 2,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: minigame/vote vị yêu thích,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: minigame/vote vị yêu thích
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: minigame/vote vị yêu thích"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 15,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: gói 7 ngày,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: gói 7 ngày
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 15,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: gói 7 ngày,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: gói 7 ngày
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 15,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: gói 7 ngày,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: gói 7 ngày
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: gói 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 15,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: gói 7 ngày,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: gói 7 ngày
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: gói 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 15,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: gói 7 ngày,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: gói 7 ngày
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: gói 7 ngày"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 16,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: gói tháng,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: gói tháng
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 16,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: gói tháng,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: gói tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 16,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: gói tháng,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: gói tháng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: gói tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 16,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: gói tháng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: gói tháng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: gói tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 16,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: gói tháng,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: gói tháng
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: gói tháng"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 17,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: đối tác spa/gym,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: đối tác spa/gym
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 17,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: đối tác spa/gym,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: đối tác spa/gym
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 17,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: đối tác spa/gym,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: đối tác spa/gym
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: đối tác spa/gym"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 17,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: đối tác spa/gym,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: đối tác spa/gym
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: đối tác spa/gym"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 17,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: đối tác spa/gym,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: đối tác spa/gym
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: đối tác spa/gym"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 18,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: đối tác mẹ & bé,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: đối tác mẹ & bé
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 18,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: đối tác mẹ & bé,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: đối tác mẹ & bé
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 18,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: đối tác mẹ & bé,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: đối tác mẹ & bé
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: đối tác mẹ & bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 18,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: đối tác mẹ & bé,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: đối tác mẹ & bé
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: đối tác mẹ & bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 18,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: đối tác mẹ & bé,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: đối tác mẹ & bé
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: đối tác mẹ & bé"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 19,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: quà dùng thử sản phẩm mới,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: quà dùng thử sản phẩm mới
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 19,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: quà dùng thử sản phẩm mới,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: quà dùng thử sản phẩm mới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 19,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: quà dùng thử sản phẩm mới,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: quà dùng thử sản phẩm mới
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: quà dùng thử sản phẩm mới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 19,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: quà dùng thử sản phẩm mới,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: quà dùng thử sản phẩm mới
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: quà dùng thử sản phẩm mới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 19,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: quà dùng thử sản phẩm mới,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: quà dùng thử sản phẩm mới
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: quà dùng thử sản phẩm mới"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 20,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: combo giờ vàng,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: combo giờ vàng
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 20,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: combo giờ vàng,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: combo giờ vàng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 20,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: combo giờ vàng,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: combo giờ vàng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: combo giờ vàng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 20,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: combo giờ vàng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: combo giờ vàng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: combo giờ vàng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 20,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: combo giờ vàng,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: combo giờ vàng
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: combo giờ vàng"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 21,Tuần 3,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: feedback khách,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: feedback khách
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 21,Tuần 3,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: feedback khách,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: feedback khách
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 21,Tuần 3,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: feedback khách,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: feedback khách
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: feedback khách"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 21,Tuần 3,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: feedback khách,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: feedback khách
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: feedback khách"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 21,Tuần 3,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: feedback khách,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: feedback khách
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: feedback khách"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 22,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: ảnh giao hàng/bill,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: ảnh giao hàng/bill
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 22,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: ảnh giao hàng/bill,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: ảnh giao hàng/bill
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 22,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: ảnh giao hàng/bill,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: ảnh giao hàng/bill
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: ảnh giao hàng/bill"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 22,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: ảnh giao hàng/bill,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: ảnh giao hàng/bill
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: ảnh giao hàng/bill"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 22,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: ảnh giao hàng/bill,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: ảnh giao hàng/bill
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: ảnh giao hàng/bill"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 23,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: quyền lợi thẻ Giọt Lành,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: quyền lợi thẻ Giọt Lành
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 23,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: quyền lợi thẻ Giọt Lành,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: quyền lợi thẻ Giọt Lành
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 23,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: quyền lợi thẻ Giọt Lành,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: quyền lợi thẻ Giọt Lành
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: quyền lợi thẻ Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 23,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: quyền lợi thẻ Giọt Lành,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: quyền lợi thẻ Giọt Lành
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: quyền lợi thẻ Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 23,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: quyền lợi thẻ Giọt Lành,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: quyền lợi thẻ Giọt Lành
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: quyền lợi thẻ Giọt Lành"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 24,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: quyền lợi thẻ Ban Mai/Bình Minh,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: quyền lợi thẻ Ban Mai/Bình Minh
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 24,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: quyền lợi thẻ Ban Mai/Bình Minh,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: quyền lợi thẻ Ban Mai/Bình Minh
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 24,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: quyền lợi thẻ Ban Mai/Bình Minh,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: quyền lợi thẻ Ban Mai/Bình Minh
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: quyền lợi thẻ Ban Mai/Bình Minh"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 24,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: quyền lợi thẻ Ban Mai/Bình Minh,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: quyền lợi thẻ Ban Mai/Bình Minh
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: quyền lợi thẻ Ban Mai/Bình Minh"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 24,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: quyền lợi thẻ Ban Mai/Bình Minh,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: quyền lợi thẻ Ban Mai/Bình Minh
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: quyền lợi thẻ Ban Mai/Bình Minh"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 25,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: hướng dẫn bảo quản,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: hướng dẫn bảo quản
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 25,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: hướng dẫn bảo quản,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: hướng dẫn bảo quản
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 25,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: hướng dẫn bảo quản,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: hướng dẫn bảo quản
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: hướng dẫn bảo quản"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 25,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: hướng dẫn bảo quản,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: hướng dẫn bảo quản
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: hướng dẫn bảo quản"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 25,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: hướng dẫn bảo quản,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: hướng dẫn bảo quản
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: hướng dẫn bảo quản"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 26,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: menu tuần tới,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: menu tuần tới
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 26,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: menu tuần tới,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: menu tuần tới
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 26,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: menu tuần tới,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: menu tuần tới
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: menu tuần tới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 26,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: menu tuần tới,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: menu tuần tới
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: menu tuần tới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 26,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: menu tuần tới,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: menu tuần tới
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: menu tuần tới"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 27,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: gói detox/giảm cân,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: gói detox/giảm cân
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 27,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: gói detox/giảm cân,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: gói detox/giảm cân
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 27,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: gói detox/giảm cân,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: gói detox/giảm cân
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: gói detox/giảm cân"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 27,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: gói detox/giảm cân,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: gói detox/giảm cân
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: gói detox/giảm cân"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 27,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: gói detox/giảm cân,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: gói detox/giảm cân
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: gói detox/giảm cân"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 28,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: vinh danh thành viên/điểm,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: vinh danh thành viên/điểm
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 28,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: vinh danh thành viên/điểm,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: vinh danh thành viên/điểm
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 28,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: vinh danh thành viên/điểm,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: vinh danh thành viên/điểm
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: vinh danh thành viên/điểm"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 28,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: vinh danh thành viên/điểm,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: vinh danh thành viên/điểm
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: vinh danh thành viên/điểm"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 28,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: vinh danh thành viên/điểm,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: vinh danh thành viên/điểm
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: vinh danh thành viên/điểm"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 29,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: flash deal cuối tháng,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: flash deal cuối tháng
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 29,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: flash deal cuối tháng,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: flash deal cuối tháng
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 29,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: flash deal cuối tháng,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: flash deal cuối tháng
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: flash deal cuối tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 29,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: flash deal cuối tháng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: flash deal cuối tháng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: flash deal cuối tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 29,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: flash deal cuối tháng,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: flash deal cuối tháng
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: flash deal cuối tháng"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng
+Ngày 30,Tuần 4,1.0,08:00,Deal thông minh,Deal tiêu dùng thông minh: tổng kết + mở danh sách tháng sau,Tạo giá trị tức thì,DEAL_LE,"[DEAL HÔM NAY] Deal tiêu dùng thông minh: tổng kết + mở danh sách tháng sau
+• Sản phẩm: [tên sản phẩm]
+• Giá lẻ: [giá niêm yết] → Giá hôm nay: [giá deal]
+• Số lượng còn: [SL]
+• Chốt đơn trước: [giờ]
+• Giao tại: [khu vực/khung giờ]
+Đặt hàng: comment ""ĐẶT + SĐT + SỐ LƯỢNG"" hoặc inbox admin.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Deal tiêu dùng thông minh: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng deal,,Chưa đăng
+Ngày 30,Tuần 4,2.0,11:00,Mua gom theo khu,Gom đơn trong khu theo tòa/khu: tổng kết + mở danh sách tháng sau,Tăng mua chung,DEAL_GOM,"[GOM NHÓM GIÁ TỐT] Gom đơn trong khu theo tòa/khu: tổng kết + mở danh sách tháng sau
+• Gom nhóm: [3/5/10] người
+• Giá lẻ: [giá lẻ] → đủ nhóm còn: [giá gom]/người
+• Hiện có: [đã có]/[mục tiêu] người
+• Chốt gom lúc: [giờ/ngày]
+Comment ""GOM + số lượng + tòa/khu"" để giữ suất.","Tạo poster Zalo 1:1 cho nhóm ""Liên minh tiêu dùng thông minh"", chủ đề ""Gom đơn trong khu theo tòa/khu: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gom/khu,,Chưa đăng
+Ngày 30,Tuần 4,3.0,13:00,So sánh tiết kiệm,Tiết kiệm khi mua chung: tổng kết + mở danh sách tháng sau,Giáo dục lợi ích,COMPARISON,"[SO SÁNH TIẾT KIỆM] Tiết kiệm khi mua chung: tổng kết + mở danh sách tháng sau
+• Mua lẻ: [giá]
+• Mua theo gói/gom/thẻ: [giá]
+• Tiết kiệm dự kiến: [số tiền/%]
+Kết luận: phù hợp với [tệp khách]. Comment ""TÍNH"" để admin tính giúp.","Tạo poster Zalo 1:1 cho ""Tiết kiệm khi mua chung: tổng kết + mở danh sách tháng sau"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Bảng giá,,Chưa đăng
+Ngày 30,Tuần 4,4.0,15:00,Vote nhu cầu,Vote sản phẩm cần deal: tổng kết + mở danh sách tháng sau,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote sản phẩm cần deal: tổng kết + mở danh sách tháng sau
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote sản phẩm cần deal: tổng kết + mở danh sách tháng sau"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Poll/nhu cầu,,Chưa đăng
+Ngày 30,Tuần 4,5.0,19:30,Feedback + upsell,Feedback cư dân/đồng nghiệp: tổng kết + mở danh sách tháng sau,Tăng niềm tin,FEEDBACK,"[FEEDBACK THẬT] Feedback cư dân/đồng nghiệp: tổng kết + mở danh sách tháng sau
+Chia sẻ: [ảnh/tin nhắn khách/ảnh giao hàng]
+Điểm khách thích: [ngon/tiện/giá tốt/giao nhanh]
+Câu hỏi kéo tương tác: ""Anh/chị muốn thử vị nào ngày mai?"" ","Tạo poster Zalo 1:1 dạng collage feedback/vinh danh cho ""Feedback cư dân/đồng nghiệp: tổng kết + mở danh sách tháng sau"", nền sáng, khung ảnh chụp thật, sticker nhỏ ""feedback thật"", text ít, cảm giác tin cậy, phù hợp nhóm Zalo cộng đồng BYT.",Kho feedback,,Chưa đăng

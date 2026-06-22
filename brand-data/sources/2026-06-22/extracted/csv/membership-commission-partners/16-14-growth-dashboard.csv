@@ -1,0 +1,19 @@
+﻿GROWTH DASHBOARD – Partner / CTV / Gift-led Affiliate
+"Dashboard tự tổng hợp từ 10 Partners, 11 CTV Product và 12 Gift Event. Cột mục tiêu có thể chỉnh để theo dõi tiến độ tháng."
+
+KPI,Kết quả,Mục tiêu tháng,Tiến độ,Ghi chú,,Doanh thu theo nguồn,Giá trị,Payout/Cost,Ghi chú
+Đối tác đang active,#REF!,10.0,0,Số đối tác đã qua rào cản cảm xúc và vận hành,,Partners,#REF!,#REF!,Doanh thu theo danh sách đối tác
+CTV/Leader active,#REF!,30.0,0,Người có mã/đã tham gia bán hoặc giới thiệu,,CTV/Affiliate,#REF!,#REF!,Doanh thu theo danh sách CTV
+Thẻ Giọt Lành bán,#REF!,500.0,0,Không tính Gift Event nếu đã nhập trùng ở Partner/CTV,,Gift/Event pipeline,#REF!,#REF!,Có thể trùng nếu đã nhập vào Partner/CTV
+Thẻ Ban Mai bán,#REF!,150.0,0,Theo dõi upsell
+Set Ban Mai bán,#REF!,600.0,0,Group order + điểm gom
+Doanh thu Partner/CTV,#REF!,2.4035E8,0,Doanh thu ghi nhận theo mã partner/CTV,,Top cần follow-up,Số lượng,Gợi ý hành động
+Payout tạm tính,#REF!,5.0E7,0,Hoa hồng + bonus tạm tính,,Partner đã nhận quà nhưng chưa thử,#REF!,"Follow-up trong 24–48h, hỏi vị/set ấn tượng"
+Số set quà/sự kiện đã tặng,#REF!,300.0,0,Tổng quà/activation đã chạy,,Partner đang quan tâm,#REF!,Gửi chính sách 1 trang + offer sample/event
+Tỷ lệ phản hồi quà/sự kiện,0,0.5,0,Mục tiêu >=50%,,CTV đã thử nhưng chưa cấp mã,#REF!,Hỏi ý kiến lan tỏa + gửi 5 mã quà
+Tỷ lệ cấp mã sau phản hồi,0,0.3,0,Mục tiêu 15–30%+,,Payout chưa thanh toán,#REF!,Đối soát và payout theo tuần
+Gift/Event ROI,0,1.0,0,"Theo từng campaign, không double-count"
+
+
+POLICY SUMMARY – cơ chế tính nhanh
+"Hoa hồng = Thẻ GL bán × HH GL theo level + Thẻ BM bán × HH BM theo level + Set BM bán × HH Set theo level. Bonus tạm tính: 10 thẻ +100K, 20 thẻ +300K, 50 thẻ +1M; 100 set Ban Mai +300K. Có thể chỉnh ở tracker hoặc Policy Matrix."

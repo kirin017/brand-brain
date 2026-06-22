@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "schema_version": "0.1.0",
+    "language": "vi",
+    "note": "Template ở đây dùng cho người vận hành hoặc LLM. Script Python có bản sinh nội dung deterministic riêng."
+  },
+  "templates": [
+    {
+      "id": "habit_checkin",
+      "lane": "healthy_living",
+      "structure": "Hook -> Một thói quen nhỏ -> Câu hỏi tương tác -> CTA",
+      "safe_cta": "Nhắn Bếp để nhận gợi ý hôm nay.",
+      "avoid": ["claim y tế", "giảm cân", "detox", "body shaming"]
+    },
+    {
+      "id": "today_menu",
+      "lane": "product_deal",
+      "structure": "Hôm nay Bếp có gì -> sản phẩm/menu -> dữ liệu cần xác nhận -> CTA",
+      "safe_cta": "Nhắn Bếp để admin xác nhận.",
+      "avoid": ["giá chưa xác nhận", "tồn kho giả", "khan hiếm giả"]
+    },
+    {
+      "id": "group_buy",
+      "lane": "mua_gom",
+      "structure": "Mở kèo gom -> điều kiện gom -> cách comment -> admin xác nhận",
+      "safe_cta": "Nhắn khu/tòa để admin xếp đơn.",
+      "avoid": ["ép mua", "giảm giá chưa duyệt", "giờ chốt giả"]
+    },
+    {
+      "id": "membership_soft",
+      "lane": "membership",
+      "structure": "Vấn đề duy trì -> membership như đồng hành -> quyền lợi đã công bố -> CTA",
+      "safe_cta": "Nhắn Bếp để nhận quyền lợi đã công bố.",
+      "avoid": ["bịa quyền lợi", "claim sức khỏe", "cam kết kết quả"]
+    },
+    {
+      "id": "ctv_training",
+      "lane": "ctv_affiliate",
+      "structure": "Tình huống -> script hỏi nhu cầu -> guardrail -> hành động tiếp theo",
+      "safe_cta": "Lưu script này trước khi tư vấn.",
+      "avoid": ["hứa thu nhập", "làm giàu", "chốt đơn bằng áp lực"]
+    },
+    {
+      "id": "partner_invite",
+      "lane": "connected_point",
+      "structure": "Tệp khách chung -> giá trị hợp tác -> điều kiện cần xem xét -> CTA",
+      "safe_cta": "Hẹn trao đổi mô hình phù hợp.",
+      "avoid": ["hứa doanh thu", "dùng logo chưa duyệt", "chính sách mơ hồ"]
+    }
+  ]
+}

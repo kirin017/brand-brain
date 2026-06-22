@@ -70,3 +70,12 @@ Nên dùng:
 - "đồng hành"
 - "phù hợp khi đã kiểm tra thành phần và nhu cầu cá nhân"
 
+## Nguồn Dữ Liệu Sản Phẩm & Vận Hành
+
+Repo đã có snapshot nguồn từ Google Drive/Sheets tại `brand-data/sources/`.
+
+- Bắt đầu từ `brand-data/sources/source-index.json` để biết snapshot mới nhất.
+- Dữ liệu sản phẩm, giá, combo, membership và công thức nằm trong `brand-data/sources/2026-06-22/`.
+- Ảnh/menu sản phẩm nằm trong `assets/menu-product-images/2026-06-22/`.
+- Khi dùng dữ liệu nguồn để tạo nội dung public, vẫn phải kiểm tra compliance vì nguồn có thể chứa cụm từ rủi ro như detox, nhẹ bụng, tiêu hóa hoặc mô tả tác động cơ thể.
+

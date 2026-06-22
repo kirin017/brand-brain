@@ -1,0 +1,11 @@
+﻿LISTS & VALIDATION
+Danh mục dùng cho dropdown trong các sheet tracker
+
+Status chung,Leader Group,Marketing Status,Risk Level,Owner,Milk Flavor
+Chưa bắt đầu,Yoga/Pilates/Gym,Chưa bắt đầu,Cao,Marketing,Mộc Mè
+Đang làm,Văn phòng/HR,Đang làm,Trung bình,Sales,Lạc Hương
+Xong,Spa/Salon,Đã lên lịch,Thấp,Ops,Mộc Đậu
+Blocked,KOC,Đã đăng,,CRM
+Đã cài,Beauty/Fashion Shop,Blocked,,Finance
+Tạm dừng,Mẹ/Bếp sạch,,,Brand
+Theo dõi,Khác,,,CSKH

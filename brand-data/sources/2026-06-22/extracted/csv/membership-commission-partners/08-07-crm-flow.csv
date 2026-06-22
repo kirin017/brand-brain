@@ -1,0 +1,11 @@
+﻿CRM & CUSTOMER JOURNEY CANVAS
+"Kịch bản chăm sóc hội viên từ mua thẻ đến active, upsell và referral"
+
+Giai đoạn,Khách nghĩ gì?,Brand cần làm,Công cụ,Trigger,Owner,Trạng thái,Thông điệp mẫu,Ghi chú
+Mua thẻ,Mua xong dùng thế nào?,Gửi welcome + hướng dẫn dùng thẻ,Zalo/SMS/QR,Ngay sau thanh toán,CRM,Chưa bắt đầu,Chào mừng bạn đến với Giọt Lành An Nhiên...,Gắn SĐT/QR
+Chưa dùng sau 24h,Mai có vị gì?,Nhắc menu ngày mai,Zalo/Story,24h chưa giao dịch,CRM,Chưa bắt đầu,"Ngày mai có Mộc Mè, Lạc Hương, Mộc Đậu...","Nhắc nhẹ, không spam"
+Dùng lần đầu,Vị có ngon không?,Cảm ơn + hỏi feedback,Zalo,Sau giao dịch đầu tiên,CSKH,Chưa bắt đầu,Bạn thấy vị hôm nay thế nào ạ?,Lấy feedback thật
+Dùng 3 lần,Có bữa sáng tiện không?,Gợi ý Thẻ Ban Mai,Zalo/Leader,Sau 3 lần mua sữa,Sales,Chưa bắt đầu,"Bạn đã có thói quen sữa hạt rồi, thử Ban Mai nhé...",Upsell đúng thời điểm
+Active 7 ngày,Mình theo được rồi,Mời challenge 21 ngày,Zalo/Community,Sau 7 ngày active,CRM,Chưa bắt đầu,Cùng brand giữ 21 ngày Giọt Lành nhé...,Tạo gắn bó
+Không dùng 14 ngày,Bận/quên/thấy không cần,Gửi menu mới hoặc voucher nhỏ,Zalo,14 ngày không mua,CRM,Chưa bắt đầu,Tụi mình có menu mới tuần này...,Không giảm quá sâu
+Giới thiệu bạn,Bạn mình cũng thích,Kích hoạt referral,Mã giới thiệu,Sau 5+ lần mua,Marketing,Chưa bắt đầu,"Mời bạn mở thẻ, cả hai nhận ưu đãi...",Tặng trải nghiệm nâng cấp

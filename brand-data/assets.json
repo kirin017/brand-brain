@@ -293,6 +293,20 @@
       "allowed_formats": ["facebook_square"],
       "usage_notes": "Ảnh sản phẩm tải từ folder ảnh sản phẩm trên Google Drive; chưa gán sản phẩm/campaign cụ thể. Cần founder xác nhận quyền dùng và bối cảnh trước khi dùng public.",
       "founder_confirmation_needed": true
+    },
+    {
+      "id": "byt_menu_product_images_2026_06_22",
+      "type": "menu_product_image_collection",
+      "path": "assets/menu-product-images/2026-06-22",
+      "manifest_path": "assets/menu-product-images/2026-06-22/manifest.json",
+      "status": "needs_founder_confirmation",
+      "allowed_channels": ["Facebook", "Zalo", "POSM", "internal_training"],
+      "allowed_formats": ["source_reference", "menu", "product_poster"],
+      "usage_notes": "Bộ 19 ảnh/menu/QR tải từ folder Kho menu & hình ảnh sản phẩm trên Google Drive ngày 2026-06-22. Dùng manifest để đối chiếu drive_id/hash. Không dùng public nếu chưa kiểm tra quyền dùng, bối cảnh, giá và compliance.",
+      "product_tags": ["menu", "product_catalog", "pricing_reference", "qr"],
+      "campaign_tags": ["source_snapshot_2026_06_22"],
+      "approval_scope": "source_reference",
+      "founder_confirmation_needed": true
     }
   ]
 }

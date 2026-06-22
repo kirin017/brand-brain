@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "schema_version": "0.1.0",
+    "language": "vi",
+    "system": "BYT Content Sales Generator"
+  },
+  "lanes": [
+    {
+      "id": "healthy_living",
+      "label": "Healthy Living",
+      "goal": "Nuôi thói quen, kéo tương tác nhẹ và xây niềm tin.",
+      "best_for": ["khách mới", "phụ nữ bận rộn", "dân văn phòng", "gia đình"],
+      "default_cta": "Nhắn Bếp để nhận gợi ý hôm nay.",
+      "confirmation_needed": ["menu hôm nay", "sản phẩm còn hàng nếu có nhắc sản phẩm"]
+    },
+    {
+      "id": "product_deal",
+      "label": "Product / Deal",
+      "goal": "Cập nhật menu, kéo inbox và chốt đơn mềm.",
+      "best_for": ["khách đã mua", "khách săn deal", "member"],
+      "default_cta": "Nhắn Bếp để admin xác nhận.",
+      "confirmation_needed": ["giá", "ưu đãi", "tồn kho", "giờ chốt", "khu vực giao"]
+    },
+    {
+      "id": "mua_gom",
+      "label": "Mua Gom",
+      "goal": "Gom nhu cầu thật theo nhóm/khu vực.",
+      "best_for": ["cư dân", "văn phòng", "nhóm mẹ bỉm", "nhóm cùng khu"],
+      "default_cta": "Nhắn khu/tòa để admin xếp đơn.",
+      "confirmation_needed": ["mức giá gom", "số lượng mục tiêu", "giờ chốt", "điểm giao"]
+    },
+    {
+      "id": "membership",
+      "label": "Membership",
+      "goal": "Chuyển khách mua lẻ sang duy trì đều hơn.",
+      "best_for": ["khách mua lặp lại", "khách hay quên đặt", "khách muốn cộng đồng nhắc nhẹ"],
+      "default_cta": "Nhắn Bếp để nhận quyền lợi đã công bố.",
+      "confirmation_needed": ["hạng thẻ", "giá", "quyền lợi", "quà tặng", "điều kiện áp dụng"]
+    },
+    {
+      "id": "ctv_affiliate",
+      "label": "CTV / Affiliate",
+      "goal": "Đào tạo CTV đăng bài và tư vấn đúng chuẩn BYT.",
+      "best_for": ["CTV", "sale", "leader", "ambassador"],
+      "default_cta": "Gửi leader duyệt nếu bài có giá, chính sách hoặc claim nhạy cảm.",
+      "confirmation_needed": ["deal được duyệt", "chính sách hoa hồng", "tài liệu CTV"]
+    },
+    {
+      "id": "connected_point",
+      "label": "Connected Point / Alliance",
+      "goal": "Tìm chủ điểm/đối tác phù hợp để hợp tác cộng đồng.",
+      "best_for": ["spa", "yoga", "gym", "cửa hàng mẹ và bé", "quán cà phê", "đối tác địa phương"],
+      "default_cta": "Gửi thông tin điểm để BYT xem xét mô hình phù hợp.",
+      "confirmation_needed": ["mô hình hợp tác", "chính sách điểm bán", "QR", "logo đối tác"]
+    }
+  ]
+}

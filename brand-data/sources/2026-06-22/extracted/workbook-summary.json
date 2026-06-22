@@ -1,0 +1,467 @@
+{
+  "workbooks": [
+    {
+      "workbook": "brand-data/sources/2026-06-22/spreadsheets/product-catalog-pricing-recipes.xlsx",
+      "output_dir": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes",
+      "sheets": [
+        {
+          "index": 1,
+          "name": "DANH MỤC SP & GIÁ",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/01-danh-muc-sp-gia.csv",
+          "row_count": 173,
+          "column_count": 27,
+          "non_empty_rows": 173,
+          "first_non_empty_row": [
+            "DANH MỤC SẢN PHẨM & GIÁ - BẾP YÊU THƯƠNG",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "HÌNH ẢNH & MENU"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "DANH MỤC SP & CHÍNH SÁCH MUA NH",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/02-danh-muc-sp-chinh-sach-mua-nh.csv",
+          "row_count": 173,
+          "column_count": 23,
+          "non_empty_rows": 173,
+          "first_non_empty_row": [
+            "DANH MỤC SẢN PHẨM & GIÁ - BẾP YÊU THƯƠNG",
+            "",
+            "",
+            "",
+            "",
+            "MA TRẬN GIÁ",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "HÌNH ẢNH & MENU"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "DANH MỤC SP & CÔNG THỨC, QUY TR",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/03-danh-muc-sp-cong-thuc-quy-tr.csv",
+          "row_count": 346,
+          "column_count": 12,
+          "non_empty_rows": 346,
+          "first_non_empty_row": [
+            "DANH MỤC SẢN PHẨM & CÔNG THỨC, ĐỊNH LƯỢNG - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "CHÍNH SÁCH HOA HỒNG",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/04-chinh-sach-hoa-hong.csv",
+          "row_count": 64,
+          "column_count": 11,
+          "non_empty_rows": 64,
+          "first_non_empty_row": [
+            "CHÍNH SÁCH BÁN & HOA HỒNG - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "CHÍNH SÁCH RIÊNG - ĐẠI SỨ THIÊN",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/05-chinh-sach-rieng-ai-su-thien.csv",
+          "row_count": 0,
+          "column_count": 0,
+          "non_empty_rows": 0,
+          "first_non_empty_row": []
+        },
+        {
+          "index": 6,
+          "name": "CHÍNH SÁCH RIÊNG - ĐẠI SỨ LAN T",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/06-chinh-sach-rieng-ai-su-lan-t.csv",
+          "row_count": 0,
+          "column_count": 0,
+          "non_empty_rows": 0,
+          "first_non_empty_row": []
+        },
+        {
+          "index": 7,
+          "name": "CHÍNH SÁCH RIÊNG - LIÊN MINH ĐI",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/product-catalog-pricing-recipes/07-chinh-sach-rieng-lien-minh-i.csv",
+          "row_count": 0,
+          "column_count": 0,
+          "non_empty_rows": 0,
+          "first_non_empty_row": []
+        }
+      ]
+    },
+    {
+      "workbook": "brand-data/sources/2026-06-22/spreadsheets/membership-commission-partners.xlsx",
+      "output_dir": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners",
+      "sheets": [
+        {
+          "index": 1,
+          "name": "00 Core Canvas",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/01-00-core-canvas.csv",
+          "row_count": 24,
+          "column_count": 9,
+          "non_empty_rows": 11,
+          "first_non_empty_row": [
+            "CORE STRATEGY CANVAS – GIỌT LÀNH MỖI SÁNG"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "01 Offer Pricing",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/02-01-offer-pricing.csv",
+          "row_count": 41,
+          "column_count": 8,
+          "non_empty_rows": 31,
+          "first_non_empty_row": [
+            "OFFER & PRICING CANVAS"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "02 Funnel GTM",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/03-02-funnel-gtm.csv",
+          "row_count": 11,
+          "column_count": 9,
+          "non_empty_rows": 10,
+          "first_non_empty_row": [
+            "FUNNEL & GO-TO-MARKET CANVAS"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "03 Leader B2B2C",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/04-03-leader-b2b2c.csv",
+          "row_count": 53,
+          "column_count": 10,
+          "non_empty_rows": 46,
+          "first_non_empty_row": [
+            "LEADER / B2B2C CANVAS"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "04 Marketing 30D",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/05-04-marketing-30d.csv",
+          "row_count": 34,
+          "column_count": 10,
+          "non_empty_rows": 33,
+          "first_non_empty_row": [
+            "30-DAY MARKETING EXECUTION CANVAS"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "05 Ops Tracker",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/06-05-ops-tracker.csv",
+          "row_count": 34,
+          "column_count": 21,
+          "non_empty_rows": 33,
+          "first_non_empty_row": [
+            "DAILY OPS & REVENUE TRACKER"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "06 KPI Dashboard",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/07-06-kpi-dashboard.csv",
+          "row_count": 51,
+          "column_count": 8,
+          "non_empty_rows": 44,
+          "first_non_empty_row": [
+            "KPI DASHBOARD – MEMBERSHIP PILOT 30 NGÀY"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "07 CRM Flow",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/08-07-crm-flow.csv",
+          "row_count": 11,
+          "column_count": 9,
+          "non_empty_rows": 10,
+          "first_non_empty_row": [
+            "CRM & CUSTOMER JOURNEY CANVAS"
+          ]
+        },
+        {
+          "index": 9,
+          "name": "08 Risk Rules",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/09-08-risk-rules.csv",
+          "row_count": 24,
+          "column_count": 10,
+          "non_empty_rows": 19,
+          "first_non_empty_row": [
+            "RISK, RULES & BRAND GUARDRAILS"
+          ]
+        },
+        {
+          "index": 10,
+          "name": "Lists",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/10-lists.csv",
+          "row_count": 11,
+          "column_count": 6,
+          "non_empty_rows": 10,
+          "first_non_empty_row": [
+            "LISTS & VALIDATION"
+          ]
+        },
+        {
+          "index": 11,
+          "name": "09 Strategy Core",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/11-09-strategy-core.csv",
+          "row_count": 33,
+          "column_count": 8,
+          "non_empty_rows": 27,
+          "first_non_empty_row": [
+            "CORE STRATEGY CANVAS – Gieo Giọt Lành / Leader – Affiliate – Đại lý"
+          ]
+        },
+        {
+          "index": 12,
+          "name": "10 Partners",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/12-10-partners.csv",
+          "row_count": 303,
+          "column_count": 35,
+          "non_empty_rows": 303,
+          "first_non_empty_row": [
+            "DANH SÁCH ĐỐI TÁC LIÊN KẾT – Partner / Đại lý / Điểm gom"
+          ]
+        },
+        {
+          "index": 13,
+          "name": "11 CTV Product",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/13-11-ctv-product.csv",
+          "row_count": 303,
+          "column_count": 34,
+          "non_empty_rows": 303,
+          "first_non_empty_row": [
+            "DANH SÁCH CTV PHÁT TRIỂN SẢN PHẨM / AFFILIATE / NGƯỜI GIỚI THIỆU"
+          ]
+        },
+        {
+          "index": 14,
+          "name": "12 Gift Event",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/14-12-gift-event.csv",
+          "row_count": 203,
+          "column_count": 25,
+          "non_empty_rows": 203,
+          "first_non_empty_row": [
+            "GIFT / EVENT PIPELINE – Theo dõi tặng quà, sự kiện, tasting và chuyển đổi thành leader/đối tác"
+          ]
+        },
+        {
+          "index": 15,
+          "name": "13 Policy Matrix",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/15-13-policy-matrix.csv",
+          "row_count": 13,
+          "column_count": 11,
+          "non_empty_rows": 13,
+          "first_non_empty_row": [
+            "POLICY MATRIX – Chính sách level, quyền lợi, thưởng và cơ chế tính"
+          ]
+        },
+        {
+          "index": 16,
+          "name": "14 Growth Dashboard",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/membership-commission-partners/16-14-growth-dashboard.csv",
+          "row_count": 19,
+          "column_count": 10,
+          "non_empty_rows": 16,
+          "first_non_empty_row": [
+            "GROWTH DASHBOARD – Partner / CTV / Gift-led Affiliate"
+          ]
+        }
+      ]
+    },
+    {
+      "workbook": "brand-data/sources/2026-06-22/spreadsheets/zalo-content-community.xlsx",
+      "output_dir": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community",
+      "sheets": [
+        {
+          "index": 1,
+          "name": "Chính sách",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/01-chinh-sach.csv",
+          "row_count": 4,
+          "column_count": 7,
+          "non_empty_rows": 4,
+          "first_non_empty_row": [
+            "Dấu thời gian",
+            "Sản phẩm",
+            "Giá gốc",
+            "Markup %",
+            "Chiết khấu 3 người (%)",
+            "Chiết khấu 5 người (%)",
+            "Chiết khấu 10 người (%)"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "00_Dashboard",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/02-00-dashboard.csv",
+          "row_count": 18,
+          "column_count": 8,
+          "non_empty_rows": 14,
+          "first_non_empty_row": [
+            "KẾ HOẠCH NUÔI DƯỠNG NHÓM ZALO BẾP YÊU THƯƠNG - 30 NGÀY"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "01_TỔNG QUAN GR ZALO",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/03-01-tong-quan-gr-zalo.csv",
+          "row_count": 57,
+          "column_count": 13,
+          "non_empty_rows": 57,
+          "first_non_empty_row": [
+            "DANH SÁCH TÊN GROUP KHU VỰC HOÀNG QUỐC VIỆT - CẦU GIẤY"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "02_Pillars",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/04-02-pillars.csv",
+          "row_count": 10,
+          "column_count": 7,
+          "non_empty_rows": 10,
+          "first_non_empty_row": [
+            "TRỤ CỘT NỘI DUNG - BẾP YÊU THƯƠNG - GROUP ZALO"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "03_MauDeal",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/05-03-maudeal.csv",
+          "row_count": 21,
+          "column_count": 4,
+          "non_empty_rows": 21,
+          "first_non_empty_row": [
+            "TEMPLATE ĐĂNG BÀI TRONG CÁC GROUP ZALO - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "Lich_MuaLe",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/06-lich-muale.csv",
+          "row_count": 332,
+          "column_count": 14,
+          "non_empty_rows": 332,
+          "first_non_empty_row": [
+            "KHUNG NỘI DUNG NHÓM MUA LẺ RẺ NHƯ MUA BUÔN"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "Lich_MuaGom",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/07-lich-muagom.csv",
+          "row_count": 152,
+          "column_count": 14,
+          "non_empty_rows": 152,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI NHÓM ZALO: MUA GOM GIÁ TỐT"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Lich_LMTD",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/08-lich-lmtd.csv",
+          "row_count": 152,
+          "column_count": 14,
+          "non_empty_rows": 152,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI GROUP ZALO: LIÊN MINH TIÊU DÙNG THÔNG MINH - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 9,
+          "name": "Lich_LMDiemBan",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/09-lich-lmdiemban.csv",
+          "row_count": 92,
+          "column_count": 18,
+          "non_empty_rows": 92,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI GROUP ZALO: LIÊN MINH ĐIỂM BÁN - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 10,
+          "name": "Lich_Membership",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/10-lich-membership.csv",
+          "row_count": 62,
+          "column_count": 14,
+          "non_empty_rows": 62,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI GROUP MEMBERSHIP - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 11,
+          "name": "Lich_BYT_Official",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/11-lich-byt-official.csv",
+          "row_count": 32,
+          "column_count": 14,
+          "non_empty_rows": 32,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI GROUP BẾP YÊU THƯƠNG OFFICIAL"
+          ]
+        },
+        {
+          "index": 12,
+          "name": "Lich_KiemTien",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/12-lich-kiemtien.csv",
+          "row_count": 62,
+          "column_count": 14,
+          "non_empty_rows": 62,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI GROUP KIẾM TIỀN - BẾP YÊU THƯƠNG"
+          ]
+        },
+        {
+          "index": 13,
+          "name": "Lich_HomNayBep",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/13-lich-homnaybep.csv",
+          "row_count": 152,
+          "column_count": 14,
+          "non_empty_rows": 152,
+          "first_non_empty_row": [
+            "LỊCH ĐĂNG BÀI GROUP ZALO: HÔM NAY BẾP CÓ GÌ?"
+          ]
+        },
+        {
+          "index": 14,
+          "name": "KeHoach_ChiTiet",
+          "csv_path": "brand-data/sources/2026-06-22/extracted/csv/zalo-content-community/14-kehoach-chitiet.csv",
+          "row_count": 59,
+          "column_count": 12,
+          "non_empty_rows": 58,
+          "first_non_empty_row": [
+            "KẾ HOẠCH ĐĂNG BÀI THEO TỪNG NHÓM ZALO"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -39,6 +39,7 @@ Chưa làm:
 ├── examples/
 ├── assets/
 ├── templates/
+├── content-sales-generator/
 ├── outputs/
 ├── scripts/
 └── app-later/
@@ -54,9 +55,15 @@ Chứa tài liệu chiến lược dạng markdown. Đây là nơi trả lời c
 
 Chứa dữ liệu nền dạng JSON để agent và công cụ sau này có thể đọc được: sản phẩm, membership, phân khúc khách hàng, kênh, campaign, luật giọng nói, luật compliance và rubric kiểm tra thương hiệu.
 
+`brand-data/sources/` lưu snapshot nguồn từ Google Drive/Sheets: danh mục sản phẩm, giá, công thức, chính sách hoa hồng, membership/CTV/đối tác và kho content Zalo. Khi cần dữ liệu sản phẩm mới nhất trong repo, bắt đầu từ `brand-data/sources/source-index.json`.
+
 ### `prompts/`
 
-Chứa prompt khởi tạo cho từng agent chuyên trách: Brand Director, Content Planner, Design Brief, Design Generator, Brand Checker, Zalo Community, Sales Script, Membership Campaign, Connected Point và Alliance Partner.
+Chứa prompt khởi tạo cho từng agent chuyên trách: Brand Director, Content Planner, Design Brief, Design Generator, Brand Checker, Zalo Community, Group Sales Content, Sales Script, Membership Campaign, Connected Point và Alliance Partner.
+
+### `content-sales-generator/`
+
+Chứa playbook, cấu hình lane/template và hướng dẫn sinh nội dung group phục vụ kéo tương tác, mua gom, membership, CTV và điểm bán. Script chính là `scripts/generate_group_content_pack.py`.
 
 ### `schemas/`
 

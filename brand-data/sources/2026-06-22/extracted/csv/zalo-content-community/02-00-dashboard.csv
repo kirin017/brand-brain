@@ -1,0 +1,22 @@
+﻿KẾ HOẠCH NUÔI DƯỠNG NHÓM ZALO BẾP YÊU THƯƠNG - 30 NGÀY
+
+Tổng nhóm con,53.0,Số loại group,8.0,Số dòng lịch mẫu,1020.0,Tổng bài/tháng nếu đăng tất cả nhóm con,7050.0
+
+Ghi chú: Các bài deal dùng placeholder để admin chỉ cần điền giá/số lượng/giờ chốt trước khi đăng.
+
+Loại group,Số nhóm con,Tần suất,Số bài/ngày kế hoạch,Số bài/tháng/1 nhóm,Số bài/tháng nếu đăng tất cả nhóm con,Sheet lịch,Link
+Mua lẻ rẻ như mua buôn,1.0,>10 bài/ngày,11.0,330.0,330.0,Lich_MuaLe,Lich_MuaLe
+Mua gom giá tốt,16.0,5 bài/ngày,5.0,150.0,2400.0,Lich_MuaGom,Lich_MuaGom
+Liên minh tiêu dùng thông minh,22.0,5 bài/ngày,5.0,150.0,3300.0,Lich_LMTD,Lich_LMTD
+Liên minh tiêu dùng & điểm bán,4.0,3 bài/ngày,3.0,90.0,360.0,Lich_LMDiemBan,Lich_LMDiemBan
+BẾP YÊU THƯƠNG - Membership,3.0,1-2 bài/ngày,2.0,60.0,180.0,Lich_Membership,Lich_Membership
+BẾP YÊU THƯƠNG - Official,1.0,1 bài/ngày,1.0,30.0,30.0,Lich_BYT_Official,Lich_BYT_Official
+Group về kiếm tiền / Affiliate,5.0,2 bài/ngày,2.0,60.0,300.0,Lich_KiemTien,Lich_KiemTien
+Hôm nay Bếp có gì?,1.0,5 bài/ngày,5.0,150.0,150.0,Lich_HomNayBep,Lich_HomNayBep
+TỔNG,53,,34,1020,7050
+
+"Cách dùng nhanh:
+1) Lọc sheet 01_TongQuan theo 'Loại group' để xem nội dung đã bổ sung cho từng nhóm.
+2) Vào sheet lịch riêng của từng loại group để copy bài theo ngày/khung giờ.
+3) Với bài deal, thay placeholder [tên sản phẩm], [giá], [SL], [giờ chốt], [khu vực] rồi đăng.
+4) Copy cột 'Prompt generate ảnh poster' để tạo poster đi kèm."

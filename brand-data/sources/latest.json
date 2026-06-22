@@ -1,0 +1,19 @@
+﻿{
+    "latest_snapshot":  "2026-06-22",
+    "latest_manifest":  "brand-data/sources/2026-06-22/source-manifest.json",
+    "quick_paths":  {
+                        "normalized_product_catalog":  "brand-data/sources/2026-06-22/extracted/product-catalog-normalized.json",
+                        "workbook_summary":  "brand-data/sources/2026-06-22/extracted/workbook-summary.json",
+                        "asset_manifest":  "assets/menu-product-images/2026-06-22/manifest.json"
+                    },
+    "source_roles":  {
+                         "product_catalog_pricing_recipes":  "Danh mục sản phẩm, mô tả, giá lẻ/combo/membership và công thức.",
+                         "commission_policy_pdf":  "Chính sách hoa hồng sale/leader dạng PDF và text trích xuất.",
+                         "membership_commission_partners":  "Membership, CTV, ghi nhận hoa hồng, danh sách đối tác và dashboard tăng trưởng.",
+                         "menu_product_images":  "Menu, poster, ảnh sản phẩm và QR BYT Official.",
+                         "zalo_content_community":  "Group Zalo, pillar nội dung, lịch đăng và template bài."
+                     },
+    "snapshots":  [
+                      "2026-06-22"
+                  ]
+}

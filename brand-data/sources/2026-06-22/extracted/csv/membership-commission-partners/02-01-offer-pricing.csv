@@ -1,0 +1,41 @@
+﻿OFFER & PRICING CANVAS
+"Chốt sản phẩm, quyền lợi, giá, cost mục tiêu và các biến số để toàn workbook tham chiếu"
+
+Biến số vận hành,Giá trị,Ghi chú
+Giá thẻ Giọt Lành An Nhiên,199000.0,Phí mở đặc quyền sữa hạt
+Giá thẻ Ban Mai,249000.0,Phí mở đặc quyền bữa sáng
+Giá sữa hội viên/chai,15000.0,Áp dụng 3 vị signature
+Giá set Ban Mai hội viên,60000.0,Set tiêu chuẩn
+Cost mục tiêu sữa/chai,9000.0,"Bao gồm nguyên liệu, chai, tem, hao hụt cơ bản"
+Cost mục tiêu set Ban Mai,45000.0,Tổng cost mục tiêu để giữ biên
+Hoa hồng thẻ Giọt Lành,50000.0,Có thể điều chỉnh 40–50K
+Hoa hồng thẻ Ban Mai,60000.0,Có thể điều chỉnh 50–60K
+Giới hạn sữa/ngày/hội viên,3.0,Không chuyển nhượng tự do
+Target thẻ Giọt Lành 30D,300.0,Pilot 30 ngày
+Target thẻ Ban Mai 30D,50.0,Pilot 30 ngày
+Target chai sữa 30D,4500.0,Pilot 30 ngày
+Target set Ban Mai 30D,600.0,Pilot 30 ngày
+Target doanh thu pilot,175650000,Tự tính theo target
+Target giao đúng giờ,0.9,Mục tiêu vận hành
+
+
+Membership,Giá thẻ,Quyền lợi chính,Giá hội viên,Giới hạn,Vai trò trong phễu,Ghi chú vận hành
+Thẻ Giọt Lành An Nhiên,199000.0,Mua sữa hạt signature,15K/chai,Tối đa 3 chai/ngày,"Sản phẩm mồi, kéo khách mới, tạo thói quen","Gắn với SĐT/QR, không cộng dồn ưu đãi"
+Thẻ Ban Mai,249000.0,Mua set bữa sáng Ban Mai,60K/set,Ưu tiên đặt trước 21h hôm trước,"Upsell, tăng giá trị đơn hàng, hợp group order",Set tiêu chuẩn gồm 1 trà; trà thêm mua ưu đãi riêng
+
+
+
+Tên menu,Thành phần chính,Mô tả thương hiệu,Use case,Ghi chú nhãn/FAQ
+Mộc Mè,Mè,"Vị thanh bùi, mộc, nhẹ bụng, hợp buổi sáng.","Khách thích vị thanh, nhẹ",Ghi rõ mè trên tem để minh bạch dị ứng
+Lạc Hương,Lạc,"Hương thơm ấm, béo nhẹ, dễ uống, phù hợp người thích vị đậm.","Khách thích vị béo, thơm",Ghi rõ lạc trên tem để minh bạch dị ứng
+Mộc Đậu,Đậu nành,"Vị mộc, quen thuộc, êm, dễ dùng mỗi ngày.",Khách mới bắt đầu healthy,Ghi rõ đậu nành trên tem để minh bạch dị ứng
+
+
+
+Dòng doanh thu,Giá bán/đơn vị,Cost mục tiêu,Biên gộp/đơn vị,Biên gộp %,Hoa hồng Leader,Net còn lại sau HH,Ghi chú
+Sữa hạt/chai,15000,9000,6000,0.4,0.0,6000,Công thức lấy từ biến số vận hành
+Set Ban Mai,60000,45000,15000,0.25,0.0,15000,Giữ set tiêu chuẩn để không vỡ cost
+Thẻ Giọt Lành An Nhiên,199000,0.0,199000,1,50000,149000,Tiền thẻ tạo cashflow và trả CAC leader
+Thẻ Ban Mai,249000,0.0,249000,1,60000,189000,Ưu tiên upsell sau khi khách dùng sữa 3–5 lần
+
+"Nguyên tắc chốt: 15K/chai là giá đặc quyền hội viên, không phải chiến lược bán rẻ. Thẻ Ban Mai cần giữ set tiêu chuẩn 1 chai trà; nếu muốn thêm trà, bán bằng ưu đãi riêng để bảo vệ biên lợi nhuận."

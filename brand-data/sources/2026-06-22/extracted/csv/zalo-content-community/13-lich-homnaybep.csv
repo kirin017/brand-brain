@@ -1,0 +1,872 @@
+﻿LỊCH ĐĂNG BÀI GROUP ZALO: HÔM NAY BẾP CÓ GÌ?
+Ngày,Tuần,STT bài/ngày,Khung giờ,Pillar,Chủ đề cụ thể,Mục tiêu,Template ID,Form mẫu tin nhắn,Prompt generate ảnh poster,Nguồn nội dung,Ghi chú,Trạng thái,Owner
+Ngày 1,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: sữa hạt Giọt Lành,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: sữa hạt Giọt Lành
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 1,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: sữa hạt Giọt Lành,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: sữa hạt Giọt Lành
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 1,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: sữa hạt Giọt Lành,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: sữa hạt Giọt Lành
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: sữa hạt Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 1,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: sữa hạt Giọt Lành,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: sữa hạt Giọt Lành
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: sữa hạt Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 1,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: sữa hạt Giọt Lành,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: sữa hạt Giọt Lành
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: sữa hạt Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 2,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: set Ban Mai ăn sáng,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: set Ban Mai ăn sáng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 2,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: set Ban Mai ăn sáng,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: set Ban Mai ăn sáng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 2,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: set Ban Mai ăn sáng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: set Ban Mai ăn sáng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: set Ban Mai ăn sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 2,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: set Ban Mai ăn sáng,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: set Ban Mai ăn sáng
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: set Ban Mai ăn sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 2,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: set Ban Mai ăn sáng,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: set Ban Mai ăn sáng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: set Ban Mai ăn sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 3,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: ginger shot buổi sáng,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: ginger shot buổi sáng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 3,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: ginger shot buổi sáng,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: ginger shot buổi sáng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 3,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: ginger shot buổi sáng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: ginger shot buổi sáng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: ginger shot buổi sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 3,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: ginger shot buổi sáng,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: ginger shot buổi sáng
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: ginger shot buổi sáng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 3,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: ginger shot buổi sáng,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: ginger shot buổi sáng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: ginger shot buổi sáng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 4,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: detox/Detox Extra,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: detox/Detox Extra
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 4,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: detox/Detox Extra,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: detox/Detox Extra
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 4,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: detox/Detox Extra,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: detox/Detox Extra
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: detox/Detox Extra"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 4,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: detox/Detox Extra,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: detox/Detox Extra
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: detox/Detox Extra"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 4,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: detox/Detox Extra,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: detox/Detox Extra
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: detox/Detox Extra"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 5,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: hũ mạch/yến mạch,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: hũ mạch/yến mạch
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 5,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: hũ mạch/yến mạch,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: hũ mạch/yến mạch
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 5,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: hũ mạch/yến mạch,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: hũ mạch/yến mạch
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: hũ mạch/yến mạch"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 5,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: hũ mạch/yến mạch,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: hũ mạch/yến mạch
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: hũ mạch/yến mạch"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 5,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: hũ mạch/yến mạch,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: hũ mạch/yến mạch
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: hũ mạch/yến mạch"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 6,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: salad + cơm lứt,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: salad + cơm lứt
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 6,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: salad + cơm lứt,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: salad + cơm lứt
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 6,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: salad + cơm lứt,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: salad + cơm lứt
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: salad + cơm lứt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 6,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: salad + cơm lứt,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: salad + cơm lứt
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: salad + cơm lứt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 6,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: salad + cơm lứt,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: salad + cơm lứt
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: salad + cơm lứt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 7,Tuần 1,1.0,08:00,Menu sáng,Menu sáng + đặt trước: set Mặt Trời Bé Con,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: set Mặt Trời Bé Con
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 7,Tuần 1,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: set Mặt Trời Bé Con,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: set Mặt Trời Bé Con
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 7,Tuần 1,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: set Mặt Trời Bé Con,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: set Mặt Trời Bé Con
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: set Mặt Trời Bé Con"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 7,Tuần 1,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: set Mặt Trời Bé Con,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: set Mặt Trời Bé Con
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: set Mặt Trời Bé Con"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 7,Tuần 1,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: set Mặt Trời Bé Con,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: set Mặt Trời Bé Con
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: set Mặt Trời Bé Con"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 8,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: nước ép/smoothie,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: nước ép/smoothie
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 8,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: nước ép/smoothie,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: nước ép/smoothie
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 8,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: nước ép/smoothie,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: nước ép/smoothie
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: nước ép/smoothie"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 8,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: nước ép/smoothie,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: nước ép/smoothie
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: nước ép/smoothie"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 8,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: nước ép/smoothie,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: nước ép/smoothie
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: nước ép/smoothie"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 9,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: trứng nướng thảo mộc,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: trứng nướng thảo mộc
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 9,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: trứng nướng thảo mộc,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: trứng nướng thảo mộc
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 9,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: trứng nướng thảo mộc,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: trứng nướng thảo mộc
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: trứng nướng thảo mộc"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 9,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: trứng nướng thảo mộc,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: trứng nướng thảo mộc
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: trứng nướng thảo mộc"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 9,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: trứng nướng thảo mộc,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: trứng nướng thảo mộc
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: trứng nướng thảo mộc"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 10,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: hạt mix/bột hạt,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: hạt mix/bột hạt
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 10,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: hạt mix/bột hạt,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: hạt mix/bột hạt
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 10,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: hạt mix/bột hạt,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: hạt mix/bột hạt
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: hạt mix/bột hạt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 10,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: hạt mix/bột hạt,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: hạt mix/bột hạt
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: hạt mix/bột hạt"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 10,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: hạt mix/bột hạt,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: hạt mix/bột hạt
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: hạt mix/bột hạt"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 11,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: combo ăn sáng dân văn phòng,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: combo ăn sáng dân văn phòng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 11,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: combo ăn sáng dân văn phòng,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: combo ăn sáng dân văn phòng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 11,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: combo ăn sáng dân văn phòng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: combo ăn sáng dân văn phòng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: combo ăn sáng dân văn phòng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 11,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: combo ăn sáng dân văn phòng,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: combo ăn sáng dân văn phòng
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: combo ăn sáng dân văn phòng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 11,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: combo ăn sáng dân văn phòng,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: combo ăn sáng dân văn phòng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: combo ăn sáng dân văn phòng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 12,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: combo mẹ bỉm/mẹ bé,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: combo mẹ bỉm/mẹ bé
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 12,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: combo mẹ bỉm/mẹ bé,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: combo mẹ bỉm/mẹ bé
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 12,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: combo mẹ bỉm/mẹ bé,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: combo mẹ bỉm/mẹ bé
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: combo mẹ bỉm/mẹ bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 12,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: combo mẹ bỉm/mẹ bé,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: combo mẹ bỉm/mẹ bé
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: combo mẹ bỉm/mẹ bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 12,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: combo mẹ bỉm/mẹ bé,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: combo mẹ bỉm/mẹ bé
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: combo mẹ bỉm/mẹ bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 13,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: thử thách 7 ngày,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: thử thách 7 ngày
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 13,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: thử thách 7 ngày,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: thử thách 7 ngày
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 13,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: thử thách 7 ngày,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: thử thách 7 ngày
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: thử thách 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 13,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: thử thách 7 ngày,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: thử thách 7 ngày
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: thử thách 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 13,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: thử thách 7 ngày,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: thử thách 7 ngày
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: thử thách 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 14,Tuần 2,1.0,08:00,Menu sáng,Menu sáng + đặt trước: minigame/vote vị yêu thích,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: minigame/vote vị yêu thích
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 14,Tuần 2,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: minigame/vote vị yêu thích,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: minigame/vote vị yêu thích
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 14,Tuần 2,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: minigame/vote vị yêu thích,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: minigame/vote vị yêu thích
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: minigame/vote vị yêu thích"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 14,Tuần 2,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: minigame/vote vị yêu thích,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: minigame/vote vị yêu thích
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: minigame/vote vị yêu thích"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 14,Tuần 2,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: minigame/vote vị yêu thích,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: minigame/vote vị yêu thích
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: minigame/vote vị yêu thích"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 15,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: gói 7 ngày,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: gói 7 ngày
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 15,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: gói 7 ngày,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: gói 7 ngày
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 15,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: gói 7 ngày,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: gói 7 ngày
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: gói 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 15,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: gói 7 ngày,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: gói 7 ngày
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: gói 7 ngày"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 15,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: gói 7 ngày,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: gói 7 ngày
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: gói 7 ngày"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 16,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: gói tháng,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: gói tháng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 16,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: gói tháng,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: gói tháng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 16,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: gói tháng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: gói tháng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: gói tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 16,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: gói tháng,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: gói tháng
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: gói tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 16,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: gói tháng,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: gói tháng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: gói tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 17,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: đối tác spa/gym,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: đối tác spa/gym
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 17,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: đối tác spa/gym,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: đối tác spa/gym
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 17,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: đối tác spa/gym,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: đối tác spa/gym
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: đối tác spa/gym"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 17,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: đối tác spa/gym,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: đối tác spa/gym
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: đối tác spa/gym"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 17,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: đối tác spa/gym,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: đối tác spa/gym
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: đối tác spa/gym"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 18,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: đối tác mẹ & bé,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: đối tác mẹ & bé
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 18,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: đối tác mẹ & bé,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: đối tác mẹ & bé
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 18,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: đối tác mẹ & bé,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: đối tác mẹ & bé
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: đối tác mẹ & bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 18,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: đối tác mẹ & bé,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: đối tác mẹ & bé
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: đối tác mẹ & bé"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 18,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: đối tác mẹ & bé,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: đối tác mẹ & bé
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: đối tác mẹ & bé"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 19,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: quà dùng thử sản phẩm mới,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: quà dùng thử sản phẩm mới
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 19,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: quà dùng thử sản phẩm mới,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: quà dùng thử sản phẩm mới
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 19,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: quà dùng thử sản phẩm mới,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: quà dùng thử sản phẩm mới
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: quà dùng thử sản phẩm mới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 19,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: quà dùng thử sản phẩm mới,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: quà dùng thử sản phẩm mới
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: quà dùng thử sản phẩm mới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 19,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: quà dùng thử sản phẩm mới,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: quà dùng thử sản phẩm mới
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: quà dùng thử sản phẩm mới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 20,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: combo giờ vàng,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: combo giờ vàng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 20,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: combo giờ vàng,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: combo giờ vàng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 20,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: combo giờ vàng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: combo giờ vàng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: combo giờ vàng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 20,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: combo giờ vàng,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: combo giờ vàng
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: combo giờ vàng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 20,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: combo giờ vàng,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: combo giờ vàng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: combo giờ vàng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 21,Tuần 3,1.0,08:00,Menu sáng,Menu sáng + đặt trước: feedback khách,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: feedback khách
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 21,Tuần 3,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: feedback khách,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: feedback khách
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 21,Tuần 3,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: feedback khách,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: feedback khách
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: feedback khách"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 21,Tuần 3,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: feedback khách,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: feedback khách
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: feedback khách"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 21,Tuần 3,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: feedback khách,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: feedback khách
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: feedback khách"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 22,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: ảnh giao hàng/bill,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: ảnh giao hàng/bill
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 22,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: ảnh giao hàng/bill,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: ảnh giao hàng/bill
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 22,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: ảnh giao hàng/bill,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: ảnh giao hàng/bill
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: ảnh giao hàng/bill"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 22,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: ảnh giao hàng/bill,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: ảnh giao hàng/bill
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: ảnh giao hàng/bill"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 22,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: ảnh giao hàng/bill,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: ảnh giao hàng/bill
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: ảnh giao hàng/bill"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 23,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: quyền lợi thẻ Giọt Lành,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: quyền lợi thẻ Giọt Lành
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 23,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: quyền lợi thẻ Giọt Lành,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: quyền lợi thẻ Giọt Lành
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 23,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: quyền lợi thẻ Giọt Lành,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: quyền lợi thẻ Giọt Lành
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: quyền lợi thẻ Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 23,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: quyền lợi thẻ Giọt Lành,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: quyền lợi thẻ Giọt Lành
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: quyền lợi thẻ Giọt Lành"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 23,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: quyền lợi thẻ Giọt Lành,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: quyền lợi thẻ Giọt Lành
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: quyền lợi thẻ Giọt Lành"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 24,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: quyền lợi thẻ Ban Mai/Bình Minh,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: quyền lợi thẻ Ban Mai/Bình Minh
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 24,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: quyền lợi thẻ Ban Mai/Bình Minh,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: quyền lợi thẻ Ban Mai/Bình Minh
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 24,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: quyền lợi thẻ Ban Mai/Bình Minh,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: quyền lợi thẻ Ban Mai/Bình Minh
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: quyền lợi thẻ Ban Mai/Bình Minh"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 24,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: quyền lợi thẻ Ban Mai/Bình Minh,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: quyền lợi thẻ Ban Mai/Bình Minh
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: quyền lợi thẻ Ban Mai/Bình Minh"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 24,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: quyền lợi thẻ Ban Mai/Bình Minh,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: quyền lợi thẻ Ban Mai/Bình Minh
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: quyền lợi thẻ Ban Mai/Bình Minh"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 25,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: hướng dẫn bảo quản,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: hướng dẫn bảo quản
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 25,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: hướng dẫn bảo quản,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: hướng dẫn bảo quản
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 25,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: hướng dẫn bảo quản,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: hướng dẫn bảo quản
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: hướng dẫn bảo quản"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 25,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: hướng dẫn bảo quản,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: hướng dẫn bảo quản
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: hướng dẫn bảo quản"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 25,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: hướng dẫn bảo quản,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: hướng dẫn bảo quản
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: hướng dẫn bảo quản"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 26,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: menu tuần tới,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: menu tuần tới
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 26,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: menu tuần tới,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: menu tuần tới
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 26,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: menu tuần tới,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: menu tuần tới
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: menu tuần tới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 26,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: menu tuần tới,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: menu tuần tới
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: menu tuần tới"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 26,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: menu tuần tới,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: menu tuần tới
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: menu tuần tới"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 27,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: gói detox/giảm cân,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: gói detox/giảm cân
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 27,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: gói detox/giảm cân,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: gói detox/giảm cân
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 27,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: gói detox/giảm cân,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: gói detox/giảm cân
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: gói detox/giảm cân"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 27,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: gói detox/giảm cân,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: gói detox/giảm cân
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: gói detox/giảm cân"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 27,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: gói detox/giảm cân,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: gói detox/giảm cân
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: gói detox/giảm cân"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 28,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: vinh danh thành viên/điểm,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: vinh danh thành viên/điểm
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 28,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: vinh danh thành viên/điểm,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: vinh danh thành viên/điểm
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 28,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: vinh danh thành viên/điểm,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: vinh danh thành viên/điểm
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: vinh danh thành viên/điểm"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 28,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: vinh danh thành viên/điểm,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: vinh danh thành viên/điểm
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: vinh danh thành viên/điểm"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 28,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: vinh danh thành viên/điểm,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: vinh danh thành viên/điểm
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: vinh danh thành viên/điểm"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 29,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: flash deal cuối tháng,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: flash deal cuối tháng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 29,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: flash deal cuối tháng,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: flash deal cuối tháng
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 29,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: flash deal cuối tháng,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: flash deal cuối tháng
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: flash deal cuối tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 29,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: flash deal cuối tháng,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: flash deal cuối tháng
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: flash deal cuối tháng"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 29,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: flash deal cuối tháng,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: flash deal cuối tháng
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: flash deal cuối tháng"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
+Ngày 30,Tuần 4,1.0,08:00,Menu sáng,Menu sáng + đặt trước: tổng kết + mở danh sách tháng sau,Chốt bữa sáng,MENU,"[MENU HÔM NAY] Menu sáng + đặt trước: tổng kết + mở danh sách tháng sau
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Menu sáng + đặt trước: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 30,Tuần 4,2.0,11:00,Menu đồ uống,Đồ uống hôm nay: tổng kết + mở danh sách tháng sau,Chốt đơn trưa,MENU,"[MENU HÔM NAY] Đồ uống hôm nay: tổng kết + mở danh sách tháng sau
+• Đồ uống: [list đồ uống + giá]
+• Đồ ăn: [list đồ ăn + giá]
+• Set gợi ý: [combo]
+• Nhận đặt trước đến: [giờ]
+• Giao: [khung giờ/khu vực]
+Đặt: nhắn ""MENU + tên món + số lượng"".","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Đồ uống hôm nay: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Menu ngày,,Chưa đăng
+Ngày 30,Tuần 4,3.0,13:00,Quà/vote/menu,Vote vị/menu yêu thích: tổng kết + mở danh sách tháng sau,Lấy nhu cầu,MINIGAME,"[MINIGAME] Vote vị/menu yêu thích: tổng kết + mở danh sách tháng sau
+Luật chơi: [cách tham gia]
+Quà/ưu đãi: [quà/voucher]
+Thời hạn: [giờ/ngày]
+CTA: comment [keyword] + tag/rủ [số người] để tham gia.","Tạo poster Zalo 1:1 cho ""Vote vị/menu yêu thích: tổng kết + mở danh sách tháng sau"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Menu/voucher,,Chưa đăng
+Ngày 30,Tuần 4,4.0,15:00,Gói tuần/tháng,Gói tuần/tháng: tổng kết + mở danh sách tháng sau,Upsell dài ngày,MEMBER_DEAL,"[ƯU ĐÃI THÀNH VIÊN] Gói tuần/tháng: tổng kết + mở danh sách tháng sau
+• Thẻ áp dụng: [Giọt Lành/Ban Mai/Bình Minh/Mặt Trời]
+• Giá thường: [giá] → Giá thành viên: [giá]
+• Quyền lợi thêm: [quà/voucher/cashback]
+• Áp dụng đến: [ngày/giờ]
+Chưa có thẻ nhắn ""MỞ THẺ"" để được hướng dẫn.","Tạo poster Zalo 1:1 cho nhóm ""Hôm nay Bếp có gì?"", chủ đề ""Gói tuần/tháng: tổng kết + mở danh sách tháng sau"". Phong cách healthy, sạch, màu xanh lá/be, có ảnh sản phẩm thật hoặc mockup đồ ăn/uống, text lớn: ""[ƯU ĐÃI/DEAL]"", text phụ: ""[giá] - [giờ chốt]"", thêm icon đồng hồ, giao hàng, QR placeholder, bố cục rõ, không quá 25 từ trên poster.",Bảng gói,,Chưa đăng
+Ngày 30,Tuần 4,5.0,19:30,Chốt ngày mai,Chốt menu ngày mai: tổng kết + mở danh sách tháng sau,Tăng đặt trước,REMINDER,"[NHẮC CHỐT] Chốt menu ngày mai: tổng kết + mở danh sách tháng sau
+Còn [số lượng/suất] trước giờ chốt [giờ].
+Ai đã đặt kiểm tra lại: [tên/số lượng/khu].
+Ai muốn thêm comment ""THÊM + số lượng"" trước [giờ].","Tạo poster Zalo 1:1 cho ""Chốt menu ngày mai: tổng kết + mở danh sách tháng sau"", phong cách healthy, sạch, màu xanh lá/be, bố cục rõ, ảnh sản phẩm/hoạt động cộng đồng, text ngắn dễ đọc trên điện thoại.",Danh sách đặt,,Chưa đăng
